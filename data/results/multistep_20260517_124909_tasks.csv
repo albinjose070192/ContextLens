@@ -1,0 +1,7 @@
+task_id,tag,condition,total_tokens,final_step_tokens,final_n_chunks,total_dedup_saves
+0,fastapi,flat_accumulate,2671,1242,13,0
+0,fastapi,flat_reset,1467,475,5,0
+0,fastapi,selective,1726,359,3,7
+1,pydantic,flat_accumulate,2123,1083,12,0
+1,pydantic,flat_reset,1400,516,5,0
+1,pydantic,selective,1354,283,2,8

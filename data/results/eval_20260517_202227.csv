@@ -1,0 +1,201 @@
+question_id,tag,query,condition,n_chunks,prompt_tokens,retrieve_ms,llm_input_tokens,llm_output_tokens,llm_ms,completion_score,precision_score,retrieval_precision_score,cost_usd,n_loaded,n_skipped_dup
+77025354,pydantic,"With Pydantic V2 and model_validate, how can I create a &quot;computed field&quot; from an attribute of an ORM model that IS NOT part of the Pydantic model",flat,10,1016,121.9,1011,198,6101.4,0.5,0.5,0.0,0.001601,,
+77025354,pydantic,"With Pydantic V2 and model_validate, how can I create a &quot;computed field&quot; from an attribute of an ORM model that IS NOT part of the Pydantic model",selective,10,1168,369.3,1160,339,5761.6,0.7,0.8,0.0,0.002284,10.0,0.0
+63264888,fastapi,pydantic: Using property.getter decorator for a field with an alias,flat,10,895,168.6,892,58,1925.8,0.0,0.0,0.0,0.000946,,
+63264888,fastapi,pydantic: Using property.getter decorator for a field with an alias,selective,10,1136,140.8,1125,224,4642.2,0.7,0.6,0.0,0.001796,10.0,0.0
+67255653,fastapi,How to set up and tear down a database between tests in FastAPI?,flat,10,1138,136.4,1133,38,1433.0,0.0,0.0,0.0,0.001058,,
+67255653,fastapi,How to set up and tear down a database between tests in FastAPI?,selective,10,2824,122.5,2826,183,3438.3,0.0,0.0,0.0,0.002993,10.0,0.0
+60097795,pydantic,How to use `from_orm` if the pydantic model defines aliases?,flat,10,917,90.6,915,46,2596.2,0.0,0.0,0.0,0.000916,,
+60097795,pydantic,How to use `from_orm` if the pydantic model defines aliases?,selective,10,1249,132.8,1246,155,3231.1,0.7,0.6,0.0,0.001617,10.0,0.0
+76012644,fastapi,FastAPI / uvicorn (or hypercorn): where is my root-path?,flat,10,984,127.6,987,89,2315.2,0.3,0.2,0.0,0.001146,,
+76012644,fastapi,FastAPI / uvicorn (or hypercorn): where is my root-path?,selective,10,3461,137.3,3466,249,6974.3,0.0,0.0,0.0,0.003769,10.0,0.0
+70002709,fastapi,How to apply transaction logic in FastAPI RealWorld example app?,flat,10,1042,133.1,1038,40,958.3,0.0,0.0,0.0,0.00099,,
+70002709,fastapi,How to apply transaction logic in FastAPI RealWorld example app?,selective,10,1266,143.2,1275,89,2007.1,0.0,0.0,0.0,0.001376,10.0,0.0
+73585779,fastapi,How to return a PDF file from in-memory buffer using FastAPI?,flat,10,995,89.7,990,223,3109.5,0.7,0.8,0.0,0.001684,,
+73585779,fastapi,How to return a PDF file from in-memory buffer using FastAPI?,selective,10,1492,109.5,1501,223,4905.1,0.0,0.0,0.0,0.002093,10.0,0.0
+68156262,fastapi,How to set environment variable based on development or production in FastAPI?,flat,10,1012,121.8,1008,51,1490.4,0.5,0.8,0.0,0.00101,,
+68156262,fastapi,How to set environment variable based on development or production in FastAPI?,selective,10,1948,120.1,1941,292,6616.4,1.0,1.0,0.2,0.002721,10.0,0.0
+66652334,pydantic,Can&#39;t define variable in pydantic init function,flat,10,879,87.3,882,91,2399.6,0.6,0.7,0.0,0.00107,,
+66652334,pydantic,Can&#39;t define variable in pydantic init function,selective,10,1407,102.5,1398,138,2778.8,0.5,0.5,0.0,0.00167,10.0,0.0
+62986778,fastapi,FastAPI handling and redirecting 404,flat,10,877,134.4,883,75,1908.9,0.6,0.5,0.0,0.001006,,
+62986778,fastapi,FastAPI handling and redirecting 404,selective,10,3287,145.1,3303,297,6757.4,0.0,0.0,0.0,0.00383,10.0,0.0
+72997220,pydantic,Pydantic - Allow missing field,flat,10,919,101.0,922,94,2866.7,0.5,0.5,0.0,0.001114,,
+72997220,pydantic,Pydantic - Allow missing field,selective,10,1291,171.3,1280,95,2807.4,0.0,0.0,0.0,0.001404,10.0,0.0
+68768017,pydantic,How to ignore field repr in pydantic?,flat,10,1016,132.8,1011,165,3657.1,0.5,0.5,0.0,0.001469,,
+68768017,pydantic,How to ignore field repr in pydantic?,selective,10,1425,140.4,1412,73,1964.8,0.0,0.0,0.0,0.001422,10.0,0.0
+73037916,supabase,How to check email already exists in Supabase table for signup in flutter?,flat,10,1144,68.8,1133,44,1330.1,0.0,0.0,0.0,0.001082,,
+73037916,supabase,How to check email already exists in Supabase table for signup in flutter?,selective,10,2994,133.7,2934,291,6424.5,0.0,0.0,0.0,0.003511,10.0,0.0
+68890763,fastapi,"How to reload FastAPI app when a file, other than *.py files, changes?",flat,10,1027,92.5,1025,53,2034.2,0.0,0.0,0.0,0.001032,,
+68890763,fastapi,"How to reload FastAPI app when a file, other than *.py files, changes?",selective,10,3323,134.3,3335,246,5178.6,0.0,0.0,0.0,0.003652,10.0,0.0
+71512035,pydantic,How should I specify default values on Pydantic fields with &quot;Validate Always&quot; to satisfy type checkers?,flat,10,1005,136.2,997,123,2189.2,0.5,0.5,0.0,0.00129,,
+71512035,pydantic,How should I specify default values on Pydantic fields with &quot;Validate Always&quot; to satisfy type checkers?,selective,10,1263,141.4,1252,231,5013.3,0.4,0.3,0.0,0.001926,10.0,0.0
+69660608,fastapi,Customise Status codes in place of 500: Internal Server Error in FastAPI using Postman,flat,10,1009,122.0,1012,176,5114.8,0.8,0.9,0.0,0.001514,,
+69660608,fastapi,Customise Status codes in place of 500: Internal Server Error in FastAPI using Postman,selective,10,4212,155.7,4219,242,8625.4,0.8,0.7,0.0,0.004343,10.0,0.0
+75740652,fastapi,FastAPI StreamingResponse not streaming with generator function,flat,10,916,134.0,914,40,1543.4,0.0,0.0,0.0,0.000891,,
+75740652,fastapi,FastAPI StreamingResponse not streaming with generator function,selective,10,1206,113.1,1215,82,2352.5,0.3,0.1,0.0,0.0013,10.0,0.0
+63177681,fastapi,is there a difference between running fastapi from uvicorn command in dockerfile and from pythonfile?,flat,10,1146,137.6,1139,130,3665.0,0.0,0.0,0.0,0.001431,,
+63177681,fastapi,is there a difference between running fastapi from uvicorn command in dockerfile and from pythonfile?,selective,10,2816,150.0,2815,172,2764.4,0.5,0.5,0.0,0.00294,10.0,0.0
+60783222,fastapi,How to test a FastAPI api endpoint that consumes images?,flat,10,1088,120.1,1079,296,4782.6,0.6,0.8,0.0,0.002047,,
+60783222,fastapi,How to test a FastAPI api endpoint that consumes images?,selective,10,3360,122.9,3367,226,3941.4,0.0,0.0,0.0,0.003598,10.0,0.0
+71256713,fastapi,How does CryptContext hashing know what secret to use?,flat,10,970,149.7,967,19,970.5,0.0,0.0,0.0,0.00085,,
+71256713,fastapi,How does CryptContext hashing know what secret to use?,selective,10,1629,145.7,1569,117,2705.8,1.0,1.0,0.0,0.001723,10.0,0.0
+74360992,fastapi,How to cache data in FastAPI?,flat,10,1055,133.4,1048,54,1595.2,0.5,0.5,0.0,0.001054,,
+74360992,fastapi,How to cache data in FastAPI?,selective,10,2212,122.7,2223,101,2636.7,0.5,0.7,0.0,0.002182,10.0,0.0
+69274594,supabase,How to implement anonymous authorization using Supabase?,flat,10,1033,90.1,1032,40,1233.3,0.0,0.0,0.0,0.000986,,
+69274594,supabase,How to implement anonymous authorization using Supabase?,selective,10,1327,142.9,1296,179,3264.0,0.4,0.3,0.0,0.001753,10.0,0.0
+65362524,pydantic,In JSON created from a pydantic.BaseModel exclude Optional if not set,flat,10,878,129.4,875,65,1909.4,0.5,0.75,0.0,0.00096,,
+65362524,pydantic,In JSON created from a pydantic.BaseModel exclude Optional if not set,selective,10,1185,107.7,1182,111,1843.9,0.7,0.8,0.0,0.00139,10.0,0.0
+63580229,fastapi,How to save UploadFile in FastAPI,flat,10,981,103.8,982,31,1335.4,0.0,0.0,0.0,0.00091,,
+63580229,fastapi,How to save UploadFile in FastAPI,selective,10,1316,169.0,1327,222,4851.3,1.0,1.0,0.0,0.00195,10.0,0.0
+65622045,pydantic,pydantic convert to jsonable dict (not full json string),flat,10,1028,89.9,1028,134,1899.5,0.5,0.3,0.0,0.001358,,
+65622045,pydantic,pydantic convert to jsonable dict (not full json string),selective,10,1642,123.2,1627,81,2159.3,0.4,0.7,0.0,0.001626,10.0,0.0
+61872923,fastapi,supporting both form and json encoded bodys with FastAPI,flat,10,905,95.2,899,189,3140.1,0.5,0.4,0.0,0.001475,,
+61872923,fastapi,supporting both form and json encoded bodys with FastAPI,selective,10,1285,113.0,1292,61,1513.3,0.0,0.0,0.0,0.001278,10.0,0.0
+72567679,pydantic,Why I cannot create standalone object of HttpURL in pydantic?,flat,10,999,119.8,997,55,1551.7,0.0,0.0,0.0,0.001018,,
+72567679,pydantic,Why I cannot create standalone object of HttpURL in pydantic?,selective,10,1286,105.8,1273,90,2608.0,0.0,0.0,0.0,0.001378,10.0,0.0
+66185920,pydantic,Pydantic model with field names that have non-alphanumeric characters,flat,10,891,72.9,891,129,2173.6,1.0,1.0,0.0,0.001229,,
+66185920,pydantic,Pydantic model with field names that have non-alphanumeric characters,selective,10,1235,106.4,1235,189,3587.7,1.0,0.8,0.0,0.001744,10.0,0.0
+74883956,pydantic,Pros and cons of pydantic compared to json schemas,flat,10,916,86.1,914,501,8737.0,1.0,1.0,0.0,0.002735,,
+74883956,pydantic,Pros and cons of pydantic compared to json schemas,selective,10,1180,112.7,1175,426,7270.5,1.0,0.9,0.0,0.002644,10.0,0.0
+70944716,pydantic,Pydantic/SQLAlchemy: How to work with enums?,flat,10,1068,101.0,1068,42,1890.2,0.0,0.0,0.0,0.001022,,
+70944716,pydantic,Pydantic/SQLAlchemy: How to work with enums?,selective,10,3872,75.9,3878,175,7308.3,1.0,0.8,0.0,0.003802,10.0,0.0
+62823097,fastapi,FastApi communication with other API,flat,10,903,101.7,898,34,1109.9,0.0,0.0,0.0,0.000854,,
+62823097,fastapi,FastApi communication with other API,selective,10,2938,107.2,2941,147,3361.7,0.5,0.6,0.0,0.002941,10.0,0.0
+72831952,fastapi,How do I integrate custom exception handling with the FastAPI exception handling?,flat,10,1030,138.4,1022,163,3789.1,0.8,0.9,0.0,0.00147,,
+72831952,fastapi,How do I integrate custom exception handling with the FastAPI exception handling?,selective,10,1287,98.0,1293,225,4006.0,0.7,0.8,0.0,0.001934,10.0,0.0
+70710874,fastapi,How to send base64 image using Python requests and FastAPI?,flat,10,1064,106.7,1061,266,5091.6,0.9,0.8,0.0,0.001913,,
+70710874,fastapi,How to send base64 image using Python requests and FastAPI?,selective,10,1491,124.1,1500,274,6635.2,0.8,0.9,0.0,0.002296,10.0,0.0
+63492123,pydantic,How do add an assembled field to a Pydantic model,flat,10,903,69.5,896,137,2261.2,0.0,0.0,0.0,0.001265,,
+63492123,pydantic,How do add an assembled field to a Pydantic model,selective,10,1151,99.7,1148,145,3050.8,0.5,0.7,0.0,0.001498,10.0,0.0
+70104983,fastapi,How to use ApScheduler correctly in FastAPI？,flat,10,979,67.7,983,34,883.2,0.0,0.0,0.0,0.000922,,
+70104983,fastapi,How to use ApScheduler correctly in FastAPI？,selective,10,1231,99.5,1238,113,2664.0,0.0,0.0,0.0,0.001442,10.0,0.0
+65209934,fastapi,Pydantic enum field does not get converted to string,flat,10,909,89.1,902,78,2150.0,0.2,0.3,0.0,0.001034,,
+65209934,fastapi,Pydantic enum field does not get converted to string,selective,10,3706,72.7,3696,197,4121.3,0.0,0.0,0.0,0.003745,10.0,0.0
+75539007,pydantic,Custom validation for FastAPI&#39;s query parameter using pydatinc causes Internal Server Error,flat,10,1007,91.4,1014,86,1914.9,0.0,0.2,0.0,0.001155,,
+75539007,pydantic,Custom validation for FastAPI&#39;s query parameter using pydatinc causes Internal Server Error,selective,10,1196,124.7,1214,131,2672.7,0.0,0.0,0.0,0.001495,10.0,0.0
+66390509,fastapi,How to set FastAPI version to allow HTTP specifying version in accept header?,flat,10,1041,91.3,1039,207,3732.6,0.5,0.8,0.0,0.001659,,
+66390509,fastapi,How to set FastAPI version to allow HTTP specifying version in accept header?,selective,10,3420,102.0,3431,114,1982.9,0.5,0.7,0.0,0.003201,10.0,0.0
+73983298,pydantic,pydantic.error_wrappers.ValidationError : value is not a valid list (type=type_error.list),flat,10,973,108.8,978,68,2149.6,0.0,0.5,0.0,0.001054,,
+73983298,pydantic,pydantic.error_wrappers.ValidationError : value is not a valid list (type=type_error.list),selective,10,1361,121.5,1356,162,3156.2,0.3,0.5,0.0,0.001733,10.0,0.0
+58486316,pydantic,Usage of pydantic with mypy,flat,10,933,83.0,939,46,1411.8,0.0,0.0,0.0,0.000935,,
+58486316,pydantic,Usage of pydantic with mypy,selective,10,1358,94.8,1347,93,2441.4,0.0,0.0,0.0,0.00145,10.0,0.0
+74654845,fastapi,FastAPI RuntimeError: Use params or add_pagination,flat,10,871,93.8,878,85,2210.2,0.4,0.5,0.0,0.001042,,
+74654845,fastapi,FastAPI RuntimeError: Use params or add_pagination,selective,10,1148,96.6,1163,150,3821.5,0.0,0.0,0.0,0.00153,10.0,0.0
+69843204,pydantic,how to type a variable in FastApi-SwaggerUI with hyphen in its name?,flat,10,1048,103.8,1046,170,5094.6,0.8,0.9,0.0,0.001517,,
+69843204,pydantic,how to type a variable in FastApi-SwaggerUI with hyphen in its name?,selective,10,1787,79.0,1810,262,9648.3,0.7,0.8,0.0,0.002496,10.0,0.0
+60238433,fastapi,What is the meaning of pydantic models(schemas) in Python while building an API with FastAPI,flat,10,1015,115.9,1011,64,1313.1,1.0,1.0,0.0,0.001065,,
+60238433,fastapi,What is the meaning of pydantic models(schemas) in Python while building an API with FastAPI,selective,10,2810,81.7,2811,137,3984.9,1.0,1.0,0.0,0.002797,10.0,0.0
+59196645,fastapi,Python3.7 asyncio start webserver (FastAPI) and aio_pika consumer,flat,10,992,96.9,996,316,5256.0,0.5,0.6,0.0,0.002061,,
+59196645,fastapi,Python3.7 asyncio start webserver (FastAPI) and aio_pika consumer,selective,10,1189,133.5,1198,223,4389.3,0.7,0.5,0.0,0.00185,10.0,0.0
+65796467,pydantic,FastAPI: datetime with timezone in request doesn&#39;t work,flat,10,959,87.2,958,38,2434.5,0.0,0.0,0.0,0.000918,,
+65796467,pydantic,FastAPI: datetime with timezone in request doesn&#39;t work,selective,10,2623,107.7,2593,149,2559.5,0.0,0.0,0.0,0.00267,10.0,0.0
+76590705,fastapi,Format string output to JSON,flat,10,875,144.3,877,74,2070.8,0.0,0.0,0.0,0.000998,,
+76590705,fastapi,Format string output to JSON,selective,10,2120,175.4,2122,136,3467.6,0.0,0.0,0.0,0.002242,10.0,0.0
+73645294,pydantic,return deeply nested json objects with response_model fastAPI and Pydantic,flat,10,889,103.9,892,255,4125.0,0.0,0.0,0.0,0.001734,,
+73645294,pydantic,return deeply nested json objects with response_model fastAPI and Pydantic,selective,10,1338,143.1,1347,124,2133.7,0.0,0.0,0.0,0.001574,10.0,0.0
+67266573,fastapi,How to disable the logging of Uvicorn?,flat,10,971,94.3,963,36,1125.8,0.0,0.0,0.0,0.000914,,
+67266573,fastapi,How to disable the logging of Uvicorn?,selective,10,1152,139.4,1164,74,1946.6,1.0,1.0,0.0,0.001227,10.0,0.0
+62854314,fastapi,FastAPI: Cannot get error handling to work as expected,flat,10,1029,92.8,1025,27,1238.2,0.0,0.0,0.0,0.000928,,
+62854314,fastapi,FastAPI: Cannot get error handling to work as expected,selective,10,1268,113.0,1273,139,2591.1,0.0,0.0,0.0,0.001574,10.0,0.0
+69138537,fastapi,uvicorn [fastapi] python run both HTTP and HTTPS,flat,10,1088,103.1,1080,133,3715.8,0.3,0.6,0.0,0.001396,,
+69138537,fastapi,uvicorn [fastapi] python run both HTTP and HTTPS,selective,10,1078,108.6,1095,199,4365.8,0.5,0.5,0.0,0.001672,10.0,0.0
+75711757,fastapi,FastAPI GET endpoint returns &quot;405 method not allowed&quot; response,flat,10,929,111.4,928,84,2274.3,0.8,0.9,0.0,0.001078,,
+75711757,fastapi,FastAPI GET endpoint returns &quot;405 method not allowed&quot; response,selective,10,2204,115.7,2219,188,4073.6,0.8,0.7,0.0,0.002527,10.0,0.0
+63954442,fastapi,How to parse unix timestamp into datetime without timezone in Fast API,flat,10,996,114.5,996,100,1923.4,1.0,1.0,0.0,0.001197,,
+63954442,fastapi,How to parse unix timestamp into datetime without timezone in Fast API,selective,10,1234,113.5,1230,128,2607.7,1.0,0.8,0.0,0.001496,10.0,0.0
+64160594,pydantic,FastAPI - ENUM type models not populated,flat,10,909,114.7,906,35,1382.0,0.0,0.0,0.0,0.000865,,
+64160594,pydantic,FastAPI - ENUM type models not populated,selective,10,4110,117.3,4115,273,9354.1,0.0,0.5,0.0,0.004384,10.0,0.0
+67307159,fastapi,What is the actual use of OAuth2PasswordBearer?,flat,10,924,99.2,925,25,1485.8,0.0,0.0,0.0,0.00084,,
+67307159,fastapi,What is the actual use of OAuth2PasswordBearer?,selective,10,1280,130.1,1286,93,1714.7,0.8,0.9,0.3,0.001401,10.0,0.0
+57412825,fastapi,How to start a Uvicorn + FastAPI in background when testing with PyTest,flat,10,1104,102.8,1106,54,1688.5,0.0,0.0,0.0,0.001101,,
+57412825,fastapi,How to start a Uvicorn + FastAPI in background when testing with PyTest,selective,10,1195,124.1,1203,325,6250.2,0.6,0.4,0.0,0.002262,10.0,0.0
+70184440,pydantic,How can I unpack a Pydantic BaseModel into kwargs?,flat,10,1029,101.9,1030,139,2890.0,0.0,0.0,0.0,0.00138,,
+70184440,pydantic,How can I unpack a Pydantic BaseModel into kwargs?,selective,10,1228,101.6,1226,180,2668.1,0.0,0.0,0.0,0.001701,10.0,0.0
+71103393,fastapi,FastAPI: Swagger UI does not render because of custom Middleware,flat,10,948,85.5,948,103,1712.2,0.5,0.4,0.0,0.00117,,
+71103393,fastapi,FastAPI: Swagger UI does not render because of custom Middleware,selective,10,1611,111.5,1626,125,2855.7,0.4,0.6,0.0,0.001801,10.0,0.0
+76755864,supabase,Supabase not storing session data in localstorage correctly,flat,10,938,96.1,933,35,1285.3,0.0,0.0,0.0,0.000886,,
+76755864,supabase,Supabase not storing session data in localstorage correctly,selective,10,1219,101.2,1195,124,2934.3,0.0,0.5,0.0,0.001452,10.0,0.0
+62705219,fastapi,"In Python&#39;s FastAPI autogenerated OpenAPI/Swagger documentation page, how can I add more error http status codes?",flat,10,1066,158.3,1061,159,3387.2,1.0,1.0,0.0,0.001485,,
+62705219,fastapi,"In Python&#39;s FastAPI autogenerated OpenAPI/Swagger documentation page, how can I add more error http status codes?",selective,10,1517,176.6,1537,214,3913.7,1.0,1.0,0.0,0.002086,10.0,0.0
+68336259,fastapi,&quot;FastAPIError: Invalid args for response field! Hint: check that &lt;class &#39;typing._UnionGenericAlias&#39;&gt; is a valid pydantic field type&quot;,flat,10,1045,164.2,1038,102,2246.8,0.0,0.0,0.0,0.001238,,
+68336259,fastapi,&quot;FastAPIError: Invalid args for response field! Hint: check that &lt;class &#39;typing._UnionGenericAlias&#39;&gt; is a valid pydantic field type&quot;,selective,10,1413,190.3,1417,217,3645.0,0.0,0.0,0.0,0.002002,10.0,0.0
+57562804,fastapi,MongoDb with FastAPI,flat,10,895,125.1,900,35,1042.3,0.0,0.0,0.0,0.00086,,
+57562804,fastapi,MongoDb with FastAPI,selective,10,2858,111.9,2872,117,2810.6,0.0,0.0,0.0,0.002766,10.0,0.0
+69872686,supabase,How to upload file from python Flask web app to Supabase Storage,flat,10,1033,82.0,1034,49,1356.2,0.0,0.0,0.0,0.001023,,
+69872686,supabase,How to upload file from python Flask web app to Supabase Storage,selective,10,1323,103.4,1318,221,4174.7,0.5,0.4,0.0,0.001938,10.0,0.0
+70207122,fastapi,FastAPI: Some requests are failing due to 10s timeout,flat,10,996,124.1,988,40,1579.7,0.0,0.0,0.0,0.00095,,
+70207122,fastapi,FastAPI: Some requests are failing due to 10s timeout,selective,10,4206,126.0,4213,62,1706.9,0.3,0.5,0.0,0.003618,10.0,0.0
+76301828,pydantic,How to set a Pydantic field value depending on other fields,flat,10,898,93.6,892,187,3809.4,0.7,0.8,0.0,0.001462,,
+76301828,pydantic,How to set a Pydantic field value depending on other fields,selective,10,1172,109.7,1168,241,3973.5,0.5,0.6,0.0,0.001898,10.0,0.0
+69673518,pydantic,return pydantic model with field names instead of alias as fastapi response,flat,10,936,106.3,935,206,3937.9,0.0,0.0,0.0,0.001572,,
+69673518,pydantic,return pydantic model with field names instead of alias as fastapi response,selective,10,1323,121.5,1328,117,2550.1,0.7,0.8,0.0,0.00153,10.0,0.0
+64168340,fastapi,"How to send a file (docx, doc, pdf or json) to fastapi and predict on it without UI (i.e., HTML)?",flat,10,1142,111.0,1132,159,4333.6,1.0,1.0,0.0,0.001542,,
+64168340,fastapi,"How to send a file (docx, doc, pdf or json) to fastapi and predict on it without UI (i.e., HTML)?",selective,10,1299,166.1,1314,211,5038.3,1.0,0.9,0.0,0.001895,10.0,0.0
+71570607,pydantic,SQLAlchemy models vs Pydantic models,flat,10,902,105.9,895,64,1265.9,0.7,0.9,0.0,0.000972,,
+71570607,pydantic,SQLAlchemy models vs Pydantic models,selective,10,1373,91.1,1387,239,4313.0,1.0,1.0,0.0,0.002066,10.0,0.0
+70219200,fastapi,Python FastAPI base path control,flat,10,855,87.0,856,89,2320.3,0.5,0.5,0.0,0.001041,,
+70219200,fastapi,Python FastAPI base path control,selective,10,1210,105.3,1226,146,3352.2,0.0,0.0,0.0,0.001565,10.0,0.0
+75350395,pydantic,How should we manage datetime fields in SQLModel in python?,flat,10,1014,100.6,1007,35,1125.6,0.0,0.0,0.0,0.000946,,
+75350395,pydantic,How should we manage datetime fields in SQLModel in python?,selective,10,1447,97.4,1435,199,3485.9,0.0,0.0,0.0,0.001944,10.0,0.0
+62928450,fastapi,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,flat,10,1027,76.9,1024,218,3471.7,0.7,0.8,0.0,0.001691,,
+62928450,fastapi,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,selective,10,3365,117.3,3372,239,5007.5,0.9,0.8,0.2,0.003654,10.0,0.0
+66622020,fastapi,FastAPI {&quot;detail&quot;:&quot;Method Not Allowed&quot;},flat,10,1074,134.3,1079,84,2103.8,0.8,0.9,0.0,0.001199,,
+66622020,fastapi,FastAPI {&quot;detail&quot;:&quot;Method Not Allowed&quot;},selective,10,1222,170.5,1244,130,2134.2,0.6,0.8,0.0,0.001515,10.0,0.0
+68850403,pydantic,Best way to flatten and remap ORM to Pydantic Model,flat,10,941,94.4,938,82,2057.1,0.2,0.3,0.0,0.001078,,
+68850403,pydantic,Best way to flatten and remap ORM to Pydantic Model,selective,10,1217,94.1,1217,79,1699.5,0.0,0.0,0.0,0.00129,10.0,0.0
+67094564,fastapi,FastAPI: Deleting cookies after logout not working,flat,10,961,105.2,960,44,1262.5,0.0,0.0,0.0,0.000944,,
+67094564,fastapi,FastAPI: Deleting cookies after logout not working,selective,10,3611,116.4,3626,166,2288.6,0.6,0.5,0.0,0.003565,10.0,0.0
+74689457,fastapi,Overriding FastAPI dependencies that have parameters,flat,10,869,97.0,868,34,1306.6,0.0,0.0,0.0,0.00083,,
+74689457,fastapi,Overriding FastAPI dependencies that have parameters,selective,10,1240,106.7,1248,145,2967.7,0.0,0.0,0.0,0.001578,10.0,0.0
+71113116,fastapi,ModuleNotFoundError: No module named &#39;fastapi&#39;,flat,10,909,89.4,923,77,2221.1,0.7,0.8,0.0,0.001046,,
+71113116,fastapi,ModuleNotFoundError: No module named &#39;fastapi&#39;,selective,10,2944,117.0,2948,145,2735.5,0.0,0.0,0.0,0.002938,10.0,0.0
+76043784,pydantic,How to add pydantic serialization/deserialization support for a foreign (third-party) class?,flat,10,918,100.8,915,134,2236.1,0.5,0.5,0.0,0.001268,,
+76043784,pydantic,How to add pydantic serialization/deserialization support for a foreign (third-party) class?,selective,10,1235,175.6,1230,188,4428.0,0.5,0.5,0.0,0.001736,10.0,0.0
+68705698,fastapi,How to write tests for Pydantic models in FastAPI?,flat,10,1063,111.5,1052,79,1618.9,0.6,0.8,0.0,0.001158,,
+68705698,fastapi,How to write tests for Pydantic models in FastAPI?,selective,10,1251,112.4,1259,152,3652.5,0.6,0.7,0.0,0.001615,10.0,0.0
+73987319,pydantic,How to typehint dynamic class instantiation like pydantic and dataclass?,flat,10,965,89.0,963,133,2422.0,0.4,0.5,0.0,0.001302,,
+73987319,pydantic,How to typehint dynamic class instantiation like pydantic and dataclass?,selective,10,1328,108.5,1319,39,1266.5,0.0,0.0,0.0,0.001211,10.0,0.0
+69507122,pydantic,Fastapi custom response model,flat,10,870,99.0,876,184,2874.3,0.5,0.6,0.0,0.001437,,
+69507122,pydantic,Fastapi custom response model,selective,10,1202,88.9,1211,176,2966.5,0.5,0.5,0.0,0.001673,10.0,0.0
+77938134,fastapi,Pydantic: How to validate json string that has an inner json string?,flat,10,974,102.3,969,143,3062.2,0.5,0.5,0.0,0.001347,,
+77938134,fastapi,Pydantic: How to validate json string that has an inner json string?,selective,10,1252,98.3,1246,270,3996.1,0.5,0.5,0.0,0.002077,10.0,0.0
+66570894,pydantic,How to map values from nested dict to Pydantic Model?,flat,10,1013,75.8,1013,188,2980.9,0.5,0.7,0.0,0.001562,,
+66570894,pydantic,How to map values from nested dict to Pydantic Model?,selective,10,1258,166.4,1252,102,3704.7,0.4,0.5,0.0,0.00141,10.0,0.0
+74366289,fastapi,How to add drop down menu to Swagger UI autodocs based on BaseModel using FastAPI?,flat,10,948,147.0,942,220,4140.1,1.0,1.0,0.0,0.001634,,
+74366289,fastapi,How to add drop down menu to Swagger UI autodocs based on BaseModel using FastAPI?,selective,10,1510,130.2,1531,108,8110.0,0.0,0.0,0.0,0.001657,10.0,0.0
+75289130,fastapi,Flatten nested Pydantic model,flat,10,884,121.2,879,191,3778.5,0.5,0.6,0.0,0.001467,,
+75289130,fastapi,Flatten nested Pydantic model,selective,10,1097,160.7,1094,136,3144.2,0.0,0.3,0.0,0.001419,10.0,0.0
+61660586,fastapi,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,flat,10,1115,94.0,1109,52,1519.2,0.0,0.5,0.0,0.001095,,
+61660586,fastapi,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,selective,10,1366,106.2,1378,152,2980.7,1.0,1.0,0.0,0.00171,10.0,0.0
+69201995,fastapi,Getting CORS error instead of Error 500 (No &#39;Access-Control-Allow-Origin&#39; header is present),flat,10,964,110.0,974,219,3476.5,0.0,0.0,0.0,0.001655,,
+69201995,fastapi,Getting CORS error instead of Error 500 (No &#39;Access-Control-Allow-Origin&#39; header is present),selective,10,2022,99.7,2022,125,2842.3,1.0,1.0,0.0,0.002118,10.0,0.0
+71542183,fastapi,Websocket getting closed immediately after connecting to FastAPI Endpoint,flat,10,950,95.2,951,33,1021.9,0.2,0.0,0.0,0.000893,,
+71542183,fastapi,Websocket getting closed immediately after connecting to FastAPI Endpoint,selective,10,1909,102.9,1920,162,3864.6,0.5,0.6,0.2,0.002184,10.0,0.0
+62715855,pydantic,Validating Pydantic field while setting value,flat,10,912,119.1,909,71,1703.7,0.0,0.0,0.0,0.001011,,
+62715855,pydantic,Validating Pydantic field while setting value,selective,10,1194,110.4,1188,189,3177.0,0.0,0.3,0.0,0.001706,10.0,0.0
+73983298,fastapi,pydantic.error_wrappers.ValidationError : value is not a valid list (type=type_error.list),flat,10,973,124.1,978,99,3784.7,0.4,0.5,0.0,0.001178,,
+73983298,fastapi,pydantic.error_wrappers.ValidationError : value is not a valid list (type=type_error.list),selective,10,1361,114.8,1356,145,3219.8,0.2,0.1,0.0,0.001665,10.0,0.0
+76572666,pydantic,Creating a custom Pydantic Field to accept &quot;str&quot; or &quot;None&quot; Values,flat,10,1001,105.7,1002,84,3711.9,0.4,0.2,0.0,0.001138,,
+76572666,pydantic,Creating a custom Pydantic Field to accept &quot;str&quot; or &quot;None&quot; Values,selective,10,1219,174.3,1221,144,4114.7,0.6,0.7,0.0,0.001553,10.0,0.0
+72360709,pydantic,How to serialize custom type that extends builtin type in pydantic?,flat,10,994,88.3,992,212,3523.5,0.0,0.5,0.0,0.001642,,
+72360709,pydantic,How to serialize custom type that extends builtin type in pydantic?,selective,10,1262,121.4,1257,200,3370.5,0.5,0.3,0.0,0.001806,10.0,0.0
+61649229,pydantic,How to delete empty field?,flat,10,971,90.0,968,142,3363.5,0.0,0.5,0.0,0.001342,,
+61649229,pydantic,How to delete empty field?,selective,10,1417,109.2,1420,39,1905.9,0.0,0.0,0.0,0.001292,10.0,0.0
+67569529,fastapi,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",flat,10,989,112.1,987,111,2384.2,1.0,1.0,0.0,0.001234,,
+67569529,fastapi,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",selective,10,1260,165.4,1263,125,3353.6,1.0,1.0,0.0,0.00151,10.0,0.0
+62560890,pydantic,How to make custom data class subscriptable?,flat,10,946,93.4,939,114,2739.2,0.5,0.6,0.0,0.001207,,
+62560890,pydantic,How to make custom data class subscriptable?,selective,10,1450,99.5,1442,174,2664.4,0.8,0.9,0.0,0.00185,10.0,0.0
+73375390,pydantic,How to override &quot;env_file&quot; during tests?,flat,10,928,105.2,929,52,1570.3,0.0,0.0,0.0,0.000951,,
+73375390,pydantic,How to override &quot;env_file&quot; during tests?,selective,10,2217,102.3,2213,141,2810.2,1.0,1.0,0.0,0.002334,10.0,0.0
+61163024,fastapi,Return multiple files from fastapi,flat,10,885,116.9,892,31,1145.9,0.0,0.0,0.0,0.000838,,
+61163024,fastapi,Return multiple files from fastapi,selective,10,1349,121.0,1361,310,6326.3,0.7,0.8,0.0,0.002329,10.0,0.0
+73922273,supabase,AuthRetryableFetchError with Supabase Auth,flat,10,856,108.8,863,41,1658.8,0.0,0.0,0.0,0.000854,,
+73922273,supabase,AuthRetryableFetchError with Supabase Auth,selective,10,1282,103.0,1255,68,1723.3,0.0,0.0,0.2,0.001276,10.0,0.0
+71027304,pydantic,Show description or comments for variables in FastAPI autodocs (Swagger UI),flat,10,976,105.5,975,37,1679.7,0.0,0.0,0.0,0.000928,,
+71027304,pydantic,Show description or comments for variables in FastAPI autodocs (Swagger UI),selective,10,1507,128.5,1527,127,1835.1,0.5,0.5,0.0,0.00173,10.0,0.0
+64115628,fastapi,Get starlette request body in the middleware context,flat,10,896,124.2,898,39,1354.7,0.0,0.0,0.0,0.000874,,
+64115628,fastapi,Get starlette request body in the middleware context,selective,10,3325,110.9,3322,144,5634.3,0.6,0.7,0.2,0.003234,10.0,0.0
+58486316,fastapi,Usage of pydantic with mypy,flat,10,933,137.9,939,40,1167.6,0.0,0.0,0.0,0.000911,,
+58486316,fastapi,Usage of pydantic with mypy,selective,10,1358,138.7,1347,79,1693.6,0.0,0.0,0.0,0.001394,10.0,0.0
+63099843,fastapi,How can I fix FastAPI application error on Apache WSGI?,flat,10,1069,105.1,1069,39,1149.2,0.0,0.0,0.0,0.001011,,
+63099843,fastapi,How can I fix FastAPI application error on Apache WSGI?,selective,10,1216,128.2,1222,138,5183.7,0.0,0.2,0.0,0.00153,10.0,0.0

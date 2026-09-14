@@ -1,0 +1,61 @@
+task_id,tag,strategy,label,total_tokens,final_step_tokens,final_n_chunks,total_dedup_saves,final_completion_score
+0,fastapi,no_eviction,No eviction,4176,1141,11,14,0.0
+0,fastapi,evict_older_than_2,evict_older_than(2),3148,582,5,12,0.0
+0,fastapi,evict_older_than_1,evict_older_than(1),2771,673,6,11,0.0
+0,fastapi,evict_all,evict_all,381,83,0,0,0.0
+1,fastapi,no_eviction,No eviction,3751,884,9,16,0.0
+1,fastapi,evict_older_than_2,evict_older_than(2),2921,523,5,13,0.0
+1,fastapi,evict_older_than_1,evict_older_than(1),2747,619,6,11,0.0
+1,fastapi,evict_all,evict_all,364,67,0,0,0.15
+2,fastapi,no_eviction,No eviction,3166,751,7,18,0.0
+2,fastapi,evict_older_than_2,evict_older_than(2),2440,485,4,15,0.0
+2,fastapi,evict_older_than_1,evict_older_than(1),2439,663,6,13,0.0
+2,fastapi,evict_all,evict_all,380,78,0,0,0.0
+3,fastapi,no_eviction,No eviction,5099,1303,13,12,0.0
+3,fastapi,evict_older_than_2,evict_older_than(2),4090,792,8,9,0.0
+3,fastapi,evict_older_than_1,evict_older_than(1),3315,616,6,9,0.0
+3,fastapi,evict_all,evict_all,377,75,0,0,0.35
+4,fastapi,no_eviction,No eviction,4816,1386,13,12,0.1
+4,fastapi,evict_older_than_2,evict_older_than(2),3634,673,6,11,0.0
+4,fastapi,evict_older_than_1,evict_older_than(1),3258,904,8,8,0.0
+4,fastapi,evict_all,evict_all,379,93,0,0,0.15
+5,pydantic,no_eviction,No eviction,5616,1470,14,11,0.0
+5,pydantic,evict_older_than_2,evict_older_than(2),4250,645,6,11,0.0
+5,pydantic,evict_older_than_1,evict_older_than(1),3262,482,4,9,0.0
+5,pydantic,evict_all,evict_all,360,72,0,0,0.0
+6,pydantic,no_eviction,No eviction,4119,930,9,16,0.0
+6,pydantic,evict_older_than_2,evict_older_than(2),3437,749,7,11,0.0
+6,pydantic,evict_older_than_1,evict_older_than(1),2898,573,5,11,0.0
+6,pydantic,evict_all,evict_all,362,72,0,0,0.0
+7,pydantic,no_eviction,No eviction,5286,1333,13,12,0.15
+7,pydantic,evict_older_than_2,evict_older_than(2),3912,457,4,11,0.0
+7,pydantic,evict_older_than_1,evict_older_than(1),3233,654,6,8,0.1
+7,pydantic,evict_all,evict_all,360,69,0,0,0.0
+8,pydantic,no_eviction,No eviction,4351,1021,10,15,0.1
+8,pydantic,evict_older_than_2,evict_older_than(2),3706,845,8,10,0.0
+8,pydantic,evict_older_than_1,evict_older_than(1),3130,538,5,10,0.1
+8,pydantic,evict_all,evict_all,381,69,0,0,0.0
+9,pydantic,no_eviction,No eviction,3713,928,9,16,0.0
+9,pydantic,evict_older_than_2,evict_older_than(2),2892,574,5,13,0.0
+9,pydantic,evict_older_than_1,evict_older_than(1),2625,661,6,12,0.1
+9,pydantic,evict_all,evict_all,390,81,0,0,0.85
+10,supabase,no_eviction,No eviction,4906,1159,12,13,0.0
+10,supabase,evict_older_than_2,evict_older_than(2),3910,627,6,9,0.0
+10,supabase,evict_older_than_1,evict_older_than(1),3287,536,5,9,0.0
+10,supabase,evict_all,evict_all,363,73,0,0,0.05
+11,supabase,no_eviction,No eviction,4587,1190,11,14,0.0
+11,supabase,evict_older_than_2,evict_older_than(2),3654,755,7,11,0.15
+11,supabase,evict_older_than_1,evict_older_than(1),3044,580,5,11,0.0
+11,supabase,evict_all,evict_all,380,82,0,0,0.72
+12,supabase,no_eviction,No eviction,5420,1389,15,10,0.0
+12,supabase,evict_older_than_2,evict_older_than(2),4439,863,9,6,0.0
+12,supabase,evict_older_than_1,evict_older_than(1),3558,691,7,6,0.0
+12,supabase,evict_all,evict_all,369,70,0,0,0.0
+13,supabase,no_eviction,No eviction,5857,1614,17,8,0.0
+13,supabase,evict_older_than_2,evict_older_than(2),4582,800,8,8,0.0
+13,supabase,evict_older_than_1,evict_older_than(1),3299,331,3,8,0.0
+13,supabase,evict_all,evict_all,381,70,0,0,0.0
+14,supabase,no_eviction,No eviction,4865,1377,14,11,0.0
+14,supabase,evict_older_than_2,evict_older_than(2),3665,690,7,10,0.0
+14,supabase,evict_older_than_1,evict_older_than(1),3111,717,7,8,0.0
+14,supabase,evict_all,evict_all,376,75,0,0,0.0

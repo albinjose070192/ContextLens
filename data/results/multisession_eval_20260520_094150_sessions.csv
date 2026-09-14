@@ -1,0 +1,7 @@
+condition,session_num,session_name,total_tokens,cumulative_tokens_end,mean_step_tokens,total_newly_loaded,total_skipped_dup,total_evicted,total_cross_reused,push_back_count,mean_judge_score,ab_wins
+no_kg,1,session_1_setup,5679,5679,1135.8,21,4,11,0,0,,0
+no_kg,2,session_2_features,7536,13215,1507.2,24,1,15,5,0,,0
+no_kg,3,session_3_debug,5666,18881,1133.2,25,0,15,10,0,,0
+with_kg,1,session_1_setup,22031,22031,4406.2,37,0,20,0,0,,0
+with_kg,2,session_2_features,17058,39089,3411.6,43,0,23,8,0,,0
+with_kg,3,session_3_debug,19261,58350,3852.2,47,0,24,19,0,,0

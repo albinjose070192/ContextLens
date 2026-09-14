@@ -1,0 +1,301 @@
+task_id,tag,strategy,label,step,query,n_chunks_in_window,n_newly_loaded,n_skipped_dup,n_evicted,context_tokens,step_tokens,cumulative_tokens,retrieve_ms,completion_score
+0,fastapi,no_eviction,No eviction,1,How should I organize my path operations in FastAPI?,5,5,0,0,469,540,540,147.1,
+0,fastapi,no_eviction,No eviction,2,FastAPI/uvicorn not working when specifying host,8,3,2,0,755,827,1367,22.4,
+0,fastapi,no_eviction,No eviction,3,How to add a custom decorator to a FastAPI route?,8,0,5,0,755,828,2195,78.2,
+0,fastapi,no_eviction,No eviction,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,8,0,5,0,755,840,3035,89.0,
+0,fastapi,no_eviction,No eviction,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",11,3,2,0,1057,1141,4176,105.2,0.0
+0,fastapi,evict_older_than_2,evict_older_than(2),1,How should I organize my path operations in FastAPI?,5,5,0,0,469,540,540,93.3,
+0,fastapi,evict_older_than_2,evict_older_than(2),2,FastAPI/uvicorn not working when specifying host,8,3,2,0,755,827,1367,27.6,
+0,fastapi,evict_older_than_2,evict_older_than(2),3,How to add a custom decorator to a FastAPI route?,8,0,5,0,755,828,2195,17.5,
+0,fastapi,evict_older_than_2,evict_older_than(2),4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,3,0,5,5,286,371,2566,28.3,
+0,fastapi,evict_older_than_2,evict_older_than(2),5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",5,5,0,3,499,582,3148,29.4,0.0
+0,fastapi,evict_older_than_1,evict_older_than(1),1,How should I organize my path operations in FastAPI?,5,5,0,0,469,540,540,81.4,
+0,fastapi,evict_older_than_1,evict_older_than(1),2,FastAPI/uvicorn not working when specifying host,8,3,2,0,755,827,1367,21.5,
+0,fastapi,evict_older_than_1,evict_older_than(1),3,How to add a custom decorator to a FastAPI route?,3,0,5,5,286,359,1726,26.6,
+0,fastapi,evict_older_than_1,evict_older_than(1),4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,3,3,2,3,288,372,2098,17.5,
+0,fastapi,evict_older_than_1,evict_older_than(1),5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",6,3,2,0,589,673,2771,16.7,0.0
+0,fastapi,evict_all,evict_all,1,How should I organize my path operations in FastAPI?,0,5,0,5,0,71,71,79.9,
+0,fastapi,evict_all,evict_all,2,FastAPI/uvicorn not working when specifying host,0,5,0,5,0,71,142,31.2,
+0,fastapi,evict_all,evict_all,3,How to add a custom decorator to a FastAPI route?,0,5,0,5,0,72,214,23.6,
+0,fastapi,evict_all,evict_all,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,0,5,0,5,0,84,298,26.8,
+0,fastapi,evict_all,evict_all,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",0,5,0,5,0,83,381,20.5,0.0
+1,fastapi,no_eviction,No eviction,1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,469,537,537,137.0,
+1,fastapi,no_eviction,No eviction,2,pydantic: Using property.getter decorator for a field with an alias,7,2,3,0,644,721,1258,85.2,
+1,fastapi,no_eviction,No eviction,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,8,1,4,0,728,805,2063,104.1,
+1,fastapi,no_eviction,No eviction,4,How can I use both required and optional path parameters in a FastAPI endpoint?,8,0,5,0,728,804,2867,119.9,
+1,fastapi,no_eviction,No eviction,5,Ratelimit in Fastapi,9,1,4,0,817,884,3751,110.2,0.0
+1,fastapi,evict_older_than_2,evict_older_than(2),1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,469,537,537,96.5,
+1,fastapi,evict_older_than_2,evict_older_than(2),2,pydantic: Using property.getter decorator for a field with an alias,7,2,3,0,644,721,1258,31.8,
+1,fastapi,evict_older_than_2,evict_older_than(2),3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,8,1,4,0,728,805,2063,27.6,
+1,fastapi,evict_older_than_2,evict_older_than(2),4,How can I use both required and optional path parameters in a FastAPI endpoint?,3,0,5,5,259,335,2398,24.5,
+1,fastapi,evict_older_than_2,evict_older_than(2),5,Ratelimit in Fastapi,5,4,1,2,456,523,2921,30.6,0.0
+1,fastapi,evict_older_than_1,evict_older_than(1),1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,469,537,537,77.4,
+1,fastapi,evict_older_than_1,evict_older_than(1),2,pydantic: Using property.getter decorator for a field with an alias,7,2,3,0,644,721,1258,21.4,
+1,fastapi,evict_older_than_1,evict_older_than(1),3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,3,1,4,5,259,336,1594,17.8,
+1,fastapi,evict_older_than_1,evict_older_than(1),4,How can I use both required and optional path parameters in a FastAPI endpoint?,5,4,1,2,458,534,2128,18.2,
+1,fastapi,evict_older_than_1,evict_older_than(1),5,Ratelimit in Fastapi,6,2,3,1,552,619,2747,25.4,0.0
+1,fastapi,evict_all,evict_all,1,FastAPI - Supporting multiple authentication dependencies,0,5,0,5,0,68,68,97.1,
+1,fastapi,evict_all,evict_all,2,pydantic: Using property.getter decorator for a field with an alias,0,5,0,5,0,76,144,23.5,
+1,fastapi,evict_all,evict_all,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,0,5,0,5,0,77,221,16.7,
+1,fastapi,evict_all,evict_all,4,How can I use both required and optional path parameters in a FastAPI endpoint?,0,5,0,5,0,76,297,22.3,
+1,fastapi,evict_all,evict_all,5,Ratelimit in Fastapi,0,5,0,5,0,67,364,20.5,0.15
+2,fastapi,no_eviction,No eviction,1,Replace server name with fake server name in response header in fastapi,5,5,0,0,460,534,534,134.6,
+2,fastapi,no_eviction,No eviction,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,6,1,4,0,551,635,1169,36.8,
+2,fastapi,no_eviction,No eviction,3,How to use class based views in FastAPI?,6,0,5,0,551,621,1790,110.6,
+2,fastapi,no_eviction,No eviction,4,Where to put depends/ dependendies for authentication in Fastapi?,6,0,5,0,551,625,2415,31.3,
+2,fastapi,no_eviction,No eviction,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,7,1,4,0,673,751,3166,34.2,0.0
+2,fastapi,evict_older_than_2,evict_older_than(2),1,Replace server name with fake server name in response header in fastapi,5,5,0,0,460,534,534,74.3,
+2,fastapi,evict_older_than_2,evict_older_than(2),2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,6,1,4,0,551,635,1169,29.6,
+2,fastapi,evict_older_than_2,evict_older_than(2),3,How to use class based views in FastAPI?,6,0,5,0,551,621,1790,23.4,
+2,fastapi,evict_older_than_2,evict_older_than(2),4,Where to put depends/ dependendies for authentication in Fastapi?,1,0,5,5,91,165,1955,23.8,
+2,fastapi,evict_older_than_2,evict_older_than(2),5,How to start a Uvicorn + FastAPI in background when testing with PyTest,4,4,1,1,407,485,2440,33.8,0.0
+2,fastapi,evict_older_than_1,evict_older_than(1),1,Replace server name with fake server name in response header in fastapi,5,5,0,0,460,534,534,81.8,
+2,fastapi,evict_older_than_1,evict_older_than(1),2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,6,1,4,0,551,635,1169,33.5,
+2,fastapi,evict_older_than_1,evict_older_than(1),3,How to use class based views in FastAPI?,1,0,5,5,91,161,1330,20.9,
+2,fastapi,evict_older_than_1,evict_older_than(1),4,Where to put depends/ dependendies for authentication in Fastapi?,4,4,1,1,372,446,1776,24.8,
+2,fastapi,evict_older_than_1,evict_older_than(1),5,How to start a Uvicorn + FastAPI in background when testing with PyTest,6,2,3,0,585,663,2439,28.1,0.0
+2,fastapi,evict_all,evict_all,1,Replace server name with fake server name in response header in fastapi,0,5,0,5,0,74,74,89.7,
+2,fastapi,evict_all,evict_all,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,0,5,0,5,0,84,158,32.1,
+2,fastapi,evict_all,evict_all,3,How to use class based views in FastAPI?,0,5,0,5,0,70,228,17.8,
+2,fastapi,evict_all,evict_all,4,Where to put depends/ dependendies for authentication in Fastapi?,0,5,0,5,0,74,302,18.1,
+2,fastapi,evict_all,evict_all,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,0,5,0,5,0,78,380,20.8,0.0
+3,fastapi,no_eviction,No eviction,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,498,575,575,81.3,
+3,fastapi,no_eviction,No eviction,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",8,3,2,0,796,876,1451,109.0,
+3,fastapi,no_eviction,No eviction,3,How to pass the default value to a variable if None was passed?,10,2,3,0,972,1046,2497,16.1,
+3,fastapi,no_eviction,No eviction,4,FastAPI (starlette) get client real IP,13,3,2,0,1228,1299,3796,23.5,
+3,fastapi,no_eviction,No eviction,5,"FastAPI, return a File response with the output of a sql query",13,0,5,0,1228,1303,5099,17.4,0.0
+3,fastapi,evict_older_than_2,evict_older_than(2),1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,498,575,575,66.6,
+3,fastapi,evict_older_than_2,evict_older_than(2),2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",8,3,2,0,796,876,1451,22.5,
+3,fastapi,evict_older_than_2,evict_older_than(2),3,How to pass the default value to a variable if None was passed?,10,2,3,0,972,1046,2497,25.5,
+3,fastapi,evict_older_than_2,evict_older_than(2),4,FastAPI (starlette) get client real IP,8,3,2,5,730,801,3298,25.7,
+3,fastapi,evict_older_than_2,evict_older_than(2),5,"FastAPI, return a File response with the output of a sql query",8,3,2,3,717,792,4090,21.2,0.0
+3,fastapi,evict_older_than_1,evict_older_than(1),1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,498,575,575,67.4,
+3,fastapi,evict_older_than_1,evict_older_than(1),2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",8,3,2,0,796,876,1451,20.0,
+3,fastapi,evict_older_than_1,evict_older_than(1),3,How to pass the default value to a variable if None was passed?,5,2,3,5,474,548,1999,20.8,
+3,fastapi,evict_older_than_1,evict_older_than(1),4,FastAPI (starlette) get client real IP,7,5,0,3,629,700,2699,81.3,
+3,fastapi,evict_older_than_1,evict_older_than(1),5,"FastAPI, return a File response with the output of a sql query",6,1,4,2,540,616,3315,59.9,0.0
+3,fastapi,evict_all,evict_all,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",0,5,0,5,0,77,77,89.6,
+3,fastapi,evict_all,evict_all,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",0,5,0,5,0,80,157,28.5,
+3,fastapi,evict_all,evict_all,3,How to pass the default value to a variable if None was passed?,0,5,0,5,0,74,231,30.6,
+3,fastapi,evict_all,evict_all,4,FastAPI (starlette) get client real IP,0,5,0,5,0,71,302,30.6,
+3,fastapi,evict_all,evict_all,5,"FastAPI, return a File response with the output of a sql query",0,5,0,5,0,75,377,28.6,0.35
+4,fastapi,no_eviction,No eviction,1,What does Depends with no parameter do?,5,5,0,0,469,537,537,144.6,
+4,fastapi,no_eviction,No eviction,2,How to run FastAPI / Uvicorn in Google Colab?,8,3,2,0,804,878,1415,29.5,
+4,fastapi,no_eviction,No eviction,3,How to send file to FastAPI endpoint using Postman?,9,1,4,0,891,964,2379,133.2,
+4,fastapi,no_eviction,No eviction,4,How to access request object in router function using FastAPI?,10,1,4,0,979,1051,3430,23.7,
+4,fastapi,no_eviction,No eviction,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,13,3,2,0,1293,1386,4816,172.1,0.1
+4,fastapi,evict_older_than_2,evict_older_than(2),1,What does Depends with no parameter do?,5,5,0,0,469,537,537,83.0,
+4,fastapi,evict_older_than_2,evict_older_than(2),2,How to run FastAPI / Uvicorn in Google Colab?,8,3,2,0,804,878,1415,33.7,
+4,fastapi,evict_older_than_2,evict_older_than(2),3,How to send file to FastAPI endpoint using Postman?,9,1,4,0,891,964,2379,23.2,
+4,fastapi,evict_older_than_2,evict_older_than(2),4,How to access request object in router function using FastAPI?,5,1,4,5,510,582,2961,21.2,
+4,fastapi,evict_older_than_2,evict_older_than(2),5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,6,4,1,3,580,673,3634,20.0,0.0
+4,fastapi,evict_older_than_1,evict_older_than(1),1,What does Depends with no parameter do?,5,5,0,0,469,537,537,65.2,
+4,fastapi,evict_older_than_1,evict_older_than(1),2,How to run FastAPI / Uvicorn in Google Colab?,8,3,2,0,804,878,1415,23.3,
+4,fastapi,evict_older_than_1,evict_older_than(1),3,How to send file to FastAPI endpoint using Postman?,4,1,4,5,422,495,1910,24.9,
+4,fastapi,evict_older_than_1,evict_older_than(1),4,How to access request object in router function using FastAPI?,4,3,2,3,372,444,2354,28.6,
+4,fastapi,evict_older_than_1,evict_older_than(1),5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,8,5,0,1,811,904,3258,25.4,0.0
+4,fastapi,evict_all,evict_all,1,What does Depends with no parameter do?,0,5,0,5,0,68,68,79.8,
+4,fastapi,evict_all,evict_all,2,How to run FastAPI / Uvicorn in Google Colab?,0,5,0,5,0,74,142,25.4,
+4,fastapi,evict_all,evict_all,3,How to send file to FastAPI endpoint using Postman?,0,5,0,5,0,72,214,28.2,
+4,fastapi,evict_all,evict_all,4,How to access request object in router function using FastAPI?,0,5,0,5,0,72,286,28.4,
+4,fastapi,evict_all,evict_all,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,0,5,0,5,0,93,379,37.2,0.15
+5,pydantic,no_eviction,No eviction,1,How do custom __init__ functions work in pydantic with inheritance?,5,5,0,0,541,616,616,142.7,
+5,pydantic,no_eviction,No eviction,2,Pydantic inconsistent and automatic conversion between float and int,8,3,2,0,825,897,1513,62.8,
+5,pydantic,no_eviction,No eviction,3,Define a Pydantic (nested) model,12,4,1,0,1185,1255,2768,29.7,
+5,pydantic,no_eviction,No eviction,4,Including special character in Basemodel for Pydantic,13,1,4,0,1307,1378,4146,48.1,
+5,pydantic,no_eviction,No eviction,5,Not Required in Pydantic&#39;s Base Models,14,1,4,0,1397,1470,5616,17.2,0.0
+5,pydantic,evict_older_than_2,evict_older_than(2),1,How do custom __init__ functions work in pydantic with inheritance?,5,5,0,0,541,616,616,89.8,
+5,pydantic,evict_older_than_2,evict_older_than(2),2,Pydantic inconsistent and automatic conversion between float and int,8,3,2,0,825,897,1513,21.6,
+5,pydantic,evict_older_than_2,evict_older_than(2),3,Define a Pydantic (nested) model,12,4,1,0,1185,1255,2768,25.0,
+5,pydantic,evict_older_than_2,evict_older_than(2),4,Including special character in Basemodel for Pydantic,8,1,4,5,766,837,3605,19.5,
+5,pydantic,evict_older_than_2,evict_older_than(2),5,Not Required in Pydantic&#39;s Base Models,6,1,4,3,572,645,4250,20.5,0.0
+5,pydantic,evict_older_than_1,evict_older_than(1),1,How do custom __init__ functions work in pydantic with inheritance?,5,5,0,0,541,616,616,85.8,
+5,pydantic,evict_older_than_1,evict_older_than(1),2,Pydantic inconsistent and automatic conversion between float and int,8,3,2,0,825,897,1513,30.2,
+5,pydantic,evict_older_than_1,evict_older_than(1),3,Define a Pydantic (nested) model,7,4,1,5,644,714,2227,44.5,
+5,pydantic,evict_older_than_1,evict_older_than(1),4,Including special character in Basemodel for Pydantic,5,1,4,3,482,553,2780,23.2,
+5,pydantic,evict_older_than_1,evict_older_than(1),5,Not Required in Pydantic&#39;s Base Models,4,3,2,4,409,482,3262,22.8,0.0
+5,pydantic,evict_all,evict_all,1,How do custom __init__ functions work in pydantic with inheritance?,0,5,0,5,0,75,75,85.8,
+5,pydantic,evict_all,evict_all,2,Pydantic inconsistent and automatic conversion between float and int,0,5,0,5,0,72,147,21.5,
+5,pydantic,evict_all,evict_all,3,Define a Pydantic (nested) model,0,5,0,5,0,70,217,20.2,
+5,pydantic,evict_all,evict_all,4,Including special character in Basemodel for Pydantic,0,5,0,5,0,71,288,24.3,
+5,pydantic,evict_all,evict_all,5,Not Required in Pydantic&#39;s Base Models,0,5,0,5,0,72,360,24.0,0.0
+6,pydantic,no_eviction,No eviction,1,Pydantic: dataclass vs BaseModel,5,5,0,0,501,570,570,80.4,
+6,pydantic,no_eviction,No eviction,2,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,7,2,3,0,682,763,1333,55.5,
+6,pydantic,no_eviction,No eviction,3,Partial update in FastAPI,9,2,3,0,857,924,2257,121.9,
+6,pydantic,no_eviction,No eviction,4,Pydantic does not validate when assigning a number to a string,9,0,5,0,857,932,3189,18.8,
+6,pydantic,no_eviction,No eviction,5,Not Required in Pydantic&#39;s Base Models,9,0,5,0,857,930,4119,17.3,0.0
+6,pydantic,evict_older_than_2,evict_older_than(2),1,Pydantic: dataclass vs BaseModel,5,5,0,0,501,570,570,57.8,
+6,pydantic,evict_older_than_2,evict_older_than(2),2,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,7,2,3,0,682,763,1333,35.7,
+6,pydantic,evict_older_than_2,evict_older_than(2),3,Partial update in FastAPI,9,2,3,0,857,924,2257,26.9,
+6,pydantic,evict_older_than_2,evict_older_than(2),4,Pydantic does not validate when assigning a number to a string,4,0,5,5,356,431,2688,19.0,
+6,pydantic,evict_older_than_2,evict_older_than(2),5,Not Required in Pydantic&#39;s Base Models,7,5,0,2,676,749,3437,22.2,0.0
+6,pydantic,evict_older_than_1,evict_older_than(1),1,Pydantic: dataclass vs BaseModel,5,5,0,0,501,570,570,84.6,
+6,pydantic,evict_older_than_1,evict_older_than(1),2,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,7,2,3,0,682,763,1333,29.9,
+6,pydantic,evict_older_than_1,evict_older_than(1),3,Partial update in FastAPI,4,2,3,5,356,423,1756,31.6,
+6,pydantic,evict_older_than_1,evict_older_than(1),4,Pydantic does not validate when assigning a number to a string,5,3,2,2,495,569,2325,18.2,
+6,pydantic,evict_older_than_1,evict_older_than(1),5,Not Required in Pydantic&#39;s Base Models,5,2,3,2,500,573,2898,16.5,0.0
+6,pydantic,evict_all,evict_all,1,Pydantic: dataclass vs BaseModel,0,5,0,5,0,69,69,78.5,
+6,pydantic,evict_all,evict_all,2,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,0,5,0,5,0,81,150,27.8,
+6,pydantic,evict_all,evict_all,3,Partial update in FastAPI,0,5,0,5,0,66,216,24.2,
+6,pydantic,evict_all,evict_all,4,Pydantic does not validate when assigning a number to a string,0,5,0,5,0,74,290,27.9,
+6,pydantic,evict_all,evict_all,5,Not Required in Pydantic&#39;s Base Models,0,5,0,5,0,72,362,22.6,0.0
+7,pydantic,no_eviction,No eviction,1,Dynamically Generating Pydantic Model from a Schema JSON File,5,5,0,0,498,572,572,77.6,
+7,pydantic,no_eviction,No eviction,2,How can I mock my environment variables for my pytest?,10,5,0,0,967,1038,1610,35.2,
+7,pydantic,no_eviction,No eviction,3,Pydantic: How to init a model by a dict with alias field names?,11,1,4,0,1054,1132,2742,34.2,
+7,pydantic,no_eviction,No eviction,4,FastAPI - ENUM type models not populated,12,1,4,0,1142,1211,3953,31.6,
+7,pydantic,no_eviction,No eviction,5,Defining recursive models in Pydantic?,13,1,4,0,1264,1333,5286,23.7,0.15
+7,pydantic,evict_older_than_2,evict_older_than(2),1,Dynamically Generating Pydantic Model from a Schema JSON File,5,5,0,0,498,572,572,80.1,
+7,pydantic,evict_older_than_2,evict_older_than(2),2,How can I mock my environment variables for my pytest?,10,5,0,0,967,1038,1610,19.2,
+7,pydantic,evict_older_than_2,evict_older_than(2),3,Pydantic: How to init a model by a dict with alias field names?,11,1,4,0,1054,1132,2742,30.4,
+7,pydantic,evict_older_than_2,evict_older_than(2),4,FastAPI - ENUM type models not populated,7,1,4,5,644,713,3455,22.4,
+7,pydantic,evict_older_than_2,evict_older_than(2),5,Defining recursive models in Pydantic?,4,2,3,5,388,457,3912,20.1,0.0
+7,pydantic,evict_older_than_1,evict_older_than(1),1,Dynamically Generating Pydantic Model from a Schema JSON File,5,5,0,0,498,572,572,85.0,
+7,pydantic,evict_older_than_1,evict_older_than(1),2,How can I mock my environment variables for my pytest?,10,5,0,0,967,1038,1610,27.6,
+7,pydantic,evict_older_than_1,evict_older_than(1),3,Pydantic: How to init a model by a dict with alias field names?,6,1,4,5,556,634,2244,37.3,
+7,pydantic,evict_older_than_1,evict_older_than(1),4,FastAPI - ENUM type models not populated,3,2,3,5,266,335,2579,30.5,
+7,pydantic,evict_older_than_1,evict_older_than(1),5,Defining recursive models in Pydantic?,6,4,1,1,585,654,3233,23.0,0.1
+7,pydantic,evict_all,evict_all,1,Dynamically Generating Pydantic Model from a Schema JSON File,0,5,0,5,0,74,74,63.3,
+7,pydantic,evict_all,evict_all,2,How can I mock my environment variables for my pytest?,0,5,0,5,0,71,145,21.2,
+7,pydantic,evict_all,evict_all,3,Pydantic: How to init a model by a dict with alias field names?,0,5,0,5,0,77,222,21.8,
+7,pydantic,evict_all,evict_all,4,FastAPI - ENUM type models not populated,0,5,0,5,0,69,291,17.1,
+7,pydantic,evict_all,evict_all,5,Defining recursive models in Pydantic?,0,5,0,5,0,69,360,18.9,0.0
+8,pydantic,no_eviction,No eviction,1,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,5,5,0,0,469,550,550,131.8,
+8,pydantic,no_eviction,No eviction,2,Using different Pydantic models depending on the value of fields,7,2,3,0,645,718,1268,39.0,
+8,pydantic,no_eviction,No eviction,3,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,10,3,2,0,952,1033,2301,49.4,
+8,pydantic,no_eviction,No eviction,4,Is it possible to get pydantic v2 to dump json with sorted keys?,10,0,5,0,952,1029,3330,36.6,
+8,pydantic,no_eviction,No eviction,5,How to disable schema checking in FastAPI?,10,0,5,0,952,1021,4351,17.8,0.1
+8,pydantic,evict_older_than_2,evict_older_than(2),1,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,5,5,0,0,469,550,550,93.1,
+8,pydantic,evict_older_than_2,evict_older_than(2),2,Using different Pydantic models depending on the value of fields,7,2,3,0,645,718,1268,25.0,
+8,pydantic,evict_older_than_2,evict_older_than(2),3,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,10,3,2,0,952,1033,2301,20.4,
+8,pydantic,evict_older_than_2,evict_older_than(2),4,Is it possible to get pydantic v2 to dump json with sorted keys?,5,0,5,5,483,560,2861,23.4,
+8,pydantic,evict_older_than_2,evict_older_than(2),5,How to disable schema checking in FastAPI?,8,5,0,2,776,845,3706,22.8,0.0
+8,pydantic,evict_older_than_1,evict_older_than(1),1,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,5,5,0,0,469,550,550,93.4,
+8,pydantic,evict_older_than_1,evict_older_than(1),2,Using different Pydantic models depending on the value of fields,7,2,3,0,645,718,1268,28.2,
+8,pydantic,evict_older_than_1,evict_older_than(1),3,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,5,3,2,5,483,564,1832,31.8,
+8,pydantic,evict_older_than_1,evict_older_than(1),4,Is it possible to get pydantic v2 to dump json with sorted keys?,7,4,1,2,683,760,2592,25.0,
+8,pydantic,evict_older_than_1,evict_older_than(1),5,How to disable schema checking in FastAPI?,5,1,4,3,469,538,3130,25.6,0.1
+8,pydantic,evict_all,evict_all,1,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,0,5,0,5,0,81,81,95.0,
+8,pydantic,evict_all,evict_all,2,Using different Pydantic models depending on the value of fields,0,5,0,5,0,73,154,28.8,
+8,pydantic,evict_all,evict_all,3,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,0,5,0,5,0,81,235,26.8,
+8,pydantic,evict_all,evict_all,4,Is it possible to get pydantic v2 to dump json with sorted keys?,0,5,0,5,0,77,312,25.2,
+8,pydantic,evict_all,evict_all,5,How to disable schema checking in FastAPI?,0,5,0,5,0,69,381,19.1,0.0
+9,pydantic,no_eviction,No eviction,1,Can I get incoming extra fields from Pydantic?,5,5,0,0,467,538,538,80.0,
+9,pydantic,no_eviction,No eviction,2,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,7,2,3,0,642,727,1265,154.8,
+9,pydantic,no_eviction,No eviction,3,pydantic: Using property.getter decorator for a field with an alias,7,0,5,0,642,718,1983,31.9,
+9,pydantic,no_eviction,No eviction,4,How to use `from_orm` if the pydantic model defines aliases?,8,1,4,0,725,802,2785,23.0,
+9,pydantic,no_eviction,No eviction,5,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",9,1,4,0,847,928,3713,119.1,0.0
+9,pydantic,evict_older_than_2,evict_older_than(2),1,Can I get incoming extra fields from Pydantic?,5,5,0,0,467,538,538,89.8,
+9,pydantic,evict_older_than_2,evict_older_than(2),2,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,7,2,3,0,642,727,1265,31.1,
+9,pydantic,evict_older_than_2,evict_older_than(2),3,pydantic: Using property.getter decorator for a field with an alias,7,0,5,0,642,718,1983,42.3,
+9,pydantic,evict_older_than_2,evict_older_than(2),4,How to use `from_orm` if the pydantic model defines aliases?,3,1,4,5,258,335,2318,21.2,
+9,pydantic,evict_older_than_2,evict_older_than(2),5,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",5,4,1,2,493,574,2892,19.6,0.0
+9,pydantic,evict_older_than_1,evict_older_than(1),1,Can I get incoming extra fields from Pydantic?,5,5,0,0,467,538,538,84.9,
+9,pydantic,evict_older_than_1,evict_older_than(1),2,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,7,2,3,0,642,727,1265,33.4,
+9,pydantic,evict_older_than_1,evict_older_than(1),3,pydantic: Using property.getter decorator for a field with an alias,2,0,5,5,175,251,1516,24.4,
+9,pydantic,evict_older_than_1,evict_older_than(1),4,How to use `from_orm` if the pydantic model defines aliases?,4,4,1,2,371,448,1964,16.8,
+9,pydantic,evict_older_than_1,evict_older_than(1),5,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",6,2,3,0,580,661,2625,22.0,0.1
+9,pydantic,evict_all,evict_all,1,Can I get incoming extra fields from Pydantic?,0,5,0,5,0,71,71,92.6,
+9,pydantic,evict_all,evict_all,2,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,0,5,0,5,0,85,156,30.8,
+9,pydantic,evict_all,evict_all,3,pydantic: Using property.getter decorator for a field with an alias,0,5,0,5,0,76,232,27.2,
+9,pydantic,evict_all,evict_all,4,How to use `from_orm` if the pydantic model defines aliases?,0,5,0,5,0,77,309,32.5,
+9,pydantic,evict_all,evict_all,5,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",0,5,0,5,0,81,390,31.6,0.85
+10,supabase,no_eviction,No eviction,1,How to pass params in Nuxt 3 server/api?,5,5,0,0,464,536,536,96.4,
+10,supabase,no_eviction,No eviction,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,10,5,0,0,907,987,1523,44.6,
+10,supabase,no_eviction,No eviction,3,How to execute async code before redirect on vue-router?,11,1,4,0,999,1070,2593,51.6,
+10,supabase,no_eviction,No eviction,4,Use Supabase with deno,12,1,4,0,1086,1154,3747,35.7,
+10,supabase,no_eviction,No eviction,5,keep user logged in while using supabase in react native,12,0,5,0,1086,1159,4906,26.0,0.0
+10,supabase,evict_older_than_2,evict_older_than(2),1,How to pass params in Nuxt 3 server/api?,5,5,0,0,464,536,536,87.2,
+10,supabase,evict_older_than_2,evict_older_than(2),2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,10,5,0,0,907,987,1523,36.9,
+10,supabase,evict_older_than_2,evict_older_than(2),3,How to execute async code before redirect on vue-router?,11,1,4,0,999,1070,2593,21.4,
+10,supabase,evict_older_than_2,evict_older_than(2),4,Use Supabase with deno,7,1,4,5,622,690,3283,25.1,
+10,supabase,evict_older_than_2,evict_older_than(2),5,keep user logged in while using supabase in react native,6,4,1,5,554,627,3910,19.3,0.0
+10,supabase,evict_older_than_1,evict_older_than(1),1,How to pass params in Nuxt 3 server/api?,5,5,0,0,464,536,536,84.4,
+10,supabase,evict_older_than_1,evict_older_than(1),2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,10,5,0,0,907,987,1523,26.5,
+10,supabase,evict_older_than_1,evict_older_than(1),3,How to execute async code before redirect on vue-router?,6,1,4,5,535,606,2129,28.7,
+10,supabase,evict_older_than_1,evict_older_than(1),4,Use Supabase with deno,6,5,0,5,554,622,2751,28.3,
+10,supabase,evict_older_than_1,evict_older_than(1),5,keep user logged in while using supabase in react native,5,0,5,1,463,536,3287,16.9,0.0
+10,supabase,evict_all,evict_all,1,How to pass params in Nuxt 3 server/api?,0,5,0,5,0,72,72,78.3,
+10,supabase,evict_all,evict_all,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,0,5,0,5,0,79,151,28.3,
+10,supabase,evict_all,evict_all,3,How to execute async code before redirect on vue-router?,0,5,0,5,0,71,222,25.6,
+10,supabase,evict_all,evict_all,4,Use Supabase with deno,0,5,0,5,0,68,290,25.8,
+10,supabase,evict_all,evict_all,5,keep user logged in while using supabase in react native,0,5,0,5,0,73,363,22.3,0.05
+11,supabase,no_eviction,No eviction,1,How to pass in parameters from client side to server side code in Sveltekit?,5,5,0,0,498,575,575,116.7,
+11,supabase,no_eviction,No eviction,2,How To Update Entire Row In Supabase Table? (Getting 400 Error),7,2,3,0,722,800,1375,54.0,
+11,supabase,no_eviction,No eviction,3,Is there RESTful API available for auth features of Supabase,9,2,3,0,898,972,2347,25.5,
+11,supabase,no_eviction,No eviction,4,Next Js with Supabase Failed to compile,10,1,4,0,980,1050,3397,55.0,
+11,supabase,no_eviction,No eviction,5,"How can I send secure API requests from SvelteKit app, without showing API keys on the client side?",11,1,4,0,1108,1190,4587,136.4,0.0
+11,supabase,evict_older_than_2,evict_older_than(2),1,How to pass in parameters from client side to server side code in Sveltekit?,5,5,0,0,498,575,575,92.3,
+11,supabase,evict_older_than_2,evict_older_than(2),2,How To Update Entire Row In Supabase Table? (Getting 400 Error),7,2,3,0,722,800,1375,29.0,
+11,supabase,evict_older_than_2,evict_older_than(2),3,Is there RESTful API available for auth features of Supabase,9,2,3,0,898,972,2347,52.4,
+11,supabase,evict_older_than_2,evict_older_than(2),4,Next Js with Supabase Failed to compile,5,1,4,5,482,552,2899,40.1,
+11,supabase,evict_older_than_2,evict_older_than(2),5,"How can I send secure API requests from SvelteKit app, without showing API keys on the client side?",7,4,1,2,673,755,3654,21.7,0.15
+11,supabase,evict_older_than_1,evict_older_than(1),1,How to pass in parameters from client side to server side code in Sveltekit?,5,5,0,0,498,575,575,82.8,
+11,supabase,evict_older_than_1,evict_older_than(1),2,How To Update Entire Row In Supabase Table? (Getting 400 Error),7,2,3,0,722,800,1375,24.5,
+11,supabase,evict_older_than_1,evict_older_than(1),3,Is there RESTful API available for auth features of Supabase,4,2,3,5,400,474,1849,26.4,
+11,supabase,evict_older_than_1,evict_older_than(1),4,Next Js with Supabase Failed to compile,6,4,1,2,545,615,2464,20.1,
+11,supabase,evict_older_than_1,evict_older_than(1),5,"How can I send secure API requests from SvelteKit app, without showing API keys on the client side?",5,1,4,2,498,580,3044,17.7,0.0
+11,supabase,evict_all,evict_all,1,How to pass in parameters from client side to server side code in Sveltekit?,0,5,0,5,0,77,77,81.4,
+11,supabase,evict_all,evict_all,2,How To Update Entire Row In Supabase Table? (Getting 400 Error),0,5,0,5,0,77,154,28.3,
+11,supabase,evict_all,evict_all,3,Is there RESTful API available for auth features of Supabase,0,5,0,5,0,74,228,22.4,
+11,supabase,evict_all,evict_all,4,Next Js with Supabase Failed to compile,0,5,0,5,0,70,298,22.7,
+11,supabase,evict_all,evict_all,5,"How can I send secure API requests from SvelteKit app, without showing API keys on the client side?",0,5,0,5,0,82,380,25.6,0.72
+12,supabase,no_eviction,No eviction,1,Supabase not storing session data in localstorage correctly,5,5,0,0,455,527,527,97.1,
+12,supabase,no_eviction,No eviction,2,How to get &quot;COUNT(*)&quot; in Supabase,10,5,0,0,893,969,1496,20.1,
+12,supabase,no_eviction,No eviction,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,12,2,3,0,1065,1145,2641,23.2,
+12,supabase,no_eviction,No eviction,4,AuthRetryableFetchError with Supabase Auth,15,3,2,0,1319,1390,4031,48.3,
+12,supabase,no_eviction,No eviction,5,Supabase: Solutions for column-level security,15,0,5,0,1319,1389,5420,26.9,0.0
+12,supabase,evict_older_than_2,evict_older_than(2),1,Supabase not storing session data in localstorage correctly,5,5,0,0,455,527,527,83.9,
+12,supabase,evict_older_than_2,evict_older_than(2),2,How to get &quot;COUNT(*)&quot; in Supabase,10,5,0,0,893,969,1496,30.2,
+12,supabase,evict_older_than_2,evict_older_than(2),3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,12,2,3,0,1065,1145,2641,29.9,
+12,supabase,evict_older_than_2,evict_older_than(2),4,AuthRetryableFetchError with Supabase Auth,10,3,2,5,864,935,3576,21.6,
+12,supabase,evict_older_than_2,evict_older_than(2),5,Supabase: Solutions for column-level security,9,4,1,5,793,863,4439,22.0,0.0
+12,supabase,evict_older_than_1,evict_older_than(1),1,Supabase not storing session data in localstorage correctly,5,5,0,0,455,527,527,73.5,
+12,supabase,evict_older_than_1,evict_older_than(1),2,How to get &quot;COUNT(*)&quot; in Supabase,10,5,0,0,893,969,1496,20.9,
+12,supabase,evict_older_than_1,evict_older_than(1),3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,7,2,3,5,610,690,2186,24.8,
+12,supabase,evict_older_than_1,evict_older_than(1),4,AuthRetryableFetchError with Supabase Auth,7,5,0,5,610,681,2867,20.9,
+12,supabase,evict_older_than_1,evict_older_than(1),5,Supabase: Solutions for column-level security,7,2,3,2,621,691,3558,20.8,0.0
+12,supabase,evict_all,evict_all,1,Supabase not storing session data in localstorage correctly,0,5,0,5,0,72,72,78.0,
+12,supabase,evict_all,evict_all,2,How to get &quot;COUNT(*)&quot; in Supabase,0,5,0,5,0,76,148,67.2,
+12,supabase,evict_all,evict_all,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,0,5,0,5,0,80,228,54.8,
+12,supabase,evict_all,evict_all,4,AuthRetryableFetchError with Supabase Auth,0,5,0,5,0,71,299,24.1,
+12,supabase,evict_all,evict_all,5,Supabase: Solutions for column-level security,0,5,0,5,0,70,369,23.4,0.0
+13,supabase,no_eviction,No eviction,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,460,545,545,88.6,
+13,supabase,no_eviction,No eviction,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,9,4,1,0,813,893,1438,40.4,
+13,supabase,no_eviction,No eviction,3,How can I create an enum column in Supabase?,14,5,0,0,1283,1355,2793,41.3,
+13,supabase,no_eviction,No eviction,4,How to check email already exists in Supabase table for signup in flutter?,15,1,4,0,1374,1450,4243,35.6,
+13,supabase,no_eviction,No eviction,5,Supabase: Solutions for column-level security,17,2,3,0,1544,1614,5857,28.3,0.0
+13,supabase,evict_older_than_2,evict_older_than(2),1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,460,545,545,87.5,
+13,supabase,evict_older_than_2,evict_older_than(2),2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,9,4,1,0,813,893,1438,34.3,
+13,supabase,evict_older_than_2,evict_older_than(2),3,How can I create an enum column in Supabase?,14,5,0,0,1283,1355,2793,18.1,
+13,supabase,evict_older_than_2,evict_older_than(2),4,How to check email already exists in Supabase table for signup in flutter?,10,1,4,5,913,989,3782,26.8,
+13,supabase,evict_older_than_2,evict_older_than(2),5,Supabase: Solutions for column-level security,8,2,3,4,730,800,4582,36.1,0.0
+13,supabase,evict_older_than_1,evict_older_than(1),1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,460,545,545,85.8,
+13,supabase,evict_older_than_1,evict_older_than(1),2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,9,4,1,0,813,893,1438,31.5,
+13,supabase,evict_older_than_1,evict_older_than(1),3,How can I create an enum column in Supabase?,9,5,0,5,822,894,2332,27.5,
+13,supabase,evict_older_than_1,evict_older_than(1),4,How to check email already exists in Supabase table for signup in flutter?,6,1,4,4,560,636,2968,28.0,
+13,supabase,evict_older_than_1,evict_older_than(1),5,Supabase: Solutions for column-level security,3,2,3,5,261,331,3299,16.4,0.0
+13,supabase,evict_all,evict_all,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",0,5,0,5,0,84,84,86.5,
+13,supabase,evict_all,evict_all,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,0,5,0,5,0,79,163,28.6,
+13,supabase,evict_all,evict_all,3,How can I create an enum column in Supabase?,0,5,0,5,0,72,235,24.9,
+13,supabase,evict_all,evict_all,4,How to check email already exists in Supabase table for signup in flutter?,0,5,0,5,0,76,311,27.9,
+13,supabase,evict_all,evict_all,5,Supabase: Solutions for column-level security,0,5,0,5,0,70,381,23.1,0.0
+14,supabase,no_eviction,No eviction,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,512,590,590,94.1,
+14,supabase,no_eviction,No eviction,2,INSERT into the table and return id of the record Supabase JS,8,3,2,0,778,853,1443,33.6,
+14,supabase,no_eviction,No eviction,3,Error: supabaseUrl is required (supabase) postgresql,10,2,3,0,948,1024,2467,25.3,
+14,supabase,no_eviction,No eviction,4,"Supabase, filter by column value of foreign key row",10,0,5,0,948,1021,3488,26.9,
+14,supabase,no_eviction,No eviction,5,Supabase reset password error: &quot;Auth Session Missing&quot;,14,4,1,0,1302,1377,4865,22.0,0.0
+14,supabase,evict_older_than_2,evict_older_than(2),1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,512,590,590,63.7,
+14,supabase,evict_older_than_2,evict_older_than(2),2,INSERT into the table and return id of the record Supabase JS,8,3,2,0,778,853,1443,28.0,
+14,supabase,evict_older_than_2,evict_older_than(2),3,Error: supabaseUrl is required (supabase) postgresql,10,2,3,0,948,1024,2467,26.6,
+14,supabase,evict_older_than_2,evict_older_than(2),4,"Supabase, filter by column value of foreign key row",5,0,5,5,435,508,2975,23.8,
+14,supabase,evict_older_than_2,evict_older_than(2),5,Supabase reset password error: &quot;Auth Session Missing&quot;,7,5,0,3,614,690,3665,22.1,0.0
+14,supabase,evict_older_than_1,evict_older_than(1),1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,512,590,590,90.9,
+14,supabase,evict_older_than_1,evict_older_than(1),2,INSERT into the table and return id of the record Supabase JS,8,3,2,0,778,853,1443,24.4,
+14,supabase,evict_older_than_1,evict_older_than(1),3,Error: supabaseUrl is required (supabase) postgresql,5,2,3,5,435,511,1954,25.6,
+14,supabase,evict_older_than_1,evict_older_than(1),4,"Supabase, filter by column value of foreign key row",4,2,3,3,367,440,2394,42.3,
+14,supabase,evict_older_than_1,evict_older_than(1),5,Supabase reset password error: &quot;Auth Session Missing&quot;,7,5,0,2,641,717,3111,22.3,0.0
+14,supabase,evict_all,evict_all,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),0,5,0,5,0,77,77,83.6,
+14,supabase,evict_all,evict_all,2,INSERT into the table and return id of the record Supabase JS,0,5,0,5,0,75,152,28.1,
+14,supabase,evict_all,evict_all,3,Error: supabaseUrl is required (supabase) postgresql,0,5,0,5,0,76,228,26.3,
+14,supabase,evict_all,evict_all,4,"Supabase, filter by column value of foreign key row",0,5,0,5,0,73,301,20.5,
+14,supabase,evict_all,evict_all,5,Supabase reset password error: &quot;Auth Session Missing&quot;,0,5,0,5,0,75,376,19.8,0.0

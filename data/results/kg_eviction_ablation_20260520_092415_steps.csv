@@ -1,0 +1,106 @@
+task_id,tag,condition,eviction_percentile,step,query,n_chunks_in_window,n_newly_loaded,n_skipped_dup,n_evicted,step_tokens,cumulative_tokens,retrieve_ms
+0,fastapi,no_eviction,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,370.2
+0,fastapi,no_eviction,,2,FastAPI/uvicorn not working when specifying host,6,1,4,0,990,1791,104.3
+0,fastapi,no_eviction,,3,How to add a custom decorator to a FastAPI route?,10,4,1,0,1674,3465,176.4
+0,fastapi,no_eviction,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,15,5,0,0,2252,5717,196.2
+0,fastapi,no_eviction,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",20,5,0,0,2840,8557,145.7
+0,fastapi,evict_all,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,40.7
+0,fastapi,evict_all,,2,FastAPI/uvicorn not working when specifying host,5,5,0,0,784,1585,34.7
+0,fastapi,evict_all,,3,How to add a custom decorator to a FastAPI route?,5,5,0,0,944,2529,48.0
+0,fastapi,evict_all,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,5,5,0,0,650,3179,47.0
+0,fastapi,evict_all,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",5,5,0,0,672,3851,43.1
+0,fastapi,evict_older_than_1,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,42.1
+0,fastapi,evict_older_than_1,,2,FastAPI/uvicorn not working when specifying host,6,1,4,0,990,1791,34.9
+0,fastapi,evict_older_than_1,,3,How to add a custom decorator to a FastAPI route?,5,4,1,5,944,2735,53.5
+0,fastapi,evict_older_than_1,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,9,5,0,1,1333,4068,56.5
+0,fastapi,evict_older_than_1,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",10,5,0,4,1238,5306,51.3
+0,fastapi,pagerank_p10,10.0,1,How should I organize my path operations in FastAPI?,4,5,0,1,595,595,38.8
+0,fastapi,pagerank_p10,10.0,2,FastAPI/uvicorn not working when specifying host,4,1,4,1,595,1190,34.9
+0,fastapi,pagerank_p10,10.0,3,How to add a custom decorator to a FastAPI route?,8,5,0,1,1279,2469,45.5
+0,fastapi,pagerank_p10,10.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,11,5,0,2,1448,3917,40.7
+0,fastapi,pagerank_p10,10.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",14,5,0,2,1707,5624,43.6
+0,fastapi,pagerank_p20,20.0,1,How should I organize my path operations in FastAPI?,4,5,0,1,595,595,48.7
+0,fastapi,pagerank_p20,20.0,2,FastAPI/uvicorn not working when specifying host,4,1,4,1,595,1190,41.0
+0,fastapi,pagerank_p20,20.0,3,How to add a custom decorator to a FastAPI route?,7,5,0,2,1010,2200,46.2
+0,fastapi,pagerank_p20,20.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,9,5,0,3,1146,3346,40.2
+0,fastapi,pagerank_p20,20.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",11,5,0,3,1388,4734,42.0
+0,fastapi,pagerank_p30,30.0,1,How should I organize my path operations in FastAPI?,3,5,0,2,416,416,51.8
+0,fastapi,pagerank_p30,30.0,2,FastAPI/uvicorn not working when specifying host,3,2,3,2,416,832,43.3
+0,fastapi,pagerank_p30,30.0,3,How to add a custom decorator to a FastAPI route?,5,5,0,3,691,1523,50.4
+0,fastapi,pagerank_p30,30.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,7,5,0,3,923,2446,41.6
+0,fastapi,pagerank_p30,30.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",8,5,0,4,1043,3489,49.3
+0,fastapi,pagerank_p40,40.0,1,How should I organize my path operations in FastAPI?,3,5,0,2,416,416,53.4
+0,fastapi,pagerank_p40,40.0,2,FastAPI/uvicorn not working when specifying host,3,2,3,2,416,832,46.2
+0,fastapi,pagerank_p40,40.0,3,How to add a custom decorator to a FastAPI route?,5,5,0,3,691,1523,53.8
+0,fastapi,pagerank_p40,40.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,6,5,0,4,805,2328,54.6
+0,fastapi,pagerank_p40,40.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",6,5,0,5,826,3154,48.7
+1,pydantic,no_eviction,,1,Pydantic v2 custom type validators with info,5,5,0,0,647,647,40.7
+1,pydantic,no_eviction,,2,FastAPI Single Parameter Body cause Pydantic Validation Error,10,5,0,0,1182,1829,46.4
+1,pydantic,no_eviction,,3,Creating Pydantic Model Schema with Dynamic Key,13,3,2,0,1500,3329,172.3
+1,pydantic,no_eviction,,4,FastAPI - ENUM type models not populated,18,5,0,0,3334,6663,178.8
+1,pydantic,no_eviction,,5,Pydantic: Transform a value before it is assigned to a field?,21,3,2,0,3649,10312,211.3
+1,pydantic,evict_all,,1,Pydantic v2 custom type validators with info,5,5,0,0,647,647,52.6
+1,pydantic,evict_all,,2,FastAPI Single Parameter Body cause Pydantic Validation Error,5,5,0,0,606,1253,54.3
+1,pydantic,evict_all,,3,Creating Pydantic Model Schema with Dynamic Key,5,5,0,0,595,1848,55.5
+1,pydantic,evict_all,,4,FastAPI - ENUM type models not populated,5,5,0,0,1904,3752,47.6
+1,pydantic,evict_all,,5,Pydantic: Transform a value before it is assigned to a field?,5,5,0,0,602,4354,46.0
+1,pydantic,evict_older_than_1,,1,Pydantic v2 custom type validators with info,5,5,0,0,647,647,44.1
+1,pydantic,evict_older_than_1,,2,FastAPI Single Parameter Body cause Pydantic Validation Error,10,5,0,0,1182,1829,47.1
+1,pydantic,evict_older_than_1,,3,Creating Pydantic Model Schema with Dynamic Key,8,3,2,5,924,2753,43.4
+1,pydantic,evict_older_than_1,,4,FastAPI - ENUM type models not populated,8,5,0,5,2224,4977,45.1
+1,pydantic,evict_older_than_1,,5,Pydantic: Transform a value before it is assigned to a field?,9,4,1,3,2309,7286,53.3
+1,pydantic,pagerank_p10,10.0,1,Pydantic v2 custom type validators with info,4,5,0,1,529,529,55.0
+1,pydantic,pagerank_p10,10.0,2,FastAPI Single Parameter Body cause Pydantic Validation Error,8,5,0,1,930,1459,47.7
+1,pydantic,pagerank_p10,10.0,3,Creating Pydantic Model Schema with Dynamic Key,9,3,2,2,1024,2483,40.4
+1,pydantic,pagerank_p10,10.0,4,FastAPI - ENUM type models not populated,12,5,0,2,2600,5083,41.4
+1,pydantic,pagerank_p10,10.0,5,Pydantic: Transform a value before it is assigned to a field?,13,3,2,2,2723,7806,46.4
+1,pydantic,pagerank_p20,20.0,1,Pydantic v2 custom type validators with info,4,5,0,1,529,529,46.9
+1,pydantic,pagerank_p20,20.0,2,FastAPI Single Parameter Body cause Pydantic Validation Error,7,5,0,2,840,1369,48.4
+1,pydantic,pagerank_p20,20.0,3,Creating Pydantic Model Schema with Dynamic Key,8,4,1,3,895,2264,45.5
+1,pydantic,pagerank_p20,20.0,4,FastAPI - ENUM type models not populated,10,5,0,3,2429,4693,47.2
+1,pydantic,pagerank_p20,20.0,5,Pydantic: Transform a value before it is assigned to a field?,10,3,2,3,2067,6760,47.1
+1,pydantic,pagerank_p30,30.0,1,Pydantic v2 custom type validators with info,3,5,0,2,395,395,44.0
+1,pydantic,pagerank_p30,30.0,2,FastAPI Single Parameter Body cause Pydantic Validation Error,5,5,0,3,606,1001,46.1
+1,pydantic,pagerank_p30,30.0,3,Creating Pydantic Model Schema with Dynamic Key,7,5,0,3,766,1767,45.0
+1,pydantic,pagerank_p30,30.0,4,FastAPI - ENUM type models not populated,8,5,0,4,2191,3958,41.5
+1,pydantic,pagerank_p30,30.0,5,Pydantic: Transform a value before it is assigned to a field?,8,4,1,4,1027,4985,51.5
+1,pydantic,pagerank_p40,40.0,1,Pydantic v2 custom type validators with info,3,5,0,2,395,395,53.5
+1,pydantic,pagerank_p40,40.0,2,FastAPI Single Parameter Body cause Pydantic Validation Error,5,5,0,3,606,1001,55.6
+1,pydantic,pagerank_p40,40.0,3,Creating Pydantic Model Schema with Dynamic Key,6,5,0,4,677,1678,44.0
+1,pydantic,pagerank_p40,40.0,4,FastAPI - ENUM type models not populated,6,5,0,5,1234,2912,48.7
+1,pydantic,pagerank_p40,40.0,5,Pydantic: Transform a value before it is assigned to a field?,6,4,1,4,685,3597,56.9
+2,supabase,no_eviction,,1,Query a timestamp range in supabase,5,5,0,0,765,765,132.4
+2,supabase,no_eviction,,2,How to download table created in supabase,10,5,0,0,1491,2256,164.0
+2,supabase,no_eviction,,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,15,5,0,0,2183,4439,192.6
+2,supabase,no_eviction,,4,How to query using join in Supabase?,20,5,0,0,3890,8329,46.6
+2,supabase,no_eviction,,5,How can I create an enum column in Supabase?,25,5,0,0,4661,12990,46.8
+2,supabase,evict_all,,1,Query a timestamp range in supabase,5,5,0,0,765,765,43.9
+2,supabase,evict_all,,2,How to download table created in supabase,5,5,0,0,795,1560,47.4
+2,supabase,evict_all,,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,5,5,0,0,762,2322,51.2
+2,supabase,evict_all,,4,How to query using join in Supabase?,5,5,0,0,1787,4109,47.6
+2,supabase,evict_all,,5,How can I create an enum column in Supabase?,5,5,0,0,841,4950,49.4
+2,supabase,evict_older_than_1,,1,Query a timestamp range in supabase,5,5,0,0,765,765,46.7
+2,supabase,evict_older_than_1,,2,How to download table created in supabase,10,5,0,0,1491,2256,50.0
+2,supabase,evict_older_than_1,,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,10,5,0,5,1487,3743,57.3
+2,supabase,evict_older_than_1,,4,How to query using join in Supabase?,10,5,0,5,2469,6212,50.5
+2,supabase,evict_older_than_1,,5,How can I create an enum column in Supabase?,10,5,0,5,2558,8770,47.1
+2,supabase,pagerank_p10,10.0,1,Query a timestamp range in supabase,4,5,0,1,597,597,45.2
+2,supabase,pagerank_p10,10.0,2,How to download table created in supabase,8,5,0,1,1179,1776,50.1
+2,supabase,pagerank_p10,10.0,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,11,5,0,2,1578,3354,61.9
+2,supabase,pagerank_p10,10.0,4,How to query using join in Supabase?,14,5,0,2,2927,6281,44.9
+2,supabase,pagerank_p10,10.0,5,How can I create an enum column in Supabase?,17,5,0,2,3454,9735,42.9
+2,supabase,pagerank_p20,20.0,1,Query a timestamp range in supabase,4,5,0,1,597,597,43.3
+2,supabase,pagerank_p20,20.0,2,How to download table created in supabase,7,5,0,2,1040,1637,59.5
+2,supabase,pagerank_p20,20.0,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,9,5,0,3,1262,2899,51.3
+2,supabase,pagerank_p20,20.0,4,How to query using join in Supabase?,11,5,0,3,2596,5495,43.7
+2,supabase,pagerank_p20,20.0,5,How can I create an enum column in Supabase?,12,5,0,4,2813,8308,48.1
+2,supabase,pagerank_p30,30.0,1,Query a timestamp range in supabase,3,5,0,2,453,453,41.4
+2,supabase,pagerank_p30,30.0,2,How to download table created in supabase,5,5,0,3,795,1248,45.5
+2,supabase,pagerank_p30,30.0,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,7,5,0,3,1017,2265,46.0
+2,supabase,pagerank_p30,30.0,4,How to query using join in Supabase?,8,5,0,4,2127,4392,51.6
+2,supabase,pagerank_p30,30.0,5,How can I create an enum column in Supabase?,9,5,0,4,1901,6293,56.2
+2,supabase,pagerank_p40,40.0,1,Query a timestamp range in supabase,3,5,0,2,453,453,36.8
+2,supabase,pagerank_p40,40.0,2,How to download table created in supabase,5,5,0,3,795,1248,48.0
+2,supabase,pagerank_p40,40.0,3,Supabase bucket - new row violates row-level security policy for table &quot;objects&quot;,6,5,0,4,885,2133,46.5
+2,supabase,pagerank_p40,40.0,4,How to query using join in Supabase?,6,5,0,5,1910,4043,44.5
+2,supabase,pagerank_p40,40.0,5,How can I create an enum column in Supabase?,6,5,0,5,964,5007,47.2

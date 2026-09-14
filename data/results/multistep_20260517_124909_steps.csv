@@ -1,0 +1,19 @@
+task_id,tag,condition,step,query,n_chunks_in_window,step_tokens,cumulative_tokens,retrieve_ms,n_newly_loaded,n_skipped_dup,n_evicted,context_tokens
+0,fastapi,flat_accumulate,1,How should I organize my path operations in FastAPI?,5,550,550,373.6,,,,
+0,fastapi,flat_accumulate,2,FastAPI/uvicorn not working when specifying host,9,879,1429,20.4,,,,
+0,fastapi,flat_accumulate,3,How to add a custom decorator to a FastAPI route?,13,1242,2671,52.6,,,,
+0,fastapi,flat_reset,1,How should I organize my path operations in FastAPI?,5,550,550,14.7,,,,
+0,fastapi,flat_reset,2,FastAPI/uvicorn not working when specifying host,5,442,992,17.0,,,,
+0,fastapi,flat_reset,3,How to add a custom decorator to a FastAPI route?,5,475,1467,17.8,,,,
+0,fastapi,selective,1,How should I organize my path operations in FastAPI?,5,540,540,19.2,5.0,0.0,0.0,469.0
+0,fastapi,selective,2,FastAPI/uvicorn not working when specifying host,8,827,1367,22.9,3.0,2.0,0.0,755.0
+0,fastapi,selective,3,How to add a custom decorator to a FastAPI route?,3,359,1726,26.7,0.0,5.0,5.0,286.0
+1,pydantic,flat_accumulate,1,Pydantic validation error for BaseSettings model with local ENV file,5,440,440,89.4,,,,
+1,pydantic,flat_accumulate,2,Pydantic v2 custom type validators with info,7,600,1040,21.9,,,,
+1,pydantic,flat_accumulate,3,FastAPI Single Parameter Body cause Pydantic Validation Error,12,1083,2123,27.4,,,,
+1,pydantic,flat_reset,1,Pydantic validation error for BaseSettings model with local ENV file,5,440,440,22.6,,,,
+1,pydantic,flat_reset,2,Pydantic v2 custom type validators with info,5,444,884,32.8,,,,
+1,pydantic,flat_reset,3,FastAPI Single Parameter Body cause Pydantic Validation Error,5,516,1400,25.2,,,,
+1,pydantic,selective,1,Pydantic validation error for BaseSettings model with local ENV file,5,537,537,18.1,5.0,0.0,0.0,463.0
+1,pydantic,selective,2,Pydantic v2 custom type validators with info,5,534,1071,18.3,0.0,5.0,0.0,463.0
+1,pydantic,selective,3,FastAPI Single Parameter Body cause Pydantic Validation Error,2,283,1354,21.5,2.0,3.0,5.0,210.0

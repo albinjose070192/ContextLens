@@ -1,0 +1,9 @@
+.env
+data/raw/
+data/processed/
+data/models/
+__pycache__/
+*.pyc
+.DS_Store
+.Rhistory
+*.ipynb_checkpoints

@@ -1,0 +1,4 @@
+top_k,n_tasks,n_steps,total_retrieval_attempts,total_dupes_blocked,dup_rate_pct,mean_tokens_per_chunk,total_tokens_saved,tokens_saved_per_task,dupes_per_task
+5,18,5,450,179,39.8,93.6,16756.0,931.0,9.9
+10,18,5,1800,678,37.7,97.9,66397.0,3689.0,37.7
+20,18,5,900,352,39.1,96.0,33803.0,1878.0,19.6

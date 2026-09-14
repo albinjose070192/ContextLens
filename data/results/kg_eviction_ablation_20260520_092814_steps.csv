@@ -1,0 +1,631 @@
+task_id,tag,condition,eviction_percentile,step,query,n_chunks_in_window,n_newly_loaded,n_skipped_dup,n_evicted,step_tokens,cumulative_tokens,retrieve_ms
+0,fastapi,no_eviction,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,248.2
+0,fastapi,no_eviction,,2,FastAPI/uvicorn not working when specifying host,6,1,4,0,990,1791,125.3
+0,fastapi,no_eviction,,3,How to add a custom decorator to a FastAPI route?,10,4,1,0,1674,3465,157.2
+0,fastapi,no_eviction,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,15,5,0,0,2252,5717,177.2
+0,fastapi,no_eviction,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",20,5,0,0,2840,8557,171.9
+0,fastapi,evict_all,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,45.0
+0,fastapi,evict_all,,2,FastAPI/uvicorn not working when specifying host,5,5,0,0,784,1585,37.7
+0,fastapi,evict_all,,3,How to add a custom decorator to a FastAPI route?,5,5,0,0,944,2529,45.5
+0,fastapi,evict_all,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,5,5,0,0,650,3179,43.5
+0,fastapi,evict_all,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",5,5,0,0,672,3851,39.8
+0,fastapi,evict_older_than_1,,1,How should I organize my path operations in FastAPI?,5,5,0,0,801,801,37.9
+0,fastapi,evict_older_than_1,,2,FastAPI/uvicorn not working when specifying host,6,1,4,0,990,1791,43.5
+0,fastapi,evict_older_than_1,,3,How to add a custom decorator to a FastAPI route?,5,4,1,5,944,2735,52.6
+0,fastapi,evict_older_than_1,,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,9,5,0,1,1333,4068,43.8
+0,fastapi,evict_older_than_1,,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",10,5,0,4,1238,5306,41.5
+0,fastapi,pagerank_p10,10.0,1,How should I organize my path operations in FastAPI?,4,5,0,1,595,595,43.6
+0,fastapi,pagerank_p10,10.0,2,FastAPI/uvicorn not working when specifying host,4,1,4,1,595,1190,35.4
+0,fastapi,pagerank_p10,10.0,3,How to add a custom decorator to a FastAPI route?,8,5,0,1,1279,2469,44.5
+0,fastapi,pagerank_p10,10.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,11,5,0,2,1448,3917,48.6
+0,fastapi,pagerank_p10,10.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",14,5,0,2,1707,5624,53.2
+0,fastapi,pagerank_p20,20.0,1,How should I organize my path operations in FastAPI?,4,5,0,1,595,595,48.6
+0,fastapi,pagerank_p20,20.0,2,FastAPI/uvicorn not working when specifying host,4,1,4,1,595,1190,38.4
+0,fastapi,pagerank_p20,20.0,3,How to add a custom decorator to a FastAPI route?,7,5,0,2,1010,2200,44.5
+0,fastapi,pagerank_p20,20.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,9,5,0,3,1146,3346,44.0
+0,fastapi,pagerank_p20,20.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",11,5,0,3,1388,4734,52.4
+0,fastapi,pagerank_p30,30.0,1,How should I organize my path operations in FastAPI?,3,5,0,2,416,416,50.1
+0,fastapi,pagerank_p30,30.0,2,FastAPI/uvicorn not working when specifying host,3,2,3,2,416,832,42.4
+0,fastapi,pagerank_p30,30.0,3,How to add a custom decorator to a FastAPI route?,5,5,0,3,691,1523,48.5
+0,fastapi,pagerank_p30,30.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,7,5,0,3,923,2446,54.6
+0,fastapi,pagerank_p30,30.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",8,5,0,4,1043,3489,51.5
+0,fastapi,pagerank_p40,40.0,1,How should I organize my path operations in FastAPI?,3,5,0,2,416,416,44.1
+0,fastapi,pagerank_p40,40.0,2,FastAPI/uvicorn not working when specifying host,3,2,3,2,416,832,43.3
+0,fastapi,pagerank_p40,40.0,3,How to add a custom decorator to a FastAPI route?,5,5,0,3,691,1523,54.1
+0,fastapi,pagerank_p40,40.0,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,6,5,0,4,805,2328,56.4
+0,fastapi,pagerank_p40,40.0,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",6,5,0,5,826,3154,49.7
+1,fastapi,no_eviction,,1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,596,596,204.2
+1,fastapi,no_eviction,,2,pydantic: Using property.getter decorator for a field with an alias,10,5,0,0,1143,1739,218.2
+1,fastapi,no_eviction,,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,15,5,0,0,2149,3888,182.3
+1,fastapi,no_eviction,,4,How can I use both required and optional path parameters in a FastAPI endpoint?,19,4,1,0,2831,6719,131.3
+1,fastapi,no_eviction,,5,Ratelimit in Fastapi,24,5,0,0,3552,10271,195.2
+1,fastapi,evict_all,,1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,596,596,58.6
+1,fastapi,evict_all,,2,pydantic: Using property.getter decorator for a field with an alias,5,5,0,0,615,1211,46.1
+1,fastapi,evict_all,,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,5,5,0,0,1082,2293,45.0
+1,fastapi,evict_all,,4,How can I use both required and optional path parameters in a FastAPI endpoint?,5,5,0,0,948,3241,37.6
+1,fastapi,evict_all,,5,Ratelimit in Fastapi,5,5,0,0,797,4038,41.5
+1,fastapi,evict_older_than_1,,1,FastAPI - Supporting multiple authentication dependencies,5,5,0,0,596,596,46.1
+1,fastapi,evict_older_than_1,,2,pydantic: Using property.getter decorator for a field with an alias,10,5,0,0,1143,1739,44.2
+1,fastapi,evict_older_than_1,,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,10,5,0,5,1621,3360,42.4
+1,fastapi,evict_older_than_1,,4,How can I use both required and optional path parameters in a FastAPI endpoint?,9,4,1,5,1764,5124,36.1
+1,fastapi,evict_older_than_1,,5,Ratelimit in Fastapi,9,5,0,5,1480,6604,48.0
+1,fastapi,pagerank_p10,10.0,1,FastAPI - Supporting multiple authentication dependencies,4,5,0,1,503,503,48.6
+1,fastapi,pagerank_p10,10.0,2,pydantic: Using property.getter decorator for a field with an alias,8,5,0,1,953,1456,53.6
+1,fastapi,pagerank_p10,10.0,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,11,5,0,2,1740,3196,51.1
+1,fastapi,pagerank_p10,10.0,4,How can I use both required and optional path parameters in a FastAPI endpoint?,13,4,1,2,2176,5372,36.5
+1,fastapi,pagerank_p10,10.0,5,Ratelimit in Fastapi,16,5,0,2,2692,8064,46.8
+1,fastapi,pagerank_p20,20.0,1,FastAPI - Supporting multiple authentication dependencies,4,5,0,1,503,503,52.6
+1,fastapi,pagerank_p20,20.0,2,pydantic: Using property.getter decorator for a field with an alias,7,5,0,2,844,1347,46.3
+1,fastapi,pagerank_p20,20.0,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,9,5,0,3,1489,2836,48.4
+1,fastapi,pagerank_p20,20.0,4,How can I use both required and optional path parameters in a FastAPI endpoint?,10,4,1,3,1636,4472,43.6
+1,fastapi,pagerank_p20,20.0,5,Ratelimit in Fastapi,12,5,0,3,1847,6319,56.6
+1,fastapi,pagerank_p30,30.0,1,FastAPI - Supporting multiple authentication dependencies,3,5,0,2,406,406,43.8
+1,fastapi,pagerank_p30,30.0,2,pydantic: Using property.getter decorator for a field with an alias,5,5,0,3,615,1021,43.0
+1,fastapi,pagerank_p30,30.0,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,7,5,0,3,1260,2281,46.9
+1,fastapi,pagerank_p30,30.0,4,How can I use both required and optional path parameters in a FastAPI endpoint?,7,4,1,4,1126,3407,39.3
+1,fastapi,pagerank_p30,30.0,5,Ratelimit in Fastapi,8,5,0,4,1260,4667,45.9
+1,fastapi,pagerank_p40,40.0,1,FastAPI - Supporting multiple authentication dependencies,3,5,0,2,406,406,52.5
+1,fastapi,pagerank_p40,40.0,2,pydantic: Using property.getter decorator for a field with an alias,5,5,0,3,615,1021,58.5
+1,fastapi,pagerank_p40,40.0,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,6,5,0,4,1170,2191,55.5
+1,fastapi,pagerank_p40,40.0,4,How can I use both required and optional path parameters in a FastAPI endpoint?,6,4,1,4,1036,3227,40.2
+1,fastapi,pagerank_p40,40.0,5,Ratelimit in Fastapi,6,5,0,5,869,4096,49.6
+2,fastapi,no_eviction,,1,Replace server name with fake server name in response header in fastapi,5,5,0,0,1326,1326,110.4
+2,fastapi,no_eviction,,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,10,5,0,0,1902,3228,56.9
+2,fastapi,no_eviction,,3,How to use class based views in FastAPI?,15,5,0,0,2618,5846,191.7
+2,fastapi,no_eviction,,4,Where to put depends/ dependendies for authentication in Fastapi?,20,5,0,0,3196,9042,138.9
+2,fastapi,no_eviction,,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,25,5,0,0,3733,12775,145.7
+2,fastapi,evict_all,,1,Replace server name with fake server name in response header in fastapi,5,5,0,0,1326,1326,51.3
+2,fastapi,evict_all,,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,5,5,0,0,650,1976,48.2
+2,fastapi,evict_all,,3,How to use class based views in FastAPI?,5,5,0,0,800,2776,52.7
+2,fastapi,evict_all,,4,Where to put depends/ dependendies for authentication in Fastapi?,5,5,0,0,648,3424,40.3
+2,fastapi,evict_all,,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,5,5,0,0,611,4035,53.7
+2,fastapi,evict_older_than_1,,1,Replace server name with fake server name in response header in fastapi,5,5,0,0,1326,1326,49.2
+2,fastapi,evict_older_than_1,,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,10,5,0,0,1902,3228,79.6
+2,fastapi,evict_older_than_1,,3,How to use class based views in FastAPI?,10,5,0,5,1366,4594,45.1
+2,fastapi,evict_older_than_1,,4,Where to put depends/ dependendies for authentication in Fastapi?,10,5,0,5,1378,5972,42.0
+2,fastapi,evict_older_than_1,,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,10,5,0,5,1185,7157,55.2
+2,fastapi,pagerank_p10,10.0,1,Replace server name with fake server name in response header in fastapi,4,5,0,1,834,834,57.4
+2,fastapi,pagerank_p10,10.0,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,8,5,0,1,1221,2055,53.5
+2,fastapi,pagerank_p10,10.0,3,How to use class based views in FastAPI?,11,5,0,2,1517,3572,56.3
+2,fastapi,pagerank_p10,10.0,4,Where to put depends/ dependendies for authentication in Fastapi?,14,5,0,2,1879,5451,40.0
+2,fastapi,pagerank_p10,10.0,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,17,5,0,2,2168,7619,53.9
+2,fastapi,pagerank_p20,20.0,1,Replace server name with fake server name in response header in fastapi,4,5,0,1,834,834,45.8
+2,fastapi,pagerank_p20,20.0,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,7,5,0,2,1009,1843,46.2
+2,fastapi,pagerank_p20,20.0,3,How to use class based views in FastAPI?,9,5,0,3,1379,3222,44.6
+2,fastapi,pagerank_p20,20.0,4,Where to put depends/ dependendies for authentication in Fastapi?,11,5,0,3,1392,4614,36.1
+2,fastapi,pagerank_p20,20.0,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,12,5,0,4,1405,6019,47.1
+2,fastapi,pagerank_p30,30.0,1,Replace server name with fake server name in response header in fastapi,3,5,0,2,645,645,56.7
+2,fastapi,pagerank_p30,30.0,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,5,5,0,3,650,1295,57.3
+2,fastapi,pagerank_p30,30.0,3,How to use class based views in FastAPI?,7,5,0,3,1020,2315,49.7
+2,fastapi,pagerank_p30,30.0,4,Where to put depends/ dependendies for authentication in Fastapi?,8,5,0,4,956,3271,40.8
+2,fastapi,pagerank_p30,30.0,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,9,5,0,4,1011,4282,49.4
+2,fastapi,pagerank_p40,40.0,1,Replace server name with fake server name in response header in fastapi,3,5,0,2,645,645,42.6
+2,fastapi,pagerank_p40,40.0,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,5,5,0,3,650,1295,45.7
+2,fastapi,pagerank_p40,40.0,3,How to use class based views in FastAPI?,6,5,0,4,902,2197,48.1
+2,fastapi,pagerank_p40,40.0,4,Where to put depends/ dependendies for authentication in Fastapi?,6,5,0,5,750,2947,35.1
+2,fastapi,pagerank_p40,40.0,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,6,5,0,5,713,3660,39.6
+3,fastapi,no_eviction,,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,653,653,99.1
+3,fastapi,no_eviction,,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",10,5,0,0,1353,2006,195.6
+3,fastapi,no_eviction,,3,How to pass the default value to a variable if None was passed?,15,5,0,0,1861,3867,53.0
+3,fastapi,no_eviction,,4,FastAPI (starlette) get client real IP,20,5,0,0,2566,6433,45.5
+3,fastapi,no_eviction,,5,"FastAPI, return a File response with the output of a sql query",23,3,2,0,2919,9352,70.8
+3,fastapi,evict_all,,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,653,653,62.9
+3,fastapi,evict_all,,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",5,5,0,0,777,1430,46.5
+3,fastapi,evict_all,,3,How to pass the default value to a variable if None was passed?,5,5,0,0,588,2018,46.1
+3,fastapi,evict_all,,4,FastAPI (starlette) get client real IP,5,5,0,0,779,2797,50.6
+3,fastapi,evict_all,,5,"FastAPI, return a File response with the output of a sql query",5,5,0,0,637,3434,44.4
+3,fastapi,evict_older_than_1,,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",5,5,0,0,653,653,55.2
+3,fastapi,evict_older_than_1,,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",10,5,0,0,1353,2006,58.0
+3,fastapi,evict_older_than_1,,3,How to pass the default value to a variable if None was passed?,10,5,0,5,1285,3291,47.6
+3,fastapi,evict_older_than_1,,4,FastAPI (starlette) get client real IP,10,5,0,5,1293,4584,47.8
+3,fastapi,evict_older_than_1,,5,"FastAPI, return a File response with the output of a sql query",10,5,0,5,1345,5929,37.4
+3,fastapi,pagerank_p10,10.0,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",4,5,0,1,508,508,50.1
+3,fastapi,pagerank_p10,10.0,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",8,5,0,1,1119,1627,48.9
+3,fastapi,pagerank_p10,10.0,3,How to pass the default value to a variable if None was passed?,11,5,0,2,1416,3043,45.3
+3,fastapi,pagerank_p10,10.0,4,FastAPI (starlette) get client real IP,14,5,0,2,1795,4838,45.7
+3,fastapi,pagerank_p10,10.0,5,"FastAPI, return a File response with the output of a sql query",16,4,1,2,1998,6836,37.7
+3,fastapi,pagerank_p20,20.0,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",4,5,0,1,508,508,53.8
+3,fastapi,pagerank_p20,20.0,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",7,5,0,2,1037,1545,49.9
+3,fastapi,pagerank_p20,20.0,3,How to pass the default value to a variable if None was passed?,9,5,0,3,1075,2620,44.5
+3,fastapi,pagerank_p20,20.0,4,FastAPI (starlette) get client real IP,11,5,0,3,1427,4047,53.7
+3,fastapi,pagerank_p20,20.0,5,"FastAPI, return a File response with the output of a sql query",12,5,0,4,1572,5619,47.5
+3,fastapi,pagerank_p30,30.0,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",3,5,0,2,419,419,58.9
+3,fastapi,pagerank_p30,30.0,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",5,5,0,3,777,1196,59.7
+3,fastapi,pagerank_p30,30.0,3,How to pass the default value to a variable if None was passed?,7,5,0,3,815,2011,56.3
+3,fastapi,pagerank_p30,30.0,4,FastAPI (starlette) get client real IP,8,5,0,4,1094,3105,50.4
+3,fastapi,pagerank_p30,30.0,5,"FastAPI, return a File response with the output of a sql query",9,5,0,4,1098,4203,38.4
+3,fastapi,pagerank_p40,40.0,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",3,5,0,2,419,419,47.5
+3,fastapi,pagerank_p40,40.0,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",5,5,0,3,777,1196,49.7
+3,fastapi,pagerank_p40,40.0,3,How to pass the default value to a variable if None was passed?,6,5,0,4,727,1923,47.1
+3,fastapi,pagerank_p40,40.0,4,FastAPI (starlette) get client real IP,6,5,0,5,918,2841,47.9
+3,fastapi,pagerank_p40,40.0,5,"FastAPI, return a File response with the output of a sql query",6,5,0,5,776,3617,37.1
+4,fastapi,no_eviction,,1,What does Depends with no parameter do?,5,5,0,0,574,574,199.5
+4,fastapi,no_eviction,,2,How to run FastAPI / Uvicorn in Google Colab?,10,5,0,0,1310,1884,30.4
+4,fastapi,no_eviction,,3,How to send file to FastAPI endpoint using Postman?,15,5,0,0,1874,3758,107.8
+4,fastapi,no_eviction,,4,How to access request object in router function using FastAPI?,20,5,0,0,3106,6864,44.7
+4,fastapi,no_eviction,,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,25,5,0,0,4891,11755,261.8
+4,fastapi,evict_all,,1,What does Depends with no parameter do?,5,5,0,0,574,574,37.9
+4,fastapi,evict_all,,2,How to run FastAPI / Uvicorn in Google Colab?,5,5,0,0,804,1378,37.1
+4,fastapi,evict_all,,3,How to send file to FastAPI endpoint using Postman?,5,5,0,0,638,2016,30.6
+4,fastapi,evict_all,,4,How to access request object in router function using FastAPI?,5,5,0,0,1304,3320,29.8
+4,fastapi,evict_all,,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,5,5,0,0,1857,5177,37.6
+4,fastapi,evict_older_than_1,,1,What does Depends with no parameter do?,5,5,0,0,574,574,33.9
+4,fastapi,evict_older_than_1,,2,How to run FastAPI / Uvicorn in Google Colab?,10,5,0,0,1310,1884,39.5
+4,fastapi,evict_older_than_1,,3,How to send file to FastAPI endpoint using Postman?,10,5,0,5,1368,3252,35.4
+4,fastapi,evict_older_than_1,,4,How to access request object in router function using FastAPI?,10,5,0,5,1870,5122,36.2
+4,fastapi,evict_older_than_1,,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,10,5,0,5,3089,8211,33.5
+4,fastapi,pagerank_p10,10.0,1,What does Depends with no parameter do?,4,5,0,1,452,452,49.3
+4,fastapi,pagerank_p10,10.0,2,How to run FastAPI / Uvicorn in Google Colab?,8,5,0,1,1076,1528,30.6
+4,fastapi,pagerank_p10,10.0,3,How to send file to FastAPI endpoint using Postman?,11,5,0,2,1456,2984,44.7
+4,fastapi,pagerank_p10,10.0,4,How to access request object in router function using FastAPI?,14,5,0,2,2303,5287,44.9
+4,fastapi,pagerank_p10,10.0,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,17,5,0,2,3831,9118,54.9
+4,fastapi,pagerank_p20,20.0,1,What does Depends with no parameter do?,4,5,0,1,452,452,25.6
+4,fastapi,pagerank_p20,20.0,2,How to run FastAPI / Uvicorn in Google Colab?,7,5,0,2,985,1437,33.2
+4,fastapi,pagerank_p20,20.0,3,How to send file to FastAPI endpoint using Postman?,9,5,0,3,1014,2451,23.9
+4,fastapi,pagerank_p20,20.0,4,How to access request object in router function using FastAPI?,11,5,0,3,1935,4386,29.2
+4,fastapi,pagerank_p20,20.0,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,12,5,0,4,3284,7670,37.2
+4,fastapi,pagerank_p30,30.0,1,What does Depends with no parameter do?,3,5,0,2,340,340,38.2
+4,fastapi,pagerank_p30,30.0,2,How to run FastAPI / Uvicorn in Google Colab?,5,5,0,3,804,1144,45.6
+4,fastapi,pagerank_p30,30.0,3,How to send file to FastAPI endpoint using Postman?,7,5,0,3,833,1977,34.0
+4,fastapi,pagerank_p30,30.0,4,How to access request object in router function using FastAPI?,8,5,0,4,1617,3594,34.8
+4,fastapi,pagerank_p30,30.0,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,9,5,0,4,2523,6117,45.3
+4,fastapi,pagerank_p40,40.0,1,What does Depends with no parameter do?,3,5,0,2,340,340,48.2
+4,fastapi,pagerank_p40,40.0,2,How to run FastAPI / Uvicorn in Google Colab?,5,5,0,3,804,1144,27.5
+4,fastapi,pagerank_p40,40.0,3,How to send file to FastAPI endpoint using Postman?,6,5,0,4,726,1870,37.4
+4,fastapi,pagerank_p40,40.0,4,How to access request object in router function using FastAPI?,6,5,0,5,1392,3262,38.9
+4,fastapi,pagerank_p40,40.0,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,6,5,0,5,1945,5207,56.3
+5,fastapi,no_eviction,,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,5,5,0,0,661,661,55.2
+5,fastapi,no_eviction,,2,Pydantic constr vs Field args,10,5,0,0,1280,1941,128.5
+5,fastapi,no_eviction,,3,Python Fastapi with existing database?,15,5,0,0,2009,3950,55.7
+5,fastapi,no_eviction,,4,How to debug FastAPI openapi generation error,20,5,0,0,2884,6834,59.1
+5,fastapi,no_eviction,,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,25,5,0,0,3427,10261,56.6
+5,fastapi,evict_all,,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,5,5,0,0,661,661,44.1
+5,fastapi,evict_all,,2,Pydantic constr vs Field args,5,5,0,0,691,1352,47.8
+5,fastapi,evict_all,,3,Python Fastapi with existing database?,5,5,0,0,797,2149,55.6
+5,fastapi,evict_all,,4,How to debug FastAPI openapi generation error,5,5,0,0,942,3091,50.4
+5,fastapi,evict_all,,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,5,5,0,0,613,3704,53.1
+5,fastapi,evict_older_than_1,,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,5,5,0,0,661,661,52.1
+5,fastapi,evict_older_than_1,,2,Pydantic constr vs Field args,10,5,0,0,1280,1941,55.1
+5,fastapi,evict_older_than_1,,3,Python Fastapi with existing database?,10,5,0,5,1420,3361,49.5
+5,fastapi,evict_older_than_1,,4,How to debug FastAPI openapi generation error,10,5,0,5,1672,5033,42.6
+5,fastapi,evict_older_than_1,,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,10,5,0,5,1485,6518,47.5
+5,fastapi,pagerank_p10,10.0,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,4,5,0,1,526,526,42.8
+5,fastapi,pagerank_p10,10.0,2,Pydantic constr vs Field args,8,5,0,1,1046,1572,52.0
+5,fastapi,pagerank_p10,10.0,3,Python Fastapi with existing database?,11,5,0,2,1544,3116,55.7
+5,fastapi,pagerank_p10,10.0,4,How to debug FastAPI openapi generation error,14,5,0,2,2117,5233,50.6
+5,fastapi,pagerank_p10,10.0,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,17,5,0,2,2429,7662,43.0
+5,fastapi,pagerank_p20,20.0,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,4,5,0,1,526,526,45.5
+5,fastapi,pagerank_p20,20.0,2,Pydantic constr vs Field args,7,5,0,2,925,1451,51.0
+5,fastapi,pagerank_p20,20.0,3,Python Fastapi with existing database?,9,5,0,3,1220,2671,49.4
+5,fastapi,pagerank_p20,20.0,4,How to debug FastAPI openapi generation error,11,5,0,3,1655,4326,48.8
+5,fastapi,pagerank_p20,20.0,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,12,5,0,4,1674,6000,50.3
+5,fastapi,pagerank_p30,30.0,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,3,5,0,2,427,427,42.9
+5,fastapi,pagerank_p30,30.0,2,Pydantic constr vs Field args,5,5,0,3,691,1118,52.7
+5,fastapi,pagerank_p30,30.0,3,Python Fastapi with existing database?,7,5,0,3,986,2104,51.3
+5,fastapi,pagerank_p30,30.0,4,How to debug FastAPI openapi generation error,8,5,0,4,1219,3323,56.0
+5,fastapi,pagerank_p30,30.0,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,9,5,0,4,1115,4438,57.6
+5,fastapi,pagerank_p40,40.0,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,3,5,0,2,427,427,46.2
+5,fastapi,pagerank_p40,40.0,2,Pydantic constr vs Field args,5,5,0,3,691,1118,52.7
+5,fastapi,pagerank_p40,40.0,3,Python Fastapi with existing database?,6,5,0,4,887,2005,47.6
+5,fastapi,pagerank_p40,40.0,4,How to debug FastAPI openapi generation error,6,5,0,5,1032,3037,46.1
+5,fastapi,pagerank_p40,40.0,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,6,5,0,5,703,3740,55.1
+6,pydantic,no_eviction,,1,Pydantic inconsistent and automatic conversion between float and int,5,5,0,0,651,651,74.4
+6,pydantic,no_eviction,,2,Define a Pydantic (nested) model,10,5,0,0,1186,1837,42.8
+6,pydantic,no_eviction,,3,Including special character in Basemodel for Pydantic,12,2,3,0,1424,3261,57.4
+6,pydantic,no_eviction,,4,Not Required in Pydantic&#39;s Base Models,15,3,2,0,1836,5097,46.5
+6,pydantic,no_eviction,,5,Pydantic: dataclass vs BaseModel,18,3,2,0,2126,7223,43.2
+6,pydantic,evict_all,,1,Pydantic inconsistent and automatic conversion between float and int,5,5,0,0,651,651,38.4
+6,pydantic,evict_all,,2,Define a Pydantic (nested) model,5,5,0,0,607,1258,46.9
+6,pydantic,evict_all,,3,Including special character in Basemodel for Pydantic,5,5,0,0,641,1899,32.0
+6,pydantic,evict_all,,4,Not Required in Pydantic&#39;s Base Models,5,5,0,0,691,2590,31.1
+6,pydantic,evict_all,,5,Pydantic: dataclass vs BaseModel,5,5,0,0,567,3157,29.1
+6,pydantic,evict_older_than_1,,1,Pydantic inconsistent and automatic conversion between float and int,5,5,0,0,651,651,32.4
+6,pydantic,evict_older_than_1,,2,Define a Pydantic (nested) model,10,5,0,0,1186,1837,35.4
+6,pydantic,evict_older_than_1,,3,Including special character in Basemodel for Pydantic,7,2,3,5,845,2682,41.0
+6,pydantic,evict_older_than_1,,4,Not Required in Pydantic&#39;s Base Models,7,5,0,5,928,3610,32.3
+6,pydantic,evict_older_than_1,,5,Pydantic: dataclass vs BaseModel,10,5,0,2,1186,4796,29.9
+6,pydantic,pagerank_p10,10.0,1,Pydantic inconsistent and automatic conversion between float and int,4,5,0,1,552,552,36.0
+6,pydantic,pagerank_p10,10.0,2,Define a Pydantic (nested) model,8,5,0,1,969,1521,36.6
+6,pydantic,pagerank_p10,10.0,3,Including special character in Basemodel for Pydantic,9,2,3,1,1078,2599,34.4
+6,pydantic,pagerank_p10,10.0,4,Not Required in Pydantic&#39;s Base Models,11,4,1,2,1368,3967,26.9
+6,pydantic,pagerank_p10,10.0,5,Pydantic: dataclass vs BaseModel,12,3,2,2,1432,5399,28.3
+6,pydantic,pagerank_p20,20.0,1,Pydantic inconsistent and automatic conversion between float and int,4,5,0,1,552,552,29.2
+6,pydantic,pagerank_p20,20.0,2,Define a Pydantic (nested) model,7,5,0,2,840,1392,40.3
+6,pydantic,pagerank_p20,20.0,3,Including special character in Basemodel for Pydantic,7,2,3,2,874,2266,37.4
+6,pydantic,pagerank_p20,20.0,4,Not Required in Pydantic&#39;s Base Models,8,4,1,3,1024,3290,33.1
+6,pydantic,pagerank_p20,20.0,5,Pydantic: dataclass vs BaseModel,8,3,2,3,903,4193,43.1
+6,pydantic,pagerank_p30,30.0,1,Pydantic inconsistent and automatic conversion between float and int,3,5,0,2,434,434,32.9
+6,pydantic,pagerank_p30,30.0,2,Define a Pydantic (nested) model,5,5,0,3,607,1041,31.1
+6,pydantic,pagerank_p30,30.0,3,Including special character in Basemodel for Pydantic,5,2,3,2,641,1682,30.4
+6,pydantic,pagerank_p30,30.0,4,Not Required in Pydantic&#39;s Base Models,7,5,0,3,889,2571,33.2
+6,pydantic,pagerank_p30,30.0,5,Pydantic: dataclass vs BaseModel,7,3,2,3,785,3356,33.4
+6,pydantic,pagerank_p40,40.0,1,Pydantic inconsistent and automatic conversion between float and int,3,5,0,2,434,434,29.8
+6,pydantic,pagerank_p40,40.0,2,Define a Pydantic (nested) model,5,5,0,3,607,1041,29.0
+6,pydantic,pagerank_p40,40.0,3,Including special character in Basemodel for Pydantic,4,2,3,3,522,1563,31.4
+6,pydantic,pagerank_p40,40.0,4,Not Required in Pydantic&#39;s Base Models,5,5,0,4,627,2190,28.9
+6,pydantic,pagerank_p40,40.0,5,Pydantic: dataclass vs BaseModel,5,3,2,3,624,2814,35.2
+7,pydantic,no_eviction,,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,5,5,0,0,627,627,86.2
+7,pydantic,no_eviction,,2,Partial update in FastAPI,10,5,0,0,1128,1755,218.2
+7,pydantic,no_eviction,,3,Pydantic does not validate when assigning a number to a string,15,5,0,0,1768,3523,54.5
+7,pydantic,no_eviction,,4,Not Required in Pydantic&#39;s Base Models,18,3,2,0,2163,5686,39.1
+7,pydantic,no_eviction,,5,Dynamically Generating Pydantic Model from a Schema JSON File,22,4,1,0,2549,8235,125.4
+7,pydantic,evict_all,,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,5,5,0,0,627,627,57.8
+7,pydantic,evict_all,,2,Partial update in FastAPI,5,5,0,0,582,1209,50.2
+7,pydantic,evict_all,,3,Pydantic does not validate when assigning a number to a string,5,5,0,0,706,1915,51.9
+7,pydantic,evict_all,,4,Not Required in Pydantic&#39;s Base Models,5,5,0,0,691,2606,41.3
+7,pydantic,evict_all,,5,Dynamically Generating Pydantic Model from a Schema JSON File,5,5,0,0,573,3179,50.7
+7,pydantic,evict_older_than_1,,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,5,5,0,0,627,627,51.1
+7,pydantic,evict_older_than_1,,2,Partial update in FastAPI,10,5,0,0,1128,1755,44.7
+7,pydantic,evict_older_than_1,,3,Pydantic does not validate when assigning a number to a string,10,5,0,5,1222,2977,44.9
+7,pydantic,evict_older_than_1,,4,Not Required in Pydantic&#39;s Base Models,8,3,2,5,1101,4078,43.7
+7,pydantic,evict_older_than_1,,5,Dynamically Generating Pydantic Model from a Schema JSON File,8,5,0,5,970,5048,46.9
+7,pydantic,pagerank_p10,10.0,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,4,5,0,1,533,533,45.1
+7,pydantic,pagerank_p10,10.0,2,Partial update in FastAPI,8,5,0,1,915,1448,48.7
+7,pydantic,pagerank_p10,10.0,3,Pydantic does not validate when assigning a number to a string,11,5,0,2,1312,2760,50.4
+7,pydantic,pagerank_p10,10.0,4,Not Required in Pydantic&#39;s Base Models,12,3,2,2,1513,4273,37.9
+7,pydantic,pagerank_p10,10.0,5,Dynamically Generating Pydantic Model from a Schema JSON File,15,5,0,2,1774,6047,53.2
+7,pydantic,pagerank_p20,20.0,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,4,5,0,1,533,533,55.8
+7,pydantic,pagerank_p20,20.0,2,Partial update in FastAPI,7,5,0,2,787,1320,46.8
+7,pydantic,pagerank_p20,20.0,3,Pydantic does not validate when assigning a number to a string,9,5,0,3,1104,2424,63.5
+7,pydantic,pagerank_p20,20.0,4,Not Required in Pydantic&#39;s Base Models,9,3,2,3,1166,3590,40.6
+7,pydantic,pagerank_p20,20.0,5,Dynamically Generating Pydantic Model from a Schema JSON File,11,5,0,3,1274,4864,55.0
+7,pydantic,pagerank_p30,30.0,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,3,5,0,2,414,414,54.2
+7,pydantic,pagerank_p30,30.0,2,Partial update in FastAPI,5,5,0,3,582,996,56.1
+7,pydantic,pagerank_p30,30.0,3,Pydantic does not validate when assigning a number to a string,7,5,0,3,899,1895,50.6
+7,pydantic,pagerank_p30,30.0,4,Not Required in Pydantic&#39;s Base Models,7,3,2,3,884,2779,37.5
+7,pydantic,pagerank_p30,30.0,5,Dynamically Generating Pydantic Model from a Schema JSON File,8,5,0,4,913,3692,48.1
+7,pydantic,pagerank_p40,40.0,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,3,5,0,2,414,414,45.9
+7,pydantic,pagerank_p40,40.0,2,Partial update in FastAPI,5,5,0,3,582,996,50.5
+7,pydantic,pagerank_p40,40.0,3,Pydantic does not validate when assigning a number to a string,6,5,0,4,788,1784,46.8
+7,pydantic,pagerank_p40,40.0,4,Not Required in Pydantic&#39;s Base Models,5,3,2,4,638,2422,36.1
+7,pydantic,pagerank_p40,40.0,5,Dynamically Generating Pydantic Model from a Schema JSON File,6,5,0,4,695,3117,47.6
+8,pydantic,no_eviction,,1,How can I mock my environment variables for my pytest?,5,5,0,0,713,713,47.0
+8,pydantic,no_eviction,,2,Pydantic: How to init a model by a dict with alias field names?,10,5,0,0,1269,1982,171.1
+8,pydantic,no_eviction,,3,FastAPI - ENUM type models not populated,15,5,0,0,3096,5078,108.1
+8,pydantic,no_eviction,,4,Defining recursive models in Pydantic?,17,2,3,0,3287,8365,50.8
+8,pydantic,no_eviction,,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,20,3,2,0,3691,12056,131.3
+8,pydantic,evict_all,,1,How can I mock my environment variables for my pytest?,5,5,0,0,713,713,52.8
+8,pydantic,evict_all,,2,Pydantic: How to init a model by a dict with alias field names?,5,5,0,0,627,1340,47.8
+8,pydantic,evict_all,,3,FastAPI - ENUM type models not populated,5,5,0,0,1904,3244,49.1
+8,pydantic,evict_all,,4,Defining recursive models in Pydantic?,5,5,0,0,593,3837,38.4
+8,pydantic,evict_all,,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,5,5,0,0,666,4503,52.7
+8,pydantic,evict_older_than_1,,1,How can I mock my environment variables for my pytest?,5,5,0,0,713,713,57.0
+8,pydantic,evict_older_than_1,,2,Pydantic: How to init a model by a dict with alias field names?,10,5,0,0,1269,1982,54.2
+8,pydantic,evict_older_than_1,,3,FastAPI - ENUM type models not populated,10,5,0,5,2454,4436,59.2
+8,pydantic,evict_older_than_1,,4,Defining recursive models in Pydantic?,7,2,3,5,2095,6531,47.2
+8,pydantic,evict_older_than_1,,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,7,5,0,5,857,7388,53.5
+8,pydantic,pagerank_p10,10.0,1,How can I mock my environment variables for my pytest?,4,5,0,1,507,507,57.1
+8,pydantic,pagerank_p10,10.0,2,Pydantic: How to init a model by a dict with alias field names?,8,5,0,1,942,1449,52.7
+8,pydantic,pagerank_p10,10.0,3,FastAPI - ENUM type models not populated,11,5,0,2,2547,3996,43.4
+8,pydantic,pagerank_p10,10.0,4,Defining recursive models in Pydantic?,11,2,3,2,2521,6517,35.7
+8,pydantic,pagerank_p10,10.0,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,13,4,1,2,2068,8585,59.6
+8,pydantic,pagerank_p20,20.0,1,How can I mock my environment variables for my pytest?,4,5,0,1,507,507,60.7
+8,pydantic,pagerank_p20,20.0,2,Pydantic: How to init a model by a dict with alias field names?,7,5,0,2,820,1327,54.7
+8,pydantic,pagerank_p20,20.0,3,FastAPI - ENUM type models not populated,9,5,0,3,2315,3642,53.2
+8,pydantic,pagerank_p20,20.0,4,Defining recursive models in Pydantic?,9,3,2,3,1943,5585,41.3
+8,pydantic,pagerank_p20,20.0,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,11,5,0,3,1418,7003,45.4
+8,pydantic,pagerank_p30,30.0,1,How can I mock my environment variables for my pytest?,3,5,0,2,386,386,44.9
+8,pydantic,pagerank_p30,30.0,2,Pydantic: How to init a model by a dict with alias field names?,5,5,0,3,627,1013,47.5
+8,pydantic,pagerank_p30,30.0,3,FastAPI - ENUM type models not populated,7,5,0,3,2122,3135,45.5
+8,pydantic,pagerank_p30,30.0,4,Defining recursive models in Pydantic?,7,3,2,3,1010,4145,36.7
+8,pydantic,pagerank_p30,30.0,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,8,5,0,4,999,5144,45.7
+8,pydantic,pagerank_p40,40.0,1,How can I mock my environment variables for my pytest?,3,5,0,2,386,386,50.2
+8,pydantic,pagerank_p40,40.0,2,Pydantic: How to init a model by a dict with alias field names?,5,5,0,3,627,1013,45.6
+8,pydantic,pagerank_p40,40.0,3,FastAPI - ENUM type models not populated,6,5,0,4,1994,3007,48.4
+8,pydantic,pagerank_p40,40.0,4,Defining recursive models in Pydantic?,6,4,1,4,821,3828,46.5
+8,pydantic,pagerank_p40,40.0,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,6,5,0,5,835,4663,52.4
+9,pydantic,no_eviction,,1,Using different Pydantic models depending on the value of fields,5,5,0,0,643,643,58.9
+9,pydantic,no_eviction,,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,10,5,0,0,1270,1913,162.6
+9,pydantic,no_eviction,,3,Is it possible to get pydantic v2 to dump json with sorted keys?,13,3,2,0,1752,3665,57.9
+9,pydantic,no_eviction,,4,How to disable schema checking in FastAPI?,18,5,0,0,3763,7428,56.1
+9,pydantic,no_eviction,,5,Can I get incoming extra fields from Pydantic?,21,3,2,0,4136,11564,37.6
+9,pydantic,evict_all,,1,Using different Pydantic models depending on the value of fields,5,5,0,0,643,643,51.8
+9,pydantic,evict_all,,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,5,5,0,0,700,1343,54.8
+9,pydantic,evict_all,,3,Is it possible to get pydantic v2 to dump json with sorted keys?,5,5,0,0,785,2128,51.3
+9,pydantic,evict_all,,4,How to disable schema checking in FastAPI?,5,5,0,0,2088,4216,51.3
+9,pydantic,evict_all,,5,Can I get incoming extra fields from Pydantic?,5,5,0,0,660,4876,37.5
+9,pydantic,evict_older_than_1,,1,Using different Pydantic models depending on the value of fields,5,5,0,0,643,643,51.8
+9,pydantic,evict_older_than_1,,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,10,5,0,0,1270,1913,57.9
+9,pydantic,evict_older_than_1,,3,Is it possible to get pydantic v2 to dump json with sorted keys?,8,3,2,5,1182,3095,70.4
+9,pydantic,evict_older_than_1,,4,How to disable schema checking in FastAPI?,8,5,0,5,2574,5669,61.2
+9,pydantic,evict_older_than_1,,5,Can I get incoming extra fields from Pydantic?,9,4,1,3,2551,8220,48.3
+9,pydantic,pagerank_p10,10.0,1,Using different Pydantic models depending on the value of fields,4,5,0,1,525,525,56.1
+9,pydantic,pagerank_p10,10.0,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,8,5,0,1,1033,1558,55.9
+9,pydantic,pagerank_p10,10.0,3,Is it possible to get pydantic v2 to dump json with sorted keys?,9,3,2,2,1272,2830,51.1
+9,pydantic,pagerank_p10,10.0,4,How to disable schema checking in FastAPI?,12,5,0,2,3004,5834,49.2
+9,pydantic,pagerank_p10,10.0,5,Can I get incoming extra fields from Pydantic?,13,3,2,2,3075,8909,36.7
+9,pydantic,pagerank_p20,20.0,1,Using different Pydantic models depending on the value of fields,4,5,0,1,525,525,50.8
+9,pydantic,pagerank_p20,20.0,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,7,5,0,2,918,1443,48.3
+9,pydantic,pagerank_p20,20.0,3,Is it possible to get pydantic v2 to dump json with sorted keys?,8,3,2,2,1121,2564,45.9
+9,pydantic,pagerank_p20,20.0,4,How to disable schema checking in FastAPI?,10,5,0,3,2796,5360,48.3
+9,pydantic,pagerank_p20,20.0,5,Can I get incoming extra fields from Pydantic?,10,3,2,3,2339,7699,42.0
+9,pydantic,pagerank_p30,30.0,1,Using different Pydantic models depending on the value of fields,3,5,0,2,406,406,54.3
+9,pydantic,pagerank_p30,30.0,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,5,5,0,3,700,1106,52.9
+9,pydantic,pagerank_p30,30.0,3,Is it possible to get pydantic v2 to dump json with sorted keys?,5,3,2,3,785,1891,50.6
+9,pydantic,pagerank_p30,30.0,4,How to disable schema checking in FastAPI?,7,5,0,3,2310,4201,50.8
+9,pydantic,pagerank_p30,30.0,5,Can I get incoming extra fields from Pydantic?,7,4,1,4,981,5182,41.3
+9,pydantic,pagerank_p40,40.0,1,Using different Pydantic models depending on the value of fields,3,5,0,2,406,406,55.4
+9,pydantic,pagerank_p40,40.0,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,5,5,0,3,700,1106,50.3
+9,pydantic,pagerank_p40,40.0,3,Is it possible to get pydantic v2 to dump json with sorted keys?,5,3,2,3,785,1891,54.1
+9,pydantic,pagerank_p40,40.0,4,How to disable schema checking in FastAPI?,6,5,0,4,1838,3729,50.9
+9,pydantic,pagerank_p40,40.0,5,Can I get incoming extra fields from Pydantic?,6,4,1,4,792,4521,36.9
+10,pydantic,no_eviction,,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,5,5,0,0,625,625,298.4
+10,pydantic,no_eviction,,2,pydantic: Using property.getter decorator for a field with an alias,7,2,3,0,832,1457,46.5
+10,pydantic,no_eviction,,3,How to use `from_orm` if the pydantic model defines aliases?,8,1,4,0,952,2409,50.6
+10,pydantic,no_eviction,,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",13,5,0,0,1506,3915,148.4
+10,pydantic,no_eviction,,5,python pydantic how to mark field as secret,18,5,0,0,3430,7345,63.6
+10,pydantic,evict_all,,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,5,5,0,0,625,625,52.3
+10,pydantic,evict_all,,2,pydantic: Using property.getter decorator for a field with an alias,5,5,0,0,615,1240,47.8
+10,pydantic,evict_all,,3,How to use `from_orm` if the pydantic model defines aliases?,5,5,0,0,653,1893,39.5
+10,pydantic,evict_all,,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",5,5,0,0,631,2524,57.3
+10,pydantic,evict_all,,5,python pydantic how to mark field as secret,5,5,0,0,2005,4529,50.3
+10,pydantic,evict_older_than_1,,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,5,5,0,0,625,625,47.0
+10,pydantic,evict_older_than_1,,2,pydantic: Using property.getter decorator for a field with an alias,7,2,3,0,832,1457,52.9
+10,pydantic,evict_older_than_1,,3,How to use `from_orm` if the pydantic model defines aliases?,3,1,4,5,412,1869,38.1
+10,pydantic,evict_older_than_1,,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",6,5,0,2,750,2619,51.0
+10,pydantic,evict_older_than_1,,5,python pydantic how to mark field as secret,10,5,0,1,2555,5174,54.5
+10,pydantic,pagerank_p10,10.0,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,4,5,0,1,510,510,47.7
+10,pydantic,pagerank_p10,10.0,2,pydantic: Using property.getter decorator for a field with an alias,6,3,2,1,698,1208,52.8
+10,pydantic,pagerank_p10,10.0,3,How to use `from_orm` if the pydantic model defines aliases?,7,2,3,1,869,2077,43.0
+10,pydantic,pagerank_p10,10.0,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",10,5,0,2,1207,3284,54.5
+10,pydantic,pagerank_p10,10.0,5,python pydantic how to mark field as secret,13,5,0,2,2893,6177,53.1
+10,pydantic,pagerank_p20,20.0,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,4,5,0,1,510,510,64.1
+10,pydantic,pagerank_p20,20.0,2,pydantic: Using property.getter decorator for a field with an alias,5,3,2,2,615,1125,55.9
+10,pydantic,pagerank_p20,20.0,3,How to use `from_orm` if the pydantic model defines aliases?,5,2,3,2,653,1778,42.6
+10,pydantic,pagerank_p20,20.0,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",8,5,0,2,969,2747,61.2
+10,pydantic,pagerank_p20,20.0,5,python pydantic how to mark field as secret,10,5,0,3,2544,5291,63.0
+10,pydantic,pagerank_p30,30.0,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,3,5,0,2,392,392,62.6
+10,pydantic,pagerank_p30,30.0,2,pydantic: Using property.getter decorator for a field with an alias,5,4,1,2,615,1007,60.5
+10,pydantic,pagerank_p30,30.0,3,How to use `from_orm` if the pydantic model defines aliases?,5,2,3,2,653,1660,47.9
+10,pydantic,pagerank_p30,30.0,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",7,5,0,3,840,2500,52.7
+10,pydantic,pagerank_p30,30.0,5,python pydantic how to mark field as secret,8,5,0,4,2068,4568,47.1
+10,pydantic,pagerank_p40,40.0,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,3,5,0,2,392,392,51.7
+10,pydantic,pagerank_p40,40.0,2,pydantic: Using property.getter decorator for a field with an alias,4,4,1,3,487,879,52.0
+10,pydantic,pagerank_p40,40.0,3,How to use `from_orm` if the pydantic model defines aliases?,3,2,3,3,416,1295,36.4
+10,pydantic,pagerank_p40,40.0,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",5,5,0,3,591,1886,49.1
+10,pydantic,pagerank_p40,40.0,5,python pydantic how to mark field as secret,6,5,0,4,689,2575,51.9
+11,pydantic,no_eviction,,1,How to parse unix timestamp into datetime without timezone in Fast API,5,5,0,0,565,565,122.4
+11,pydantic,no_eviction,,2,How to define query parameters using Pydantic model in FastAPI?,10,5,0,0,1102,1667,82.4
+11,pydantic,no_eviction,,3,Pydantic V2 - @field_validator `values` argument equivalent,15,5,0,0,1582,3249,51.5
+11,pydantic,no_eviction,,4,Can I override fields from a Pydantic parent model to make them optional?,20,5,0,0,2142,5391,38.8
+11,pydantic,no_eviction,,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,25,5,0,0,2858,8249,179.2
+11,pydantic,evict_all,,1,How to parse unix timestamp into datetime without timezone in Fast API,5,5,0,0,565,565,72.2
+11,pydantic,evict_all,,2,How to define query parameters using Pydantic model in FastAPI?,5,5,0,0,610,1175,49.6
+11,pydantic,evict_all,,3,Pydantic V2 - @field_validator `values` argument equivalent,5,5,0,0,554,1729,41.5
+11,pydantic,evict_all,,4,Can I override fields from a Pydantic parent model to make them optional?,5,5,0,0,635,2364,40.9
+11,pydantic,evict_all,,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,5,5,0,0,792,3156,66.0
+11,pydantic,evict_older_than_1,,1,How to parse unix timestamp into datetime without timezone in Fast API,5,5,0,0,565,565,60.4
+11,pydantic,evict_older_than_1,,2,How to define query parameters using Pydantic model in FastAPI?,10,5,0,0,1102,1667,47.2
+11,pydantic,evict_older_than_1,,3,Pydantic V2 - @field_validator `values` argument equivalent,10,5,0,5,1090,2757,38.4
+11,pydantic,evict_older_than_1,,4,Can I override fields from a Pydantic parent model to make them optional?,10,5,0,5,1114,3871,43.1
+11,pydantic,evict_older_than_1,,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,10,5,0,5,1351,5222,48.7
+11,pydantic,pagerank_p10,10.0,1,How to parse unix timestamp into datetime without timezone in Fast API,4,5,0,1,450,450,54.7
+11,pydantic,pagerank_p10,10.0,2,How to define query parameters using Pydantic model in FastAPI?,8,5,0,1,906,1356,54.5
+11,pydantic,pagerank_p10,10.0,3,Pydantic V2 - @field_validator `values` argument equivalent,11,5,0,2,1196,2552,52.3
+11,pydantic,pagerank_p10,10.0,4,Can I override fields from a Pydantic parent model to make them optional?,14,5,0,2,1520,4072,49.0
+11,pydantic,pagerank_p10,10.0,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,17,5,0,2,2018,6090,60.2
+11,pydantic,pagerank_p20,20.0,1,How to parse unix timestamp into datetime without timezone in Fast API,4,5,0,1,450,450,51.7
+11,pydantic,pagerank_p20,20.0,2,How to define query parameters using Pydantic model in FastAPI?,7,5,0,2,804,1254,47.0
+11,pydantic,pagerank_p20,20.0,3,Pydantic V2 - @field_validator `values` argument equivalent,9,5,0,3,919,2173,37.9
+11,pydantic,pagerank_p20,20.0,4,Can I override fields from a Pydantic parent model to make them optional?,11,5,0,3,1219,3392,41.4
+11,pydantic,pagerank_p20,20.0,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,12,5,0,4,1539,4931,50.6
+11,pydantic,pagerank_p30,30.0,1,How to parse unix timestamp into datetime without timezone in Fast API,3,5,0,2,369,369,55.8
+11,pydantic,pagerank_p30,30.0,2,How to define query parameters using Pydantic model in FastAPI?,5,5,0,3,585,954,56.7
+11,pydantic,pagerank_p30,30.0,3,Pydantic V2 - @field_validator `values` argument equivalent,7,5,0,3,742,1696,38.4
+11,pydantic,pagerank_p30,30.0,4,Can I override fields from a Pydantic parent model to make them optional?,8,5,0,4,913,2609,36.8
+11,pydantic,pagerank_p30,30.0,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,9,5,0,4,1189,3798,75.5
+11,pydantic,pagerank_p40,40.0,1,How to parse unix timestamp into datetime without timezone in Fast API,3,5,0,2,369,369,64.6
+11,pydantic,pagerank_p40,40.0,2,How to define query parameters using Pydantic model in FastAPI?,5,5,0,3,585,954,52.4
+11,pydantic,pagerank_p40,40.0,3,Pydantic V2 - @field_validator `values` argument equivalent,6,5,0,4,660,1614,52.3
+11,pydantic,pagerank_p40,40.0,4,Can I override fields from a Pydantic parent model to make them optional?,6,5,0,5,741,2355,47.2
+11,pydantic,pagerank_p40,40.0,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,6,5,0,5,898,3253,49.3
+12,supabase,no_eviction,,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,691,691,126.4
+12,supabase,no_eviction,,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,10,5,0,0,2569,3260,71.4
+12,supabase,no_eviction,,3,How can I create an enum column in Supabase?,13,3,2,0,3060,6320,69.4
+12,supabase,no_eviction,,4,How to check email already exists in Supabase table for signup in flutter?,18,5,0,0,4231,10551,48.1
+12,supabase,no_eviction,,5,Supabase: Solutions for column-level security,21,3,2,0,4569,15120,88.4
+12,supabase,evict_all,,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,691,691,61.3
+12,supabase,evict_all,,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,5,5,0,0,1962,2653,59.0
+12,supabase,evict_all,,3,How can I create an enum column in Supabase?,5,5,0,0,841,3494,58.8
+12,supabase,evict_all,,4,How to check email already exists in Supabase table for signup in flutter?,5,5,0,0,1243,4737,56.8
+12,supabase,evict_all,,5,Supabase: Solutions for column-level security,5,5,0,0,652,5389,54.5
+12,supabase,evict_older_than_1,,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",5,5,0,0,691,691,61.3
+12,supabase,evict_older_than_1,,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,10,5,0,0,2569,3260,56.6
+12,supabase,evict_older_than_1,,3,How can I create an enum column in Supabase?,8,3,2,5,2453,5713,48.4
+12,supabase,evict_older_than_1,,4,How to check email already exists in Supabase table for signup in flutter?,8,5,0,5,1741,7454,57.4
+12,supabase,evict_older_than_1,,5,Supabase: Solutions for column-level security,9,4,1,3,1696,9150,60.2
+12,supabase,pagerank_p10,10.0,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",4,5,0,1,590,590,62.2
+12,supabase,pagerank_p10,10.0,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,8,5,0,1,2356,2946,57.7
+12,supabase,pagerank_p10,10.0,3,How can I create an enum column in Supabase?,9,3,2,2,2243,5189,53.7
+12,supabase,pagerank_p10,10.0,4,How to check email already exists in Supabase table for signup in flutter?,12,5,0,2,2619,7808,49.2
+12,supabase,pagerank_p10,10.0,5,Supabase: Solutions for column-level security,13,3,2,2,2582,10390,54.0
+12,supabase,pagerank_p20,20.0,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",4,5,0,1,590,590,62.8
+12,supabase,pagerank_p20,20.0,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,7,5,0,2,2233,2823,99.2
+12,supabase,pagerank_p20,20.0,3,How can I create an enum column in Supabase?,8,3,2,2,1851,4674,53.0
+12,supabase,pagerank_p20,20.0,4,How to check email already exists in Supabase table for signup in flutter?,10,5,0,3,2012,6686,54.7
+12,supabase,pagerank_p20,20.0,5,Supabase: Solutions for column-level security,10,3,2,3,1629,8315,52.5
+12,supabase,pagerank_p30,30.0,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",3,5,0,2,478,478,56.4
+12,supabase,pagerank_p30,30.0,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,5,5,0,3,1962,2440,56.7
+12,supabase,pagerank_p30,30.0,3,How can I create an enum column in Supabase?,7,5,0,3,1448,3888,53.5
+12,supabase,pagerank_p30,30.0,4,How to check email already exists in Supabase table for signup in flutter?,8,5,0,4,1626,5514,52.4
+12,supabase,pagerank_p30,30.0,5,Supabase: Solutions for column-level security,8,4,1,4,1033,6547,50.6
+12,supabase,pagerank_p40,40.0,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",3,5,0,2,478,478,61.7
+12,supabase,pagerank_p40,40.0,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,5,5,0,3,1962,2440,56.3
+12,supabase,pagerank_p40,40.0,3,How can I create an enum column in Supabase?,6,5,0,4,953,3393,48.7
+12,supabase,pagerank_p40,40.0,4,How to check email already exists in Supabase table for signup in flutter?,6,5,0,5,1012,4405,55.5
+12,supabase,pagerank_p40,40.0,5,Supabase: Solutions for column-level security,6,4,1,4,805,5210,54.5
+13,supabase,no_eviction,,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,675,675,52.7
+13,supabase,no_eviction,,2,INSERT into the table and return id of the record Supabase JS,10,5,0,0,1289,1964,56.4
+13,supabase,no_eviction,,3,Error: supabaseUrl is required (supabase) postgresql,12,2,3,0,1561,3525,67.2
+13,supabase,no_eviction,,4,"Supabase, filter by column value of foreign key row",17,5,0,0,2556,6081,55.7
+13,supabase,no_eviction,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,17,0,5,0,2558,8639,36.7
+13,supabase,evict_all,,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,675,675,56.9
+13,supabase,evict_all,,2,INSERT into the table and return id of the record Supabase JS,5,5,0,0,691,1366,59.0
+13,supabase,evict_all,,3,Error: supabaseUrl is required (supabase) postgresql,5,5,0,0,709,2075,41.5
+13,supabase,evict_all,,4,"Supabase, filter by column value of foreign key row",5,5,0,0,1071,3146,54.7
+13,supabase,evict_all,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,5,5,0,0,673,3819,41.3
+13,supabase,evict_older_than_1,,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),5,5,0,0,675,675,47.6
+13,supabase,evict_older_than_1,,2,INSERT into the table and return id of the record Supabase JS,10,5,0,0,1289,1964,49.3
+13,supabase,evict_older_than_1,,3,Error: supabaseUrl is required (supabase) postgresql,7,2,3,5,963,2927,38.9
+13,supabase,evict_older_than_1,,4,"Supabase, filter by column value of foreign key row",7,5,0,5,1342,4269,61.3
+13,supabase,evict_older_than_1,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,10,5,0,2,1671,5940,50.7
+13,supabase,pagerank_p10,10.0,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),4,5,0,1,567,567,47.6
+13,supabase,pagerank_p10,10.0,2,INSERT into the table and return id of the record Supabase JS,8,5,0,1,1053,1620,47.2
+13,supabase,pagerank_p10,10.0,3,Error: supabaseUrl is required (supabase) postgresql,9,2,3,1,1188,2808,40.2
+13,supabase,pagerank_p10,10.0,4,"Supabase, filter by column value of foreign key row",12,5,0,2,1960,4768,55.7
+13,supabase,pagerank_p10,10.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,12,2,3,2,1927,6695,52.0
+13,supabase,pagerank_p20,20.0,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),4,5,0,1,567,567,53.6
+13,supabase,pagerank_p20,20.0,2,INSERT into the table and return id of the record Supabase JS,7,5,0,2,968,1535,63.0
+13,supabase,pagerank_p20,20.0,3,Error: supabaseUrl is required (supabase) postgresql,8,3,2,2,1093,2628,39.6
+13,supabase,pagerank_p20,20.0,4,"Supabase, filter by column value of foreign key row",10,5,0,3,1704,4332,48.0
+13,supabase,pagerank_p20,20.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,9,2,3,3,1431,5763,40.5
+13,supabase,pagerank_p30,30.0,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),3,5,0,2,439,439,56.6
+13,supabase,pagerank_p30,30.0,2,INSERT into the table and return id of the record Supabase JS,5,5,0,3,691,1130,53.9
+13,supabase,pagerank_p30,30.0,3,Error: supabaseUrl is required (supabase) postgresql,7,5,0,3,965,2095,39.1
+13,supabase,pagerank_p30,30.0,4,"Supabase, filter by column value of foreign key row",8,5,0,4,1307,3402,50.9
+13,supabase,pagerank_p30,30.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,7,2,3,3,943,4345,36.6
+13,supabase,pagerank_p40,40.0,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),3,5,0,2,439,439,46.6
+13,supabase,pagerank_p40,40.0,2,INSERT into the table and return id of the record Supabase JS,5,5,0,3,691,1130,53.1
+13,supabase,pagerank_p40,40.0,3,Error: supabaseUrl is required (supabase) postgresql,6,5,0,4,823,1953,50.9
+13,supabase,pagerank_p40,40.0,4,"Supabase, filter by column value of foreign key row",6,5,0,5,836,2789,53.4
+13,supabase,pagerank_p40,40.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,5,2,3,3,707,3496,52.0
+14,supabase,no_eviction,,1,Use Supabase with deno,5,5,0,0,703,703,79.8
+14,supabase,no_eviction,,2,How to execute async code before redirect on vue-router?,10,5,0,0,1963,2666,67.5
+14,supabase,no_eviction,,3,Is there RESTful API available for auth features of Supabase,13,3,2,0,2362,5028,71.6
+14,supabase,no_eviction,,4,How to access custom schema from supabase-js client?,18,5,0,0,2936,7964,50.5
+14,supabase,no_eviction,,5,delete associated records in Supabase,19,1,4,0,3045,11009,56.3
+14,supabase,evict_all,,1,Use Supabase with deno,5,5,0,0,703,703,59.7
+14,supabase,evict_all,,2,How to execute async code before redirect on vue-router?,5,5,0,0,1328,2031,49.5
+14,supabase,evict_all,,3,Is there RESTful API available for auth features of Supabase,5,5,0,0,740,2771,50.6
+14,supabase,evict_all,,4,How to access custom schema from supabase-js client?,5,5,0,0,648,3419,40.9
+14,supabase,evict_all,,5,delete associated records in Supabase,5,5,0,0,722,4141,47.9
+14,supabase,evict_older_than_1,,1,Use Supabase with deno,5,5,0,0,703,703,56.9
+14,supabase,evict_older_than_1,,2,How to execute async code before redirect on vue-router?,10,5,0,0,1963,2666,50.0
+14,supabase,evict_older_than_1,,3,Is there RESTful API available for auth features of Supabase,8,3,2,5,1727,4393,55.1
+14,supabase,evict_older_than_1,,4,How to access custom schema from supabase-js client?,8,5,0,5,1044,5437,49.3
+14,supabase,evict_older_than_1,,5,delete associated records in Supabase,8,3,2,3,1027,6464,52.7
+14,supabase,pagerank_p10,10.0,1,Use Supabase with deno,4,5,0,1,607,607,62.4
+14,supabase,pagerank_p10,10.0,2,How to execute async code before redirect on vue-router?,8,5,0,1,1744,2351,47.0
+14,supabase,pagerank_p10,10.0,3,Is there RESTful API available for auth features of Supabase,10,4,1,2,1997,4348,51.9
+14,supabase,pagerank_p10,10.0,4,How to access custom schema from supabase-js client?,13,5,0,2,1822,6170,43.2
+14,supabase,pagerank_p10,10.0,5,delete associated records in Supabase,12,1,4,2,1544,7714,49.9
+14,supabase,pagerank_p20,20.0,1,Use Supabase with deno,4,5,0,1,607,607,57.4
+14,supabase,pagerank_p20,20.0,2,How to execute async code before redirect on vue-router?,7,5,0,2,1595,2202,52.9
+14,supabase,pagerank_p20,20.0,3,Is there RESTful API available for auth features of Supabase,8,4,1,3,1248,3450,64.5
+14,supabase,pagerank_p20,20.0,4,How to access custom schema from supabase-js client?,10,5,0,3,1314,4764,37.9
+14,supabase,pagerank_p20,20.0,5,delete associated records in Supabase,8,1,4,3,1086,5850,39.3
+14,supabase,pagerank_p30,30.0,1,Use Supabase with deno,3,5,0,2,484,484,61.2
+14,supabase,pagerank_p30,30.0,2,How to execute async code before redirect on vue-router?,5,5,0,3,1328,1812,58.5
+14,supabase,pagerank_p30,30.0,3,Is there RESTful API available for auth features of Supabase,7,5,0,3,999,2811,55.3
+14,supabase,pagerank_p30,30.0,4,How to access custom schema from supabase-js client?,8,5,0,4,1054,3865,41.6
+14,supabase,pagerank_p30,30.0,5,delete associated records in Supabase,8,4,1,4,1086,4951,49.8
+14,supabase,pagerank_p40,40.0,1,Use Supabase with deno,3,5,0,2,484,484,53.6
+14,supabase,pagerank_p40,40.0,2,How to execute async code before redirect on vue-router?,5,5,0,3,1328,1812,49.3
+14,supabase,pagerank_p40,40.0,3,Is there RESTful API available for auth features of Supabase,6,5,0,4,861,2673,59.4
+14,supabase,pagerank_p40,40.0,4,How to access custom schema from supabase-js client?,6,5,0,5,790,3463,47.8
+14,supabase,pagerank_p40,40.0,5,delete associated records in Supabase,6,4,1,4,843,4306,45.4
+15,supabase,no_eviction,,1,How to implement anonymous authorization using Supabase?,5,5,0,0,683,683,49.3
+15,supabase,no_eviction,,2,AuthRetryableFetchError with Supabase Auth,10,5,0,0,1282,1965,41.7
+15,supabase,no_eviction,,3,"Supabase, filter by column value of foreign key row",15,5,0,0,2282,4247,49.8
+15,supabase,no_eviction,,4,How can I insert un-exist record and skip exist record in Supabase?,20,5,0,0,3073,7320,68.3
+15,supabase,no_eviction,,5,Supabase and Google Apps Script,20,0,5,0,3064,10384,49.2
+15,supabase,evict_all,,1,How to implement anonymous authorization using Supabase?,5,5,0,0,683,683,54.7
+15,supabase,evict_all,,2,AuthRetryableFetchError with Supabase Auth,5,5,0,0,669,1352,54.5
+15,supabase,evict_all,,3,"Supabase, filter by column value of foreign key row",5,5,0,0,1071,2423,37.0
+15,supabase,evict_all,,4,How can I insert un-exist record and skip exist record in Supabase?,5,5,0,0,864,3287,52.1
+15,supabase,evict_all,,5,Supabase and Google Apps Script,5,5,0,0,666,3953,58.3
+15,supabase,evict_older_than_1,,1,How to implement anonymous authorization using Supabase?,5,5,0,0,683,683,54.3
+15,supabase,evict_older_than_1,,2,AuthRetryableFetchError with Supabase Auth,10,5,0,0,1282,1965,50.8
+15,supabase,evict_older_than_1,,3,"Supabase, filter by column value of foreign key row",10,5,0,5,1669,3634,40.6
+15,supabase,evict_older_than_1,,4,How can I insert un-exist record and skip exist record in Supabase?,10,5,0,5,1862,5496,59.3
+15,supabase,evict_older_than_1,,5,Supabase and Google Apps Script,10,5,0,5,1453,6949,54.5
+15,supabase,pagerank_p10,10.0,1,How to implement anonymous authorization using Supabase?,4,5,0,1,584,584,57.4
+15,supabase,pagerank_p10,10.0,2,AuthRetryableFetchError with Supabase Auth,8,5,0,1,1036,1620,58.2
+15,supabase,pagerank_p10,10.0,3,"Supabase, filter by column value of foreign key row",11,5,0,2,1784,3404,43.6
+15,supabase,pagerank_p10,10.0,4,How can I insert un-exist record and skip exist record in Supabase?,14,5,0,2,2341,5745,52.3
+15,supabase,pagerank_p10,10.0,5,Supabase and Google Apps Script,14,2,3,2,2098,7843,49.8
+15,supabase,pagerank_p20,20.0,1,How to implement anonymous authorization using Supabase?,4,5,0,1,584,584,53.5
+15,supabase,pagerank_p20,20.0,2,AuthRetryableFetchError with Supabase Auth,7,5,0,2,940,1524,49.5
+15,supabase,pagerank_p20,20.0,3,"Supabase, filter by column value of foreign key row",9,5,0,3,1621,3145,38.3
+15,supabase,pagerank_p20,20.0,4,How can I insert un-exist record and skip exist record in Supabase?,11,5,0,3,1901,5046,52.1
+15,supabase,pagerank_p20,20.0,5,Supabase and Google Apps Script,11,3,2,3,1609,6655,49.1
+15,supabase,pagerank_p30,30.0,1,How to implement anonymous authorization using Supabase?,3,5,0,2,437,437,58.8
+15,supabase,pagerank_p30,30.0,2,AuthRetryableFetchError with Supabase Auth,5,5,0,3,669,1106,55.6
+15,supabase,pagerank_p30,30.0,3,"Supabase, filter by column value of foreign key row",7,5,0,3,1350,2456,41.0
+15,supabase,pagerank_p30,30.0,4,How can I insert un-exist record and skip exist record in Supabase?,8,5,0,4,1299,3755,53.0
+15,supabase,pagerank_p30,30.0,5,Supabase and Google Apps Script,7,3,2,4,936,4691,56.5
+15,supabase,pagerank_p40,40.0,1,How to implement anonymous authorization using Supabase?,3,5,0,2,437,437,49.6
+15,supabase,pagerank_p40,40.0,2,AuthRetryableFetchError with Supabase Auth,5,5,0,3,669,1106,51.7
+15,supabase,pagerank_p40,40.0,3,"Supabase, filter by column value of foreign key row",6,5,0,4,1199,2305,38.5
+15,supabase,pagerank_p40,40.0,4,How can I insert un-exist record and skip exist record in Supabase?,6,5,0,5,992,3297,45.7
+15,supabase,pagerank_p40,40.0,5,Supabase and Google Apps Script,6,4,1,4,780,4077,56.9
+16,supabase,no_eviction,,1,Using supabase.auth.getSession() is potentially insecure,5,5,0,0,864,864,39.0
+16,supabase,no_eviction,,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,10,5,0,0,1729,2593,75.3
+16,supabase,no_eviction,,3,How to get &quot;COUNT(*)&quot; in Supabase,15,5,0,0,2330,4923,36.1
+16,supabase,no_eviction,,4,Supabase signup() fails - signup not allowed,18,3,2,0,2712,7635,67.9
+16,supabase,no_eviction,,5,Use Supabase with deno,22,4,1,0,3224,10859,46.3
+16,supabase,evict_all,,1,Using supabase.auth.getSession() is potentially insecure,5,5,0,0,864,864,48.5
+16,supabase,evict_all,,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,5,5,0,0,936,1800,50.6
+16,supabase,evict_all,,3,How to get &quot;COUNT(*)&quot; in Supabase,5,5,0,0,680,2480,38.5
+16,supabase,evict_all,,4,Supabase signup() fails - signup not allowed,5,5,0,0,669,3149,60.1
+16,supabase,evict_all,,5,Use Supabase with deno,5,5,0,0,703,3852,62.7
+16,supabase,evict_older_than_1,,1,Using supabase.auth.getSession() is potentially insecure,5,5,0,0,864,864,61.9
+16,supabase,evict_older_than_1,,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,10,5,0,0,1729,2593,58.5
+16,supabase,evict_older_than_1,,3,How to get &quot;COUNT(*)&quot; in Supabase,10,5,0,5,1537,4130,42.9
+16,supabase,evict_older_than_1,,4,Supabase signup() fails - signup not allowed,8,3,2,5,1062,5192,57.2
+16,supabase,evict_older_than_1,,5,Use Supabase with deno,7,4,1,5,970,6162,57.8
+16,supabase,pagerank_p10,10.0,1,Using supabase.auth.getSession() is potentially insecure,4,5,0,1,710,710,52.4
+16,supabase,pagerank_p10,10.0,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,8,5,0,1,1383,2093,60.1
+16,supabase,pagerank_p10,10.0,3,How to get &quot;COUNT(*)&quot; in Supabase,11,5,0,2,1665,3758,41.9
+16,supabase,pagerank_p10,10.0,4,Supabase signup() fails - signup not allowed,12,3,2,2,1658,5416,51.9
+16,supabase,pagerank_p10,10.0,5,Use Supabase with deno,14,4,1,2,1861,7277,69.3
+16,supabase,pagerank_p20,20.0,1,Using supabase.auth.getSession() is potentially insecure,4,5,0,1,710,710,57.8
+16,supabase,pagerank_p20,20.0,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,7,5,0,2,1177,1887,50.9
+16,supabase,pagerank_p20,20.0,3,How to get &quot;COUNT(*)&quot; in Supabase,9,5,0,3,1271,3158,37.2
+16,supabase,pagerank_p20,20.0,4,Supabase signup() fails - signup not allowed,9,3,2,3,1292,4450,50.8
+16,supabase,pagerank_p20,20.0,5,Use Supabase with deno,11,5,0,3,1460,5910,52.3
+16,supabase,pagerank_p30,30.0,1,Using supabase.auth.getSession() is potentially insecure,3,5,0,2,518,518,46.9
+16,supabase,pagerank_p30,30.0,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,5,5,0,3,936,1454,52.7
+16,supabase,pagerank_p30,30.0,3,How to get &quot;COUNT(*)&quot; in Supabase,7,5,0,3,1030,2484,42.7
+16,supabase,pagerank_p30,30.0,4,Supabase signup() fails - signup not allowed,7,3,2,3,1019,3503,57.8
+16,supabase,pagerank_p30,30.0,5,Use Supabase with deno,8,5,0,4,1065,4568,61.9
+16,supabase,pagerank_p40,40.0,1,Using supabase.auth.getSession() is potentially insecure,3,5,0,2,518,518,54.6
+16,supabase,pagerank_p40,40.0,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,5,5,0,3,936,1454,55.5
+16,supabase,pagerank_p40,40.0,3,How to get &quot;COUNT(*)&quot; in Supabase,6,5,0,4,839,2293,42.8
+16,supabase,pagerank_p40,40.0,4,Supabase signup() fails - signup not allowed,5,3,2,4,700,2993,47.3
+16,supabase,pagerank_p40,40.0,5,Use Supabase with deno,6,5,0,4,854,3847,58.5
+17,supabase,no_eviction,,1,How to access custom schema from supabase-js client?,5,5,0,0,648,648,59.8
+17,supabase,no_eviction,,2,Update multiple rows in a single query in a Supabase Database (postgres),10,5,0,0,1307,1955,62.6
+17,supabase,no_eviction,,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,15,5,0,0,2882,4837,42.5
+17,supabase,no_eviction,,4,How to pull data from my production supabase database into my local supabase database,20,5,0,0,3660,8497,31.5
+17,supabase,no_eviction,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,25,5,0,0,4254,12751,42.9
+17,supabase,evict_all,,1,How to access custom schema from supabase-js client?,5,5,0,0,648,648,32.5
+17,supabase,evict_all,,2,Update multiple rows in a single query in a Supabase Database (postgres),5,5,0,0,731,1379,36.5
+17,supabase,evict_all,,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,5,5,0,0,1651,3030,36.9
+17,supabase,evict_all,,4,How to pull data from my production supabase database into my local supabase database,5,5,0,0,854,3884,23.1
+17,supabase,evict_all,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,5,5,0,0,673,4557,25.7
+17,supabase,evict_older_than_1,,1,How to access custom schema from supabase-js client?,5,5,0,0,648,648,29.4
+17,supabase,evict_older_than_1,,2,Update multiple rows in a single query in a Supabase Database (postgres),10,5,0,0,1307,1955,27.3
+17,supabase,evict_older_than_1,,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,10,5,0,5,2306,4261,38.0
+17,supabase,evict_older_than_1,,4,How to pull data from my production supabase database into my local supabase database,10,5,0,5,2429,6690,28.9
+17,supabase,evict_older_than_1,,5,Supabase reset password error: &quot;Auth Session Missing&quot;,10,5,0,5,1448,8138,30.3
+17,supabase,pagerank_p10,10.0,1,How to access custom schema from supabase-js client?,4,5,0,1,522,522,30.0
+17,supabase,pagerank_p10,10.0,2,Update multiple rows in a single query in a Supabase Database (postgres),8,5,0,1,1095,1617,29.5
+17,supabase,pagerank_p10,10.0,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,11,5,0,2,2443,4060,26.4
+17,supabase,pagerank_p10,10.0,4,How to pull data from my production supabase database into my local supabase database,14,5,0,2,2918,6978,26.2
+17,supabase,pagerank_p10,10.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,17,5,0,2,3274,10252,30.9
+17,supabase,pagerank_p20,20.0,1,How to access custom schema from supabase-js client?,4,5,0,1,522,522,31.6
+17,supabase,pagerank_p20,20.0,2,Update multiple rows in a single query in a Supabase Database (postgres),7,5,0,2,979,1501,34.1
+17,supabase,pagerank_p20,20.0,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,9,5,0,3,2136,3637,36.6
+17,supabase,pagerank_p20,20.0,4,How to pull data from my production supabase database into my local supabase database,11,5,0,3,2164,5801,41.0
+17,supabase,pagerank_p20,20.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,12,5,0,4,1685,7486,44.4
+17,supabase,pagerank_p30,30.0,1,How to access custom schema from supabase-js client?,3,5,0,2,436,436,29.7
+17,supabase,pagerank_p30,30.0,2,Update multiple rows in a single query in a Supabase Database (postgres),5,5,0,3,731,1167,31.0
+17,supabase,pagerank_p30,30.0,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,7,5,0,3,1888,3055,32.0
+17,supabase,pagerank_p30,30.0,4,How to pull data from my production supabase database into my local supabase database,8,5,0,4,1204,4259,31.7
+17,supabase,pagerank_p30,30.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,9,5,0,4,1219,5478,31.1
+17,supabase,pagerank_p40,40.0,1,How to access custom schema from supabase-js client?,3,5,0,2,436,436,25.8
+17,supabase,pagerank_p40,40.0,2,Update multiple rows in a single query in a Supabase Database (postgres),5,5,0,3,731,1167,27.7
+17,supabase,pagerank_p40,40.0,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,6,5,0,4,1765,2932,34.5
+17,supabase,pagerank_p40,40.0,4,How to pull data from my production supabase database into my local supabase database,6,5,0,5,968,3900,45.9
+17,supabase,pagerank_p40,40.0,5,Supabase reset password error: &quot;Auth Session Missing&quot;,6,5,0,5,787,4687,34.4

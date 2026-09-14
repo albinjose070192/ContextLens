@@ -1,0 +1,5 @@
+question_id,tag,query,condition,n_chunks,prompt_tokens,retrieve_ms,llm_input_tokens,llm_output_tokens,llm_ms,completion_score,precision_score,retrieval_precision_score,cost_usd,n_loaded,n_skipped_dup
+77025354,pydantic,"With Pydantic V2 and model_validate, how can I create a &quot;computed field&quot; from an attribute of an ORM model that IS NOT part of the Pydantic model",flat,5,544,1529.1,,,,,,,,,
+77025354,pydantic,"With Pydantic V2 and model_validate, how can I create a &quot;computed field&quot; from an attribute of an ORM model that IS NOT part of the Pydantic model",selective,5,550,28.9,,,,,,,,5.0,0.0
+63264888,fastapi,pydantic: Using property.getter decorator for a field with an alias,flat,5,475,113.7,,,,,,,,,
+63264888,fastapi,pydantic: Using property.getter decorator for a field with an alias,selective,5,536,29.0,,,,,,,,5.0,0.0

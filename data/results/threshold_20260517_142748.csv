@@ -1,0 +1,7 @@
+threshold,mean_sel_context_tokens,mean_flat_context_tokens,mean_sel_chunks,mean_flat_chunks,mean_sel_latency_ms,mean_flat_latency_ms,mean_sel_precision,mean_flat_precision,n_queries
+none,788.1,801.6,10.0,10.0,99.7,33.3,0.0,0.0,50
+0.5,788.1,801.6,10.0,10.0,82.1,30.0,0.0,0.0,50
+0.6,788.1,801.6,10.0,10.0,80.3,31.5,0.0,0.0,50
+0.7,788.1,801.6,10.0,10.0,80.4,29.6,0.0,0.0,50
+0.8,788.1,801.6,10.0,10.0,86.8,29.1,0.0,0.0,50
+0.9,788.1,801.6,10.0,10.0,82.3,29.5,0.0,0.0,50

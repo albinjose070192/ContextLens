@@ -1,0 +1,271 @@
+task_id,tag,condition,step,query,n_chunks_in_window,step_tokens,cumulative_tokens,retrieve_ms,n_newly_loaded,n_skipped_dup,n_evicted,context_tokens
+0,fastapi,flat_accumulate,1,How should I organize my path operations in FastAPI?,20,2099,2099,1054.1,,,,
+0,fastapi,flat_accumulate,2,FastAPI/uvicorn not working when specifying host,38,3905,6004,24.4,,,,
+0,fastapi,flat_accumulate,3,How to add a custom decorator to a FastAPI route?,50,5070,11074,94.0,,,,
+0,fastapi,flat_accumulate,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,65,6703,17777,104.7,,,,
+0,fastapi,flat_accumulate,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",69,7152,24929,94.0,,,,
+0,fastapi,flat_reset,1,How should I organize my path operations in FastAPI?,20,2099,2099,21.1,,,,
+0,fastapi,flat_reset,2,FastAPI/uvicorn not working when specifying host,20,2031,4130,22.2,,,,
+0,fastapi,flat_reset,3,How to add a custom decorator to a FastAPI route?,20,1964,6094,27.3,,,,
+0,fastapi,flat_reset,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,20,2206,8300,28.0,,,,
+0,fastapi,flat_reset,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",20,2015,10315,19.2,,,,
+0,fastapi,selective,1,How should I organize my path operations in FastAPI?,20,2069,2069,20.1,20.0,0.0,0.0,1998.0
+0,fastapi,selective,2,FastAPI/uvicorn not working when specifying host,28,2943,5012,53.1,8.0,12.0,0.0,2872.0
+0,fastapi,selective,3,How to add a custom decorator to a FastAPI route?,11,1294,6306,27.7,3.0,17.0,20.0,1222.0
+0,fastapi,selective,4,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,20,2013,8319,19.3,17.0,3.0,8.0,1929.0
+0,fastapi,selective,5,"FastAPI, SQLAlchemy, pytest, unable to get 100% coverage, it doesn&#39;t properly collected",29,2981,11300,16.1,12.0,8.0,3.0,2897.0
+1,fastapi,flat_accumulate,1,FastAPI - Supporting multiple authentication dependencies,20,1873,1873,119.6,,,,
+1,fastapi,flat_accumulate,2,pydantic: Using property.getter decorator for a field with an alias,31,2833,4706,106.9,,,,
+1,fastapi,flat_accumulate,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,41,3925,8631,68.7,,,,
+1,fastapi,flat_accumulate,4,How can I use both required and optional path parameters in a FastAPI endpoint?,45,4342,12973,65.6,,,,
+1,fastapi,flat_accumulate,5,Ratelimit in Fastapi,51,4922,17895,90.6,,,,
+1,fastapi,flat_reset,1,FastAPI - Supporting multiple authentication dependencies,20,1873,1873,20.5,,,,
+1,fastapi,flat_reset,2,pydantic: Using property.getter decorator for a field with an alias,20,1749,3622,17.9,,,,
+1,fastapi,flat_reset,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,20,2037,5659,18.8,,,,
+1,fastapi,flat_reset,4,How can I use both required and optional path parameters in a FastAPI endpoint?,20,1915,7574,18.5,,,,
+1,fastapi,flat_reset,5,Ratelimit in Fastapi,20,1885,9459,21.3,,,,
+1,fastapi,selective,1,FastAPI - Supporting multiple authentication dependencies,20,1832,1832,27.0,20.0,0.0,0.0,1764.0
+1,fastapi,selective,2,pydantic: Using property.getter decorator for a field with an alias,29,2717,4549,48.4,9.0,11.0,0.0,2641.0
+1,fastapi,selective,3,how to put backend and frontend together - returning react frontend from fastapi backend endpoint,15,1728,6277,29.8,6.0,14.0,20.0,1651.0
+1,fastapi,selective,4,How can I use both required and optional path parameters in a FastAPI endpoint?,19,2150,8427,19.8,13.0,7.0,9.0,2074.0
+1,fastapi,selective,5,Ratelimit in Fastapi,24,2274,10701,24.8,11.0,9.0,6.0,2207.0
+2,fastapi,flat_accumulate,1,Replace server name with fake server name in response header in fastapi,20,1930,1930,143.1,,,,
+2,fastapi,flat_accumulate,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,38,3882,5812,71.7,,,,
+2,fastapi,flat_accumulate,3,How to use class based views in FastAPI?,47,4727,10539,878.1,,,,
+2,fastapi,flat_accumulate,4,Where to put depends/ dependendies for authentication in Fastapi?,56,5644,16183,16.8,,,,
+2,fastapi,flat_accumulate,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,63,6485,22668,16.5,,,,
+2,fastapi,flat_reset,1,Replace server name with fake server name in response header in fastapi,20,1930,1930,16.5,,,,
+2,fastapi,flat_reset,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,20,2206,4136,18.6,,,,
+2,fastapi,flat_reset,3,How to use class based views in FastAPI?,20,1951,6087,18.2,,,,
+2,fastapi,flat_reset,4,Where to put depends/ dependendies for authentication in Fastapi?,20,2004,8091,17.6,,,,
+2,fastapi,flat_reset,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,20,2210,10301,19.9,,,,
+2,fastapi,selective,1,Replace server name with fake server name in response header in fastapi,20,1994,1994,24.0,20.0,0.0,0.0,1920.0
+2,fastapi,selective,2,Python3.8 - FastAPI and Serverless (AWS Lambda) - Unable to process files sent to api endpoint,31,3008,5002,52.9,11.0,9.0,0.0,2924.0
+2,fastapi,selective,3,How to use class based views in FastAPI?,15,1491,6493,19.4,4.0,16.0,20.0,1421.0
+2,fastapi,selective,4,Where to put depends/ dependendies for authentication in Fastapi?,20,2088,8581,77.6,16.0,4.0,11.0,2014.0
+2,fastapi,selective,5,How to start a Uvicorn + FastAPI in background when testing with PyTest,23,2426,11007,71.6,7.0,13.0,4.0,2348.0
+3,fastapi,flat_accumulate,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",20,2108,2108,43.3,,,,
+3,fastapi,flat_accumulate,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",36,3854,5962,99.0,,,,
+3,fastapi,flat_accumulate,3,How to pass the default value to a variable if None was passed?,49,5101,11063,29.5,,,,
+3,fastapi,flat_accumulate,4,FastAPI (starlette) get client real IP,59,6066,17129,39.5,,,,
+3,fastapi,flat_accumulate,5,"FastAPI, return a File response with the output of a sql query",64,6513,23642,22.1,,,,
+3,fastapi,flat_reset,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",20,2108,2108,23.1,,,,
+3,fastapi,flat_reset,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",20,2160,4268,15.7,,,,
+3,fastapi,flat_reset,3,How to pass the default value to a variable if None was passed?,20,1987,6255,14.9,,,,
+3,fastapi,flat_reset,4,FastAPI (starlette) get client real IP,20,1942,8197,16.7,,,,
+3,fastapi,flat_reset,5,"FastAPI, return a File response with the output of a sql query",20,1809,10006,15.7,,,,
+3,fastapi,selective,1,"FastAPI responding slowly when calling through other Python app, but fast in cURL",20,2186,2186,16.8,20.0,0.0,0.0,2109.0
+3,fastapi,selective,2,"FastAPI, add long tasks to buffer and process them one by one, while maintaining server responsiveness",31,3429,5615,58.8,11.0,9.0,0.0,3349.0
+3,fastapi,selective,3,How to pass the default value to a variable if None was passed?,18,1990,7605,19.5,7.0,13.0,20.0,1916.0
+3,fastapi,selective,4,FastAPI (starlette) get client real IP,24,2429,10034,20.5,17.0,3.0,11.0,2358.0
+3,fastapi,selective,5,"FastAPI, return a File response with the output of a sql query",28,2748,12782,20.8,11.0,9.0,7.0,2673.0
+4,fastapi,flat_accumulate,1,What does Depends with no parameter do?,20,1949,1949,112.1,,,,
+4,fastapi,flat_accumulate,2,How to run FastAPI / Uvicorn in Google Colab?,36,3679,5628,25.9,,,,
+4,fastapi,flat_accumulate,3,How to send file to FastAPI endpoint using Postman?,41,4186,9814,119.1,,,,
+4,fastapi,flat_accumulate,4,How to access request object in router function using FastAPI?,49,5021,14835,27.6,,,,
+4,fastapi,flat_accumulate,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,63,6575,21410,242.4,,,,
+4,fastapi,flat_reset,1,What does Depends with no parameter do?,20,1949,1949,38.0,,,,
+4,fastapi,flat_reset,2,How to run FastAPI / Uvicorn in Google Colab?,20,2165,4114,17.4,,,,
+4,fastapi,flat_reset,3,How to send file to FastAPI endpoint using Postman?,20,2074,6188,20.5,,,,
+4,fastapi,flat_reset,4,How to access request object in router function using FastAPI?,20,1931,8119,22.4,,,,
+4,fastapi,flat_reset,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,20,2210,10329,25.3,,,,
+4,fastapi,selective,1,What does Depends with no parameter do?,20,2011,2011,12.2,20.0,0.0,0.0,1943.0
+4,fastapi,selective,2,How to run FastAPI / Uvicorn in Google Colab?,30,3056,5067,23.2,10.0,10.0,0.0,2982.0
+4,fastapi,selective,3,How to send file to FastAPI endpoint using Postman?,15,1601,6668,25.2,5.0,15.0,20.0,1529.0
+4,fastapi,selective,4,How to access request object in router function using FastAPI?,21,2270,8938,22.9,16.0,4.0,10.0,2198.0
+4,fastapi,selective,5,Keep getting &quot;307 Temporary Redirect&quot; before returning status 200 hosted on FastAPI + uvicorn + Docker app - how to return status 200?,36,3952,12890,42.6,20.0,0.0,5.0,3859.0
+5,fastapi,flat_accumulate,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,20,2060,2060,37.1,,,,
+5,fastapi,flat_accumulate,2,Pydantic constr vs Field args,35,3357,5417,154.7,,,,
+5,fastapi,flat_accumulate,3,Python Fastapi with existing database?,43,4245,9662,37.5,,,,
+5,fastapi,flat_accumulate,4,How to debug FastAPI openapi generation error,48,4709,14371,22.4,,,,
+5,fastapi,flat_accumulate,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,49,4812,19183,17.9,,,,
+5,fastapi,flat_reset,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,20,2060,2060,37.9,,,,
+5,fastapi,flat_reset,2,Pydantic constr vs Field args,20,1753,3813,43.4,,,,
+5,fastapi,flat_reset,3,Python Fastapi with existing database?,20,2020,5833,179.0,,,,
+5,fastapi,flat_reset,4,How to debug FastAPI openapi generation error,20,1878,7711,50.0,,,,
+5,fastapi,flat_reset,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,20,1817,9528,50.2,,,,
+5,fastapi,selective,1,FastAPI sharing SQLAlchemy session across threads when using synchronous functions,20,2202,2202,37.4,20.0,0.0,0.0,2130.0
+5,fastapi,selective,2,Pydantic constr vs Field args,31,3211,5413,118.0,11.0,9.0,0.0,3142.0
+5,fastapi,selective,3,Python Fastapi with existing database?,17,1540,6953,19.9,6.0,14.0,20.0,1473.0
+5,fastapi,selective,4,How to debug FastAPI openapi generation error,20,1855,8808,23.7,14.0,6.0,11.0,1785.0
+5,fastapi,selective,5,FastAPI OAuth2PasswordRequestForm dependency causing request failure,23,2278,11086,19.1,9.0,11.0,6.0,2206.0
+6,pydantic,flat_accumulate,1,Pydantic inconsistent and automatic conversion between float and int,20,1962,1962,46.2,,,,
+6,pydantic,flat_accumulate,2,Define a Pydantic (nested) model,34,3136,5098,24.7,,,,
+6,pydantic,flat_accumulate,3,Including special character in Basemodel for Pydantic,40,3672,8770,76.1,,,,
+6,pydantic,flat_accumulate,4,Not Required in Pydantic&#39;s Base Models,49,4391,13161,44.4,,,,
+6,pydantic,flat_accumulate,5,Pydantic: dataclass vs BaseModel,50,4467,17628,35.5,,,,
+6,pydantic,flat_reset,1,Pydantic inconsistent and automatic conversion between float and int,20,1962,1962,24.6,,,,
+6,pydantic,flat_reset,2,Define a Pydantic (nested) model,20,1781,3743,21.7,,,,
+6,pydantic,flat_reset,3,Including special character in Basemodel for Pydantic,20,1808,5551,22.4,,,,
+6,pydantic,flat_reset,4,Not Required in Pydantic&#39;s Base Models,20,1612,7163,24.1,,,,
+6,pydantic,flat_reset,5,Pydantic: dataclass vs BaseModel,20,1750,8913,28.0,,,,
+6,pydantic,selective,1,Pydantic inconsistent and automatic conversion between float and int,20,2043,2043,64.6,20.0,0.0,0.0,1971.0
+6,pydantic,selective,2,Define a Pydantic (nested) model,31,3041,5084,59.5,11.0,9.0,0.0,2971.0
+6,pydantic,selective,3,Including special character in Basemodel for Pydantic,16,1492,6576,97.9,5.0,15.0,20.0,1420.0
+6,pydantic,selective,4,Not Required in Pydantic&#39;s Base Models,20,1881,8457,33.0,15.0,5.0,11.0,1808.0
+6,pydantic,selective,5,Pydantic: dataclass vs BaseModel,21,1967,10424,33.1,6.0,14.0,5.0,1898.0
+7,pydantic,flat_accumulate,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,20,1897,1897,169.5,,,,
+7,pydantic,flat_accumulate,2,Partial update in FastAPI,31,2848,4745,156.2,,,,
+7,pydantic,flat_accumulate,3,Pydantic does not validate when assigning a number to a string,41,3897,8642,18.4,,,,
+7,pydantic,flat_accumulate,4,Not Required in Pydantic&#39;s Base Models,50,4583,13225,15.8,,,,
+7,pydantic,flat_accumulate,5,Dynamically Generating Pydantic Model from a Schema JSON File,61,5689,18914,70.7,,,,
+7,pydantic,flat_reset,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,20,1897,1897,15.3,,,,
+7,pydantic,flat_reset,2,Partial update in FastAPI,20,1786,3683,15.9,,,,
+7,pydantic,flat_reset,3,Pydantic does not validate when assigning a number to a string,20,1987,5670,16.4,,,,
+7,pydantic,flat_reset,4,Not Required in Pydantic&#39;s Base Models,20,1612,7282,16.2,,,,
+7,pydantic,flat_reset,5,Dynamically Generating Pydantic Model from a Schema JSON File,20,1908,9190,15.5,,,,
+7,pydantic,selective,1,FastAPI: How to specify possible values for a field in Pydantic&#39;s Basemodel?,20,2084,2084,23.5,20.0,0.0,0.0,2003.0
+7,pydantic,selective,2,Partial update in FastAPI,33,3124,5208,26.0,13.0,7.0,0.0,3058.0
+7,pydantic,selective,3,Pydantic does not validate when assigning a number to a string,19,1715,6923,28.2,6.0,14.0,20.0,1641.0
+7,pydantic,selective,4,Not Required in Pydantic&#39;s Base Models,22,2198,9121,26.9,16.0,4.0,13.0,2125.0
+7,pydantic,selective,5,Dynamically Generating Pydantic Model from a Schema JSON File,32,3020,12141,46.9,16.0,4.0,6.0,2946.0
+8,pydantic,flat_accumulate,1,How can I mock my environment variables for my pytest?,20,2090,2090,37.1,,,,
+8,pydantic,flat_accumulate,2,Pydantic: How to init a model by a dict with alias field names?,32,3196,5286,48.3,,,,
+8,pydantic,flat_accumulate,3,FastAPI - ENUM type models not populated,41,3972,9258,36.2,,,,
+8,pydantic,flat_accumulate,4,Defining recursive models in Pydantic?,51,4974,14232,31.8,,,,
+8,pydantic,flat_accumulate,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,60,5994,20226,119.6,,,,
+8,pydantic,flat_reset,1,How can I mock my environment variables for my pytest?,20,2090,2090,19.8,,,,
+8,pydantic,flat_reset,2,Pydantic: How to init a model by a dict with alias field names?,20,1927,4017,22.5,,,,
+8,pydantic,flat_reset,3,FastAPI - ENUM type models not populated,20,1815,5832,21.8,,,,
+8,pydantic,flat_reset,4,Defining recursive models in Pydantic?,20,1957,7789,26.5,,,,
+8,pydantic,flat_reset,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,20,2187,9976,48.5,,,,
+8,pydantic,selective,1,How can I mock my environment variables for my pytest?,20,2154,2154,62.5,20.0,0.0,0.0,2083.0
+8,pydantic,selective,2,Pydantic: How to init a model by a dict with alias field names?,24,2509,4663,139.1,4.0,16.0,0.0,2432.0
+8,pydantic,selective,3,FastAPI - ENUM type models not populated,13,1118,5781,38.5,9.0,11.0,20.0,1049.0
+8,pydantic,selective,4,Defining recursive models in Pydantic?,26,2462,8243,22.5,17.0,3.0,4.0,2393.0
+8,pydantic,selective,5,Can I force pip to install dependencies for x86_64 architecture in powershell to make Lambda layer?,25,2835,11078,26.5,8.0,12.0,9.0,2754.0
+9,pydantic,flat_accumulate,1,Using different Pydantic models depending on the value of fields,20,1773,1773,28.3,,,,
+9,pydantic,flat_accumulate,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,38,3301,5074,138.3,,,,
+9,pydantic,flat_accumulate,3,Is it possible to get pydantic v2 to dump json with sorted keys?,55,5181,10255,41.4,,,,
+9,pydantic,flat_accumulate,4,How to disable schema checking in FastAPI?,62,5936,16191,34.7,,,,
+9,pydantic,flat_accumulate,5,Can I get incoming extra fields from Pydantic?,66,6327,22518,34.1,,,,
+9,pydantic,flat_reset,1,Using different Pydantic models depending on the value of fields,20,1773,1773,25.8,,,,
+9,pydantic,flat_reset,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,20,1711,3484,36.7,,,,
+9,pydantic,flat_reset,3,Is it possible to get pydantic v2 to dump json with sorted keys?,20,2168,5652,36.1,,,,
+9,pydantic,flat_reset,4,How to disable schema checking in FastAPI?,20,1993,7645,26.0,,,,
+9,pydantic,flat_reset,5,Can I get incoming extra fields from Pydantic?,20,1941,9586,34.2,,,,
+9,pydantic,selective,1,Using different Pydantic models depending on the value of fields,20,2014,2014,82.3,20.0,0.0,0.0,1941.0
+9,pydantic,selective,2,pydantic.error_wrappers.ValidationError: 11 validation errors for For Trip type=value_error.missing,33,3117,5131,184.9,13.0,7.0,0.0,3036.0
+9,pydantic,selective,3,Is it possible to get pydantic v2 to dump json with sorted keys?,18,1770,6901,27.4,5.0,15.0,20.0,1693.0
+9,pydantic,selective,4,How to disable schema checking in FastAPI?,22,2338,9239,22.8,17.0,3.0,13.0,2269.0
+9,pydantic,selective,5,Can I get incoming extra fields from Pydantic?,22,2279,11518,17.8,5.0,15.0,5.0,2208.0
+10,pydantic,flat_accumulate,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,20,1711,1711,215.1,,,,
+10,pydantic,flat_accumulate,2,pydantic: Using property.getter decorator for a field with an alias,25,2136,3847,45.2,,,,
+10,pydantic,flat_accumulate,3,How to use `from_orm` if the pydantic model defines aliases?,30,2633,6480,26.6,,,,
+10,pydantic,flat_accumulate,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",40,3663,10143,75.4,,,,
+10,pydantic,flat_accumulate,5,python pydantic how to mark field as secret,47,4382,14525,34.6,,,,
+10,pydantic,flat_reset,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,20,1711,1711,25.3,,,,
+10,pydantic,flat_reset,2,pydantic: Using property.getter decorator for a field with an alias,20,1749,3460,39.1,,,,
+10,pydantic,flat_reset,3,How to use `from_orm` if the pydantic model defines aliases?,20,1789,5249,36.7,,,,
+10,pydantic,flat_reset,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",20,1896,7145,84.5,,,,
+10,pydantic,flat_reset,5,python pydantic how to mark field as secret,20,1911,9056,35.3,,,,
+10,pydantic,selective,1,ValueError: object has no field when using monkeypatch.setattr on a pydantic.BaseModel&#39;s method,20,2041,2041,28.1,20.0,0.0,0.0,1956.0
+10,pydantic,selective,2,pydantic: Using property.getter decorator for a field with an alias,28,2835,4876,148.1,8.0,12.0,0.0,2759.0
+10,pydantic,selective,3,How to use `from_orm` if the pydantic model defines aliases?,11,1166,6042,44.5,3.0,17.0,20.0,1089.0
+10,pydantic,selective,4,"Using FastAPI &amp; Pydantic, how do I define an Optional field with a description",22,2292,8334,57.8,19.0,1.0,8.0,2211.0
+10,pydantic,selective,5,python pydantic how to mark field as secret,28,2806,11140,31.7,9.0,11.0,3.0,2735.0
+11,pydantic,flat_accumulate,1,How to parse unix timestamp into datetime without timezone in Fast API,20,2054,2054,42.7,,,,
+11,pydantic,flat_accumulate,2,How to define query parameters using Pydantic model in FastAPI?,32,3205,5259,53.0,,,,
+11,pydantic,flat_accumulate,3,Pydantic V2 - @field_validator `values` argument equivalent,44,4306,9565,53.5,,,,
+11,pydantic,flat_accumulate,4,Can I override fields from a Pydantic parent model to make them optional?,51,5026,14591,102.9,,,,
+11,pydantic,flat_accumulate,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,64,6381,20972,75.2,,,,
+11,pydantic,flat_reset,1,How to parse unix timestamp into datetime without timezone in Fast API,20,2054,2054,32.3,,,,
+11,pydantic,flat_reset,2,How to define query parameters using Pydantic model in FastAPI?,20,1920,3974,25.9,,,,
+11,pydantic,flat_reset,3,Pydantic V2 - @field_validator `values` argument equivalent,20,1856,5830,55.1,,,,
+11,pydantic,flat_reset,4,Can I override fields from a Pydantic parent model to make them optional?,20,2007,7837,35.3,,,,
+11,pydantic,flat_reset,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,20,2067,9904,36.7,,,,
+11,pydantic,selective,1,How to parse unix timestamp into datetime without timezone in Fast API,20,2142,2142,128.0,20.0,0.0,0.0,2069.0
+11,pydantic,selective,2,How to define query parameters using Pydantic model in FastAPI?,25,2665,4807,83.9,5.0,15.0,0.0,2591.0
+11,pydantic,selective,3,Pydantic V2 - @field_validator `values` argument equivalent,15,1506,6313,72.2,10.0,10.0,20.0,1430.0
+11,pydantic,selective,4,Can I override fields from a Pydantic parent model to make them optional?,26,2557,8870,22.0,16.0,4.0,5.0,2481.0
+11,pydantic,selective,5,fastapi + sqlalchemy + pydantic → how to process many-to-many relations,25,2583,11453,22.6,9.0,11.0,10.0,2506.0
+12,supabase,flat_accumulate,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",20,1769,1769,46.7,,,,
+12,supabase,flat_accumulate,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,37,3357,5126,53.3,,,,
+12,supabase,flat_accumulate,3,How can I create an enum column in Supabase?,53,4949,10075,74.5,,,,
+12,supabase,flat_accumulate,4,How to check email already exists in Supabase table for signup in flutter?,67,6510,16585,50.6,,,,
+12,supabase,flat_accumulate,5,Supabase: Solutions for column-level security,75,7213,23798,38.2,,,,
+12,supabase,flat_reset,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",20,1769,1769,22.4,,,,
+12,supabase,flat_reset,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,20,1885,3654,23.0,,,,
+12,supabase,flat_reset,3,How can I create an enum column in Supabase?,20,2011,5665,25.6,,,,
+12,supabase,flat_reset,4,How to check email already exists in Supabase table for signup in flutter?,20,2252,7917,29.6,,,,
+12,supabase,flat_reset,5,Supabase: Solutions for column-level security,20,1772,9689,21.4,,,,
+12,supabase,selective,1,"Supabase: what&#39;s the difference between stored procedures, RPC&#39;s, database functions, etc",20,2209,2209,24.6,20.0,0.0,0.0,2124.0
+12,supabase,selective,2,Issues with Dagger Hilt and KSP in Android Kotlin Project: Cannot Resolve Symbol ‘Inject’,24,2529,4738,46.4,4.0,16.0,0.0,2449.0
+12,supabase,selective,3,How can I create an enum column in Supabase?,24,2337,7075,35.5,20.0,0.0,20.0,2265.0
+12,supabase,selective,4,How to check email already exists in Supabase table for signup in flutter?,26,2753,9828,27.6,6.0,14.0,4.0,2677.0
+12,supabase,selective,5,Supabase: Solutions for column-level security,15,1555,11383,39.6,9.0,11.0,20.0,1485.0
+13,supabase,flat_accumulate,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),20,2090,2090,70.7,,,,
+13,supabase,flat_accumulate,2,INSERT into the table and return id of the record Supabase JS,37,3532,5622,39.8,,,,
+13,supabase,flat_accumulate,3,Error: supabaseUrl is required (supabase) postgresql,51,4785,10407,89.0,,,,
+13,supabase,flat_accumulate,4,"Supabase, filter by column value of foreign key row",54,5044,15451,50.7,,,,
+13,supabase,flat_accumulate,5,Supabase reset password error: &quot;Auth Session Missing&quot;,72,6585,22036,34.7,,,,
+13,supabase,flat_reset,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),20,2090,2090,29.3,,,,
+13,supabase,flat_reset,2,INSERT into the table and return id of the record Supabase JS,20,1794,3884,27.4,,,,
+13,supabase,flat_reset,3,Error: supabaseUrl is required (supabase) postgresql,20,1811,5695,28.7,,,,
+13,supabase,flat_reset,4,"Supabase, filter by column value of foreign key row",20,1729,7424,23.5,,,,
+13,supabase,flat_reset,5,Supabase reset password error: &quot;Auth Session Missing&quot;,20,1748,9172,22.5,,,,
+13,supabase,selective,1,How To Update Entire Row In Supabase Table? (Getting 400 Error),20,2033,2033,22.5,20.0,0.0,0.0,1955.0
+13,supabase,selective,2,INSERT into the table and return id of the record Supabase JS,30,2860,4893,81.9,10.0,10.0,0.0,2785.0
+13,supabase,selective,3,Error: supabaseUrl is required (supabase) postgresql,19,1719,6612,24.3,9.0,11.0,20.0,1642.0
+13,supabase,selective,4,"Supabase, filter by column value of foreign key row",22,2119,8731,19.2,13.0,7.0,10.0,2046.0
+13,supabase,selective,5,Supabase reset password error: &quot;Auth Session Missing&quot;,31,3079,11810,29.4,18.0,2.0,9.0,3003.0
+14,supabase,flat_accumulate,1,Use Supabase with deno,20,1792,1792,60.4,,,,
+14,supabase,flat_accumulate,2,How to execute async code before redirect on vue-router?,32,3195,4987,65.1,,,,
+14,supabase,flat_accumulate,3,Is there RESTful API available for auth features of Supabase,39,3868,8855,50.4,,,,
+14,supabase,flat_accumulate,4,How to access custom schema from supabase-js client?,44,4418,13273,25.1,,,,
+14,supabase,flat_accumulate,5,delete associated records in Supabase,47,4658,17931,35.7,,,,
+14,supabase,flat_reset,1,Use Supabase with deno,20,1792,1792,20.9,,,,
+14,supabase,flat_reset,2,How to execute async code before redirect on vue-router?,20,2177,3969,16.4,,,,
+14,supabase,flat_reset,3,Is there RESTful API available for auth features of Supabase,20,1913,5882,17.0,,,,
+14,supabase,flat_reset,4,How to access custom schema from supabase-js client?,20,2122,8004,17.1,,,,
+14,supabase,flat_reset,5,delete associated records in Supabase,20,1691,9695,20.9,,,,
+14,supabase,selective,1,Use Supabase with deno,20,1871,1871,20.9,20.0,0.0,0.0,1803.0
+14,supabase,selective,2,How to execute async code before redirect on vue-router?,27,2800,4671,67.0,7.0,13.0,0.0,2729.0
+14,supabase,selective,3,Is there RESTful API available for auth features of Supabase,12,1422,6093,97.5,5.0,15.0,20.0,1348.0
+14,supabase,selective,4,How to access custom schema from supabase-js client?,20,1932,8025,71.8,15.0,5.0,7.0,1860.0
+14,supabase,selective,5,delete associated records in Supabase,21,1978,10003,28.3,6.0,14.0,5.0,1910.0
+15,supabase,flat_accumulate,1,How to implement anonymous authorization using Supabase?,20,1955,1955,29.3,,,,
+15,supabase,flat_accumulate,2,AuthRetryableFetchError with Supabase Auth,34,3100,5055,26.6,,,,
+15,supabase,flat_accumulate,3,"Supabase, filter by column value of foreign key row",44,3956,9011,33.2,,,,
+15,supabase,flat_accumulate,4,How can I insert un-exist record and skip exist record in Supabase?,53,4928,13939,51.7,,,,
+15,supabase,flat_accumulate,5,Supabase and Google Apps Script,59,5490,19429,60.2,,,,
+15,supabase,flat_reset,1,How to implement anonymous authorization using Supabase?,20,1955,1955,78.5,,,,
+15,supabase,flat_reset,2,AuthRetryableFetchError with Supabase Auth,20,1709,3664,34.5,,,,
+15,supabase,flat_reset,3,"Supabase, filter by column value of foreign key row",20,1729,5393,42.5,,,,
+15,supabase,flat_reset,4,How can I insert un-exist record and skip exist record in Supabase?,20,2061,7454,25.3,,,,
+15,supabase,flat_reset,5,Supabase and Google Apps Script,20,1828,9282,27.7,,,,
+15,supabase,selective,1,How to implement anonymous authorization using Supabase?,20,1984,1984,29.9,20.0,0.0,0.0,1914.0
+15,supabase,selective,2,AuthRetryableFetchError with Supabase Auth,32,3057,5041,129.7,12.0,8.0,0.0,2986.0
+15,supabase,selective,3,"Supabase, filter by column value of foreign key row",17,1551,6592,34.6,5.0,15.0,20.0,1478.0
+15,supabase,selective,4,How can I insert un-exist record and skip exist record in Supabase?,24,2389,8981,24.6,19.0,1.0,12.0,2312.0
+15,supabase,selective,5,Supabase and Google Apps Script,30,2846,11827,54.0,11.0,9.0,5.0,2778.0
+16,supabase,flat_accumulate,1,Using supabase.auth.getSession() is potentially insecure,20,1742,1742,59.2,,,,
+16,supabase,flat_accumulate,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,40,3887,5629,108.5,,,,
+16,supabase,flat_accumulate,3,How to get &quot;COUNT(*)&quot; in Supabase,59,5554,11183,41.6,,,,
+16,supabase,flat_accumulate,4,Supabase signup() fails - signup not allowed,73,6834,18017,53.8,,,,
+16,supabase,flat_accumulate,5,Use Supabase with deno,79,7432,25449,31.5,,,,
+16,supabase,flat_reset,1,Using supabase.auth.getSession() is potentially insecure,20,1742,1742,19.3,,,,
+16,supabase,flat_reset,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,20,2178,3920,16.0,,,,
+16,supabase,flat_reset,3,How to get &quot;COUNT(*)&quot; in Supabase,20,1794,5714,17.2,,,,
+16,supabase,flat_reset,4,Supabase signup() fails - signup not allowed,20,1885,7599,16.9,,,,
+16,supabase,flat_reset,5,Use Supabase with deno,20,1792,9391,17.1,,,,
+16,supabase,selective,1,Using supabase.auth.getSession() is potentially insecure,20,2016,2016,15.4,20.0,0.0,0.0,1945.0
+16,supabase,selective,2,Is there a way to perform full text search on multiple columns on Supabase with Javascript?,31,3308,5324,27.2,11.0,9.0,0.0,3229.0
+16,supabase,selective,3,How to get &quot;COUNT(*)&quot; in Supabase,27,2903,8227,50.0,16.0,4.0,20.0,2827.0
+16,supabase,selective,4,Supabase signup() fails - signup not allowed,32,3114,11341,155.2,16.0,4.0,11.0,3043.0
+16,supabase,selective,5,Use Supabase with deno,24,2250,13591,59.2,8.0,12.0,16.0,2182.0
+17,supabase,flat_accumulate,1,How to access custom schema from supabase-js client?,20,2122,2122,61.8,,,,
+17,supabase,flat_accumulate,2,Update multiple rows in a single query in a Supabase Database (postgres),35,3623,5745,47.6,,,,
+17,supabase,flat_accumulate,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,54,5250,10995,24.7,,,,
+17,supabase,flat_accumulate,4,How to pull data from my production supabase database into my local supabase database,65,6463,17458,159.5,,,,
+17,supabase,flat_accumulate,5,Supabase reset password error: &quot;Auth Session Missing&quot;,74,7239,24697,51.5,,,,
+17,supabase,flat_reset,1,How to access custom schema from supabase-js client?,20,2122,2122,35.7,,,,
+17,supabase,flat_reset,2,Update multiple rows in a single query in a Supabase Database (postgres),20,2010,4132,28.8,,,,
+17,supabase,flat_reset,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,20,1767,5899,28.7,,,,
+17,supabase,flat_reset,4,How to pull data from my production supabase database into my local supabase database,20,2187,8086,23.4,,,,
+17,supabase,flat_reset,5,Supabase reset password error: &quot;Auth Session Missing&quot;,20,1748,9834,19.9,,,,
+17,supabase,selective,1,How to access custom schema from supabase-js client?,20,2101,2101,16.4,20.0,0.0,0.0,2029.0
+17,supabase,selective,2,Update multiple rows in a single query in a Supabase Database (postgres),25,2575,4676,73.8,5.0,15.0,0.0,2499.0
+17,supabase,selective,3,Supabase Authentication &quot;Email rate limit exceeded&quot; preventing development,25,2520,7196,19.7,20.0,0.0,20.0,2443.0
+17,supabase,selective,4,How to pull data from my production supabase database into my local supabase database,36,3779,10975,68.6,16.0,4.0,5.0,3700.0
+17,supabase,selective,5,Supabase reset password error: &quot;Auth Session Missing&quot;,18,1978,12953,61.5,2.0,18.0,20.0,1903.0

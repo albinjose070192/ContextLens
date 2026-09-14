@@ -1,0 +1,31 @@
+session_num,session_name,step_num,global_step,query,condition,n_chunks_in_window,n_retrieved,n_newly_loaded,n_skipped_dup,n_evicted,n_cross_session_reused,push_back_detected,step_tokens,cumulative_tokens,retrieve_ms,judge_score,ab_winner
+1,session_1_setup,1,1,How do I structure a FastAPI app with routers?,no_kg,5,5,5,0,0,0,False,699,699,232.7,0.5,B
+1,session_1_setup,2,2,How do I define Pydantic request/response models?,no_kg,10,5,5,0,0,0,False,1664,2363,116.2,0.1,A
+1,session_1_setup,3,3,How do I connect FastAPI to Supabase?,no_kg,6,5,1,4,5,0,False,1242,3605,164.3,0.2,A
+1,session_1_setup,4,4,How do I add JWT authentication to FastAPI?,no_kg,6,5,5,0,5,0,False,828,4433,30.6,0.2,A
+1,session_1_setup,5,5,How do I handle CORS in FastAPI?,no_kg,10,5,5,0,1,0,False,1246,5679,71.0,0.4,A
+2,session_2_features,1,6,How do I add background tasks in FastAPI?,no_kg,5,5,5,0,0,5,False,800,6479,29.0,0.0,A
+2,session_2_features,2,7,How do I validate nested Pydantic models?,no_kg,10,5,5,0,0,0,False,1349,7828,32.6,0.0,B
+2,session_2_features,3,8,How do I use Supabase Row Level Security?,no_kg,10,5,5,0,5,0,False,1301,9129,30.4,0.3,B
+2,session_2_features,4,9,How do I refresh JWT tokens in FastAPI?,no_kg,10,5,5,0,5,0,False,1996,11125,106.6,0.2,B
+2,session_2_features,5,10,How do I write pytest tests for FastAPI endpoints?,no_kg,9,5,4,1,5,0,False,2090,13215,171.9,0.5,B
+3,session_3_debug,1,11,FastAPI returning 422 errors — how do I debug Pydantic validation?,no_kg,5,5,5,0,0,0,False,638,13853,172.6,0.2,A
+3,session_3_debug,2,12,How do I profile slow Pydantic models?,no_kg,10,5,5,0,0,0,False,1179,15032,31.2,0.0,B
+3,session_3_debug,3,13,Supabase queries timing out — what should I check?,no_kg,10,5,5,0,5,0,False,1208,16240,47.0,0.7,A
+3,session_3_debug,4,14,How do I add rate limiting middleware to FastAPI?,no_kg,10,5,5,0,5,5,False,1339,17579,34.9,0.2,B
+3,session_3_debug,5,15,How do I structure FastAPI dependency injection for auth?,no_kg,10,5,5,0,5,5,False,1302,18881,25.9,0.7,B
+1,session_1_setup,1,1,How do I structure a FastAPI app with routers?,with_kg,8,8,8,0,0,0,False,1529,1529,40.1,0.5,B
+1,session_1_setup,2,2,How do I define Pydantic request/response models?,with_kg,11,14,14,0,11,0,False,2950,4479,53.7,0.0,A
+1,session_1_setup,3,3,How do I connect FastAPI to Supabase?,with_kg,8,6,6,0,9,0,False,2527,7006,67.5,0.0,A
+1,session_1_setup,4,4,How do I add JWT authentication to FastAPI?,with_kg,6,5,5,0,7,0,False,1397,8403,50.4,0.2,A
+1,session_1_setup,5,5,How do I handle CORS in FastAPI?,with_kg,5,4,4,0,5,0,False,841,9244,58.9,0.6,A
+2,session_2_features,1,6,How do I add background tasks in FastAPI?,with_kg,5,10,10,0,5,7,False,1216,10460,53.4,0.0,A
+2,session_2_features,2,7,How do I validate nested Pydantic models?,with_kg,9,13,13,0,9,0,False,1072,11532,59.6,0.0,B
+2,session_2_features,3,8,How do I use Supabase Row Level Security?,with_kg,9,9,9,0,9,0,False,1216,12748,46.2,0.9,B
+2,session_2_features,4,9,How do I refresh JWT tokens in FastAPI?,with_kg,7,6,6,0,8,0,False,1095,13843,53.8,0.5,B
+2,session_2_features,5,10,How do I write pytest tests for FastAPI endpoints?,with_kg,6,5,5,0,6,0,False,935,14778,63.2,0.4,B
+3,session_3_debug,1,11,FastAPI returning 422 errors — how do I debug Pydantic validation?,with_kg,6,12,12,0,6,4,False,1279,16057,62.0,0.0,A
+3,session_3_debug,2,12,How do I profile slow Pydantic models?,with_kg,8,11,11,0,9,0,False,1049,17106,56.6,0.0,B
+3,session_3_debug,3,13,Supabase queries timing out — what should I check?,with_kg,8,9,9,0,9,0,False,1160,18266,75.6,0.9,A
+3,session_3_debug,4,14,How do I add rate limiting middleware to FastAPI?,with_kg,9,10,10,0,9,8,False,1139,19405,55.7,0.6,B
+3,session_3_debug,5,15,How do I structure FastAPI dependency injection for auth?,with_kg,7,5,5,0,7,2,False,766,20171,41.6,0.8,B

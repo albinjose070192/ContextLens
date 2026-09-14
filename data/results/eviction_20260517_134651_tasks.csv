@@ -1,0 +1,9 @@
+task_id,tag,strategy,label,total_tokens,final_step_tokens,final_n_chunks,total_dedup_saves,final_completion_score
+0,fastapi,no_eviction,No eviction,2195,828,8,7,
+0,fastapi,evict_older_than_2,evict_older_than(2),2195,828,8,7,
+0,fastapi,evict_older_than_1,evict_older_than(1),1726,359,3,7,
+0,fastapi,evict_all,evict_all,214,72,0,0,
+1,pydantic,no_eviction,No eviction,1817,746,7,8,
+1,pydantic,evict_older_than_2,evict_older_than(2),1817,746,7,8,
+1,pydantic,evict_older_than_1,evict_older_than(1),1354,283,2,8,
+1,pydantic,evict_all,evict_all,217,72,0,0,

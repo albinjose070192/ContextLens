@@ -1,0 +1,9 @@
+condition,mean_total_tok,vs_no_eviction,final_step_tok,final_chunks,mean_evicted
+no_eviction,10355.8,+0.0%,3381.4,21.7,0.0
+flat_reset,9645.9,+6.9%,1904.9,20.0,—
+evict_all,4075.0,+60.7%,807.7,5.0,0.0
+evict_older_than_1,6576.4,+36.5%,1530.9,9.3,13.7
+pagerank_p10,7572.3,+26.9%,2298.4,14.6,7.8
+pagerank_p20,6128.9,+40.8%,1671.5,10.8,11.9
+pagerank_p30,4639.8,+55.2%,1181.5,8.1,15.3
+pagerank_p40,3891.1,+62.4%,841.2,5.9,17.6
