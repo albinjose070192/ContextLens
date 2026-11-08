@@ -1,0 +1,32 @@
+# Python 3.10+ recommended (hdbscan / umap-learn wheels lag behind the newest Python releases)
+
+# Data collection & preprocessing
+requests
+python-dotenv
+tiktoken
+tqdm
+
+# Topic segmentation
+bertopic
+umap-learn
+hdbscan
+scikit-learn
+
+# Embeddings & retrieval
+torch
+transformers
+sentence-transformers
+faiss-cpu
+
+# Episodic memory graph
+networkx
+
+# Analysis & plots
+numpy
+pandas
+scipy
+matplotlib
+
+# LLM generation / judge
+anthropic
+openai
